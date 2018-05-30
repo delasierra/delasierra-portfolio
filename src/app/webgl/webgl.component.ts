@@ -1,22 +1,23 @@
-import { WebglService } from './webgl.service';
-import { Component, OnInit } from '@angular/core';
-import { TweenMax, TimelineMax, Ease, Power1, Bounce, Linear } from 'gsap';
+import {WebglService} from './webgl.service';
+import {Component, OnInit} from '@angular/core';
+import {TweenMax, TimelineMax, Ease, Power1, Bounce, Linear} from 'gsap';
 
 @Component({
-  selector:    'app-webgl',
-  templateUrl: './webgl.component.html',
-  styleUrls:   [],
+    selector:    'app-webgl',
+    templateUrl: './webgl.component.html',
+    styleUrls:   [],
 })
 export class WebglComponent implements OnInit {
-  private canEleId:string = 'renderCanvas';
+    private canEleId: string = 'renderCanvas';
 
-  constructor(private engServ: WebglService) { }
+    constructor(private engServ: WebglService) {
+    }
 
-  ngOnInit() {
-    this.engServ.createScene(this.canEleId);
-    this.engServ.animate();
+    ngOnInit() {
+        this.engServ.createScene(this.canEleId);
+        this.engServ.animate();
 
-    // let tm:TimelineMax = new TimelineMax ();
-  }
+        // let tm:TimelineMax = new TimelineMax ();
+    }
 
 }

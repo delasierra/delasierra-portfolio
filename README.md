@@ -1,6 +1,6 @@
-# Webgl SPA Starter Template
+# Personal portfolio web-app (carlosdelasierra.com)
 
-I am creating a template to develop modern websites using Threejs, GSAP and NgBootstrap.
+Personal portfolio 
 ___* Currently under construction___
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 6.0.5.

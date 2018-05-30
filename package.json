@@ -1,5 +1,5 @@
 {
-  "name": "webgl-spa-starter",
+  "name": "delasierra-portfolio",
   "version": "0.0.0",
   "scripts": {
     "ng": "ng",
@@ -22,7 +22,6 @@
     "@angular/router": "^6.0.3",
     "@ng-bootstrap/ng-bootstrap": "^2.0.0",
     "@types/gsap": "^1.19.2",
-    "bcrypt": "^2.0.1",
     "bootstrap": "^4.1.1",
     "core-js": "^2.5.4",
     "gsap": "^2.0.0",

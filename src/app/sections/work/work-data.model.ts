@@ -1,7 +1,15 @@
 /**
  * Created by csierra on 30/5/18.
  */
-export class WorkDataModel {
+const WORK_HOME = 'work-home';
+const WORK_OVERVIEW = 'work-overview';
+const WORK_TEXT = 'work-text';
+const WORK_IMAGE = 'work-image';
+const WORK_TEXT_IMAGE = 'work-text-image';
+const WORK_SLIDER = 'work-slider';
+const WORK_VIDEO = 'work-video';
+
+export interface WorkDataModel {
     id: number;
     general: {
         mainColor: number,
@@ -14,21 +22,29 @@ export class WorkDataModel {
     screens: Array<object>;
 }
 
-export class WorkHomeScreenData {
+// export interface WorkHomeScreenData {
+// }
+
+export interface WorkOverviewScreenData {
+    description: string;
+    role: string;
+    credits: string;
+    platforms: string;
 }
-export class WorkTextScreenData {
+
+export interface WorkTextScreenData {
     title: string;
     description: string;
     position: string;
     background: string;
 }
-export class WorkImgScreenData {
+export interface WorkImgScreenData {
     images: Array<string>;
     position: string;
     background: string;
     fx: string;
 }
-export class WorkTextImgScreenData {
+export interface WorkTextImgScreenData {
     text: WorkTextScreenData;
     images: WorkImgScreenData;
     position: string;
@@ -36,11 +52,11 @@ export class WorkTextImgScreenData {
     layout: string;
 
 }
-export class WorkImgSliderScreenData {
+export interface WorkSliderScreenData {
     images: Array<string>;
     background: string;
 }
-export class WorkVideoScreenData {
+export interface WorkVideoScreenData {
     video: string;
     background: string;
 }

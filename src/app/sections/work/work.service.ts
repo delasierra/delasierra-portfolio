@@ -1,52 +1,32 @@
 import {Injectable} from '@angular/core';
-import {WorkModule} from './work.module';
+import {HttpClient} from '@angular/common/http';
+import {Observable, of} from 'rxjs';
+import {WorkDataModel} from './work-data.model';
 
-@Injectable({
-    providedIn: WorkModule
-})
+@Injectable(
+    {
+        providedIn: 'root'
+    }
+)
 export class WorkService {
 
-    private workList: Array<object> = [
-        {
-            id: 19,
-            general: {
-                mainColor: 0xff0000,
-                mainImg: 'projectid/img/test.png',
-                logo: 'projectid/img/logo.svg',
-                title: 'Project title',
-                description: 'Project description: Lorem ipsum dolor sit amet.',
-                hastags: [
-                    'webgl',
-                    'Angular',
-                    'Responsive'
-                ]
-            },
-            screens: {
-                home: {},
-                projectData: {
-                    description: 'Project DETAILED description: Lorem ipsum dolor sit amet.',
-                    role: 'Role text',
-                    credits: 'Credits text',
-                    platforms: 'Platforms text'
-                },
+    // private dataUrl = 'http://csierrainteractive.com//delasierra/data-test.json'; // online dev
+    private dataUrl = '/assets/data-test/work-detail.json'; // file
 
-            }
-        }
-    ];
-
-    constructor() {
+    constructor(private http: HttpClient) {
     }
 
-    // TODO add functions to fetch work section data
-    getWorkDetailList(): Array<object> {
-        return null;
+
+    public getWorkCaseList(): Observable<WorkDataModel> {
+        return this.http.get<WorkDataModel>(this.dataUrl);
+        // return this.http.get(this.dataUrl);
     }
 
-    getWorkDetails(id: number): object {
-        const workList: Array<object> = this.getWorkDetailList();
-        for (let i = 0; i < workList.length; i++) {
-            // TODO get object from JSON
-        }
-        return null;
-    }
+    // getWorkCase(id: number): object {
+    //     const workList: Array<object> = this.getWorkCaseList();
+    //     for (let i = 0; i < workList.length; i++) {
+    //         // TODO get object from JSON
+    //     }
+    //     return null;
+    // }
 }
