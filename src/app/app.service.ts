@@ -10,7 +10,7 @@ import {HttpClient} from '@angular/common/http';
 )
 export class AppService {
 
-    private dataUrl = '/assets/data-test/work-detail.json'; // file
+    private dataUrl = '/assets/data-test/app-messages.json'; // file
 
     constructor(private http: HttpClient) {
     }
