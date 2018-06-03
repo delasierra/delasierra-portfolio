@@ -1,6 +1,4 @@
 import {Injectable} from '@angular/core';
-import {HttpClient} from '@angular/common/http';
-import {Observable, of} from 'rxjs';
 import {WorkDataModel} from './work-data.model';
 
 @Injectable(
@@ -10,23 +8,30 @@ import {WorkDataModel} from './work-data.model';
 )
 export class WorkService {
 
-    // private dataUrl = 'http://csierrainteractive.com//delasierra/data-test.json'; // online dev
-    private dataUrl = '/assets/data-test/work-detail.json'; // file
+    private workCasesList: Array<WorkDataModel> = require('../../../assets/data/work-detail.json');
 
-    constructor(private http: HttpClient) {
+    constructor() {
     }
 
-
-    public getWorkCaseList(): Observable<WorkDataModel> {
-        return this.http.get<WorkDataModel>(this.dataUrl);
-        // return this.http.get(this.dataUrl);
+    public getWorkCaseList(): Array<WorkDataModel> {
+        return this.workCasesList;
     }
 
-    // getWorkCase(id: number): object {
-    //     const workList: Array<object> = this.getWorkCaseList();
-    //     for (let i = 0; i < workList.length; i++) {
-    //         // TODO get object from JSON
-    //     }
-    //     return null;
+    // public getWorkCaseList(): Observable<WorkDataModel> {
+    //     this.workListObs = this.http.get<WorkDataModel>(this.dataUrl);
+    //     return this.workListObs;
+    //     // return this.http.get(this.dataUrl);
     // }
+
+    public getWorkCase(id: number): WorkDataModel {
+        let workcaseData: WorkDataModel;
+        for (let i = 0; i < this.workCasesList.length; i++) {
+            console.log(this.workCasesList[i].id);
+
+            if (this.workCasesList[i].id == id) {
+                workcaseData = this.workCasesList[i];
+            }
+        }
+        return workcaseData;
+    }
 }

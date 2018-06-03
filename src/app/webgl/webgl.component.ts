@@ -8,7 +8,7 @@ import {TweenMax, TimelineMax, Ease, Power1, Bounce, Linear} from 'gsap';
     styleUrls:   [],
 })
 export class WebglComponent implements OnInit {
-    private canEleId: string = 'renderCanvas';
+    private canEleId = 'renderCanvas';
 
     constructor(private engServ: WebglService) {
     }

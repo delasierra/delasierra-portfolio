@@ -1,11 +1,16 @@
 import {NgModule} from '@angular/core';
 import {Routes, RouterModule} from '@angular/router';
-import {WorkMenuComponent} from './work-menu/work-menu.component';
+import {WorkDetailComponent} from './work-detail/work-detail.component';
+import {WorkComponent} from './work.component';
 
 const routes: Routes = [
     {
         path:      '',
-        component: WorkMenuComponent
+        component: WorkComponent,
+    },
+    {
+        path: 'detail/:id',
+        component: WorkDetailComponent,
     }
 ];
 

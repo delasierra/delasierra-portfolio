@@ -9,6 +9,7 @@ import {HomeComponent} from './sections/home/home.component';
 import {NavbarMainComponent} from './components/navbar-main/navbar-main.component';
 import {AppRoutingModule} from './app-routing.module';
 import {HttpClientModule} from '@angular/common/http';
+import {NgbModule} from '@ng-bootstrap/ng-bootstrap';
 
 @NgModule({
     declarations: [
@@ -23,6 +24,7 @@ import {HttpClientModule} from '@angular/common/http';
         BrowserModule,
         AppRoutingModule,
         HttpClientModule,
+        NgbModule.forRoot(),
     ],
     providers:    [],
     bootstrap:    [AppComponent]

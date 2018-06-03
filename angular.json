@@ -27,7 +27,10 @@
               "src/assets"
             ],
             "styles": [
-              "src/styles/main.scss"
+              "src/styles/main.scss",
+              {
+                "input": "./node_modules/bootstrap/dist/css/bootstrap.css"
+              }
             ],
             "scripts": [
               "node_modules/gsap/src/uncompressed/TweenMax.js",

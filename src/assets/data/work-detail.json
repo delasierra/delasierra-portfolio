@@ -1,0 +1,351 @@
+[
+  {
+    "id": 19,
+    "general": {
+      "mainColor": "0x4865ac",
+      "mainImg": "projectid/img/test.png",
+      "logo": "projectid/img/logo.svg",
+      "title": "AMTE",
+      "description": "Project description: Lorem ipsum dolor sit amet."
+    },
+    "screens": [
+      {
+        "type": "work-home",
+        "data": null
+      },
+      {
+        "type": "work-overview",
+        "data": {
+          "description": "description: Lorem ipsum dolor sit amet.",
+          "role": "role: Lorem ipsum dolor sit amet.",
+          "credits": "credits: Lorem ipsum dolor sit amet.",
+          "platforms": "platforms: Lorem ipsum dolor sit amet."
+        }
+      },
+      {
+        "type": "work-text-image",
+        "data": {
+          "title": "Logotipo",
+          "description": "Description: Lorem ipsum dolor sit amet.",
+          "images": [
+            "url/image.png"
+          ],
+          "position": "right",
+          "layout": "even",
+          "background": "0xffffff",
+          "fx": ""
+        }
+      },
+      {
+        "type": "work-text-image",
+        "data": {
+          "title": "Three apps in one",
+          "description": "Description: Lorem ipsum dolor sit amet.",
+          "images": [
+            "url/image.png",
+            "url/image.png",
+            "url/image.png",
+            "url/image.png"
+          ],
+          "position": "left",
+          "layout": "",
+          "background": "",
+          "fx": ""
+        }
+      },
+      {
+        "type": "work-text-image",
+        "data": {
+          "title": "Simple UI for complex system",
+          "description": "Description: Lorem ipsum dolor sit amet.",
+          "images": [
+            "url/image.png"
+          ],
+          "position": "right",
+          "layout": "",
+          "background": "0xffffff",
+          "fx": ""
+        }
+      },
+      {
+        "type": "work-image",
+        "data": {
+          "images": [
+            "url/image.png"
+          ],
+          "position": "center",
+          "layout": "",
+          "background": "url/imagebg",
+          "fx": ""
+        }
+      },
+      {
+        "type": "work-text",
+        "data": {
+          "title": "Simple UI for complex system",
+          "description": "Description: Lorem ipsum dolor sit amet.",
+          "position": "center",
+          "background": "0xffffff"
+        }
+      },
+      {
+        "type": "work-text-image",
+        "data": {
+          "title": "Fully guided experience",
+          "description": "Description: Lorem ipsum dolor sit amet.",
+          "images": [
+            "url/image.png",
+            "url/image.png",
+            "url/image.png"
+          ],
+          "position": "left",
+          "layout": "",
+          "background": "0xffffff",
+          "fx": ""
+        }
+      },
+      {
+        "type": "work-text",
+        "data": {
+          "title": "Therapist View",
+          "description": "Description: Lorem ipsum dolor sit amet.",
+          "position": "center",
+          "background": ""
+        }
+      },
+      {
+        "type": "work-text-image",
+        "data": {
+          "title": "Total Control",
+          "description": "Description: Lorem ipsum dolor sit amet.",
+          "images": [
+            "url/image.png"
+          ],
+          "position": "right",
+          "layout": "",
+          "background": "0xffffff",
+          "fx": ""
+        }
+      },
+      {
+        "type": "work-text",
+        "data": {
+          "title": "Parents View",
+          "description": "Description: Lorem ipsum dolor sit amet.",
+          "position": "center",
+          "background": ""
+        }
+      },
+      {
+        "type": "work-text-image",
+        "data": {
+          "title": "Parents Informed on Every Step",
+          "description": "Description: Lorem ipsum dolor sit amet.",
+          "images": [
+            "url/image.png",
+            "url/image.png"
+          ],
+          "position": "left",
+          "layout": "",
+          "background": "0xffffff",
+          "fx": ""
+        }
+      },
+      {
+        "type": "work-image",
+        "data": {
+          "images": [
+            "url/image.png"
+          ],
+          "position": "cover",
+          "layout": "",
+          "background": "",
+          "fx": ""
+        }
+      }
+    ]
+  },
+  {
+    "id": 20,
+    "general": {
+      "mainColor": "0x4865ac",
+      "mainImg": "projectid/img/test.png",
+      "logo": "projectid/img/logo.svg",
+      "title": "Eye Hawk",
+      "description": "Project description: Lorem ipsum dolor sit amet."
+    },
+    "screens": [
+      {
+        "type": "work-home",
+        "data": null
+      },
+      {
+        "type": "work-overview",
+        "data": {
+          "description": "description: Lorem ipsum dolor sit amet.",
+          "role": "role: Lorem ipsum dolor sit amet.",
+          "credits": "credits: Lorem ipsum dolor sit amet.",
+          "platforms": "platforms: Lorem ipsum dolor sit amet."
+        }
+      },
+      {
+        "type": "work-image",
+        "data": {
+          "images": [
+            "url/image.png"
+          ],
+          "position": "cover",
+          "layout": "",
+          "background": "",
+          "fx": ""
+        }
+      },
+      {
+        "type": "work-text",
+        "data": {
+          "title": "How does the app works",
+          "description": "Description: Lorem ipsum dolor sit amet.",
+          "position": "center",
+          "background": ""
+        }
+      },
+      {
+        "type": "work-text-image",
+        "data": {
+          "title": "Watch the video and judge",
+          "description": "Description: Lorem ipsum dolor sit amet.",
+          "images": [
+            "url/image.png"
+          ],
+          "position": "right",
+          "layout": "",
+          "background": "",
+          "fx": ""
+        }
+      },
+      {
+        "type": "work-text-image",
+        "data": {
+          "title": "User have to answer fast",
+          "description": "Description: Lorem ipsum dolor sit amet.",
+          "images": [
+            "url/image.png"
+          ],
+          "position": "left",
+          "layout": "",
+          "background": "",
+          "fx": ""
+        }
+      },
+      {
+        "type": "work-text-image",
+        "data": {
+          "title": "Watch the answer",
+          "description": "Description: Lorem ipsum dolor sit amet.",
+          "images": [
+            "url/image.png"
+          ],
+          "position": "right",
+          "layout": "",
+          "background": "",
+          "fx": ""
+        }
+      },
+      {
+        "type": "work-image",
+        "data": {
+          "images": [
+            "url/image.png"
+          ],
+          "position": "cover",
+          "layout": "",
+          "background": "",
+          "fx": ""
+        }
+      }
+    ]
+  },
+  {
+    "id": 21,
+    "general": {
+      "mainColor": "0x4865ac",
+      "mainImg": "projectid/img/test.png",
+      "logo": "projectid/img/logo.svg",
+      "title": "Westworld",
+      "description": "Project description: Lorem ipsum dolor sit amet."
+    },
+    "screens": [
+      {
+        "type": "work-home",
+        "data": null
+      },
+      {
+        "type": "work-overview",
+        "data": {
+          "description": "description: Lorem ipsum dolor sit amet.",
+          "role": "role: Lorem ipsum dolor sit amet.",
+          "credits": "credits: Lorem ipsum dolor sit amet.",
+          "platforms": "platforms: Lorem ipsum dolor sit amet."
+        }
+      },
+      {
+        "type": "work-text-image",
+        "data": {
+          "title": "User introduce code",
+          "description": "Description: Lorem ipsum dolor sit amet.",
+          "images": [
+            "url/image.png"
+          ],
+          "position": "right",
+          "layout": "",
+          "background": "",
+          "fx": ""
+        }
+      },
+      {
+        "type": "work-text-image",
+        "data": {
+          "title": "Answer few questions",
+          "description": "Description: Lorem ipsum dolor sit amet.",
+          "images": [
+            "url/image.png"
+          ],
+          "position": "left",
+          "layout": "",
+          "background": "",
+          "fx": ""
+        }
+      },
+      {
+        "type": "work-text-image",
+        "data": {
+          "title": "Get personalized character",
+          "description": "Description: Lorem ipsum dolor sit amet.",
+          "images": [
+            "url/image.png"
+          ],
+          "position": "right",
+          "layout": "",
+          "background": "",
+          "fx": ""
+        }
+      },
+      {
+        "type": "work-slider",
+        "data": {
+          "images": [
+            "url/image.png",
+            "url/image.png",
+            "url/image.png",
+            "url/image.png",
+            "url/image.png",
+            "url/image.png",
+            "url/image.png",
+            "url/image.png"
+          ],
+          "background": "url/imagebg"
+        }
+      }
+    ]
+  }
+]

@@ -5,5 +5,6 @@ export const SECTION = {
     home: 'home',
     work: 'work',
     about: 'about',
-    contact: 'contact'
+    contact: 'contact',
+    projectDetails: 'project/:id'
 };
