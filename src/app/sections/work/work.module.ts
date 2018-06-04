@@ -4,7 +4,7 @@ import {CommonModule} from '@angular/common';
 import {WorkRoutingModule} from './work-routing.module';
 import {WorkMenuComponent} from './work-menu/work-menu.component';
 import {WorkDetailComponent} from './work-detail/work-detail.component';
-import {WorkDescriptionComponent} from './work-detail/work-description/work-description.component';
+import {WorkDescriptionComponent} from './work-detail/work-overview/work-overview.component';
 import {WorkTextComponent} from './work-detail/work-text/work-text.component';
 import {WorkImageComponent} from './work-detail/work-image/work-image.component';
 import {WorkImageTextComponent} from './work-detail/work-image-text/work-image-text.component';

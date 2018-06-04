@@ -1,3 +1,40 @@
-<p>
-  work-detail id: {{ id }} works!
-</p>
+<ul>
+    <li *ngFor="let section of workCaseData.screens">
+        <div [ngSwitch]="section.type">
+
+            <app-work-home *ngSwitchCase="HOME_ID"
+                           [generalData]="workCaseData.general">
+            </app-work-home>
+
+            <app-work-description *ngSwitchCase="OVERVIEW_ID"
+                                  [generalData]="workCaseData.general"
+                                  [detailData]="section.data">
+            </app-work-description>
+
+            <app-work-text *ngSwitchCase="TEXT_ID"
+                           [generalData]="workCaseData.general"
+                           [detailData]="section.data">
+            </app-work-text>
+
+            <app-work-image *ngSwitchCase="IMAGE_ID"
+                            [generalData]="workCaseData.general"
+                            [detailData]="section.data">
+            </app-work-image>
+
+            <app-work-image-text *ngSwitchCase="IMAGE_TEXT_ID"
+                                 [generalData]="workCaseData.general"
+                                 [detailData]="section.data">
+            </app-work-image-text>
+
+            <app-work-image-slider *ngSwitchCase="SLIDER_ID"
+                                   [generalData]="workCaseData.general"
+                                   [detailData]="section.data">
+            </app-work-image-slider>
+
+            <app-work-video *ngSwitchCase="VIDEO_ID"
+                            [generalData]="workCaseData.general"
+                            [detailData]="section.data">
+            </app-work-video>
+        </div>
+    </li>
+</ul>

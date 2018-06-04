@@ -11,52 +11,58 @@ const WORK_VIDEO = 'work-video';
 
 export interface WorkDataModel {
     id: number;
-    general: {
-        mainColor: number,
-        mainImg: string,
-        logo: string,
-        title: string,
-        description: string,
-        hastags: Array<string>
-    };
+    general: WorkGeneralData;
     screens: Array<object>;
 }
 
-// export interface WorkHomeScreenData {
+export interface WorkGeneralData {
+    mainColor: number;
+    mainImg: string;
+    logo: string;
+    title: string;
+    description: string;
+    hastags: Array<string>;
+}
+
+// export interface WorkHomeData {
+//     title: string;
+//     description: string;
+//     mainImg: string;
+//     logo: string;
 // }
 
-export interface WorkOverviewScreenData {
+export interface WorkOverviewData {
     description: string;
     role: string;
     credits: string;
     platforms: string;
 }
 
-export interface WorkTextScreenData {
+export interface WorkTextData {
     title: string;
     description: string;
     position: string;
     background: string;
 }
-export interface WorkImgScreenData {
+export interface WorkImgData {
     images: Array<string>;
     position: string;
     background: string;
     fx: string;
 }
-export interface WorkTextImgScreenData {
-    text: WorkTextScreenData;
-    images: WorkImgScreenData;
+export interface WorkImageTextData {
+    text: WorkTextData;
+    images: WorkImgData;
     position: string;
     background: string;
     layout: string;
 
 }
-export interface WorkSliderScreenData {
+export interface WorkSliderData {
     images: Array<string>;
     background: string;
 }
-export interface WorkVideoScreenData {
+export interface WorkVideoData {
     video: string;
     background: string;
 }

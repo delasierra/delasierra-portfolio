@@ -1,4 +1,5 @@
-import { Component, OnInit } from '@angular/core';
+import {Component, Input, OnInit} from '@angular/core';
+import {WorkGeneralData, WorkVideoData} from '../../work-data.model';
 
 @Component({
   selector: 'app-work-video',
@@ -6,6 +7,9 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./work-video.component.scss']
 })
 export class WorkVideoComponent implements OnInit {
+
+  @Input() generalData: WorkGeneralData;
+  @Input() detailData: WorkVideoData;
 
   constructor() { }
 

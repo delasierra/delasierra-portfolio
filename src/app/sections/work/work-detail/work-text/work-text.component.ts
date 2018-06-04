@@ -1,4 +1,5 @@
-import { Component, OnInit } from '@angular/core';
+import {Component, Input, OnInit} from '@angular/core';
+import {WorkGeneralData, WorkTextData} from '../../work-data.model';
 
 @Component({
   selector: 'app-work-text',
@@ -6,6 +7,9 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./work-text.component.scss']
 })
 export class WorkTextComponent implements OnInit {
+
+  @Input() generalData: WorkGeneralData;
+  @Input() detailData: WorkTextData;
 
   constructor() { }
 

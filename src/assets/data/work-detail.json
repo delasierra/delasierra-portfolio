@@ -23,7 +23,7 @@
         }
       },
       {
-        "type": "work-text-image",
+        "type": "work-image-text",
         "data": {
           "title": "Logotipo",
           "description": "Description: Lorem ipsum dolor sit amet.",
@@ -37,7 +37,7 @@
         }
       },
       {
-        "type": "work-text-image",
+        "type": "work-image-text",
         "data": {
           "title": "Three apps in one",
           "description": "Description: Lorem ipsum dolor sit amet.",
@@ -54,7 +54,7 @@
         }
       },
       {
-        "type": "work-text-image",
+        "type": "work-image-text",
         "data": {
           "title": "Simple UI for complex system",
           "description": "Description: Lorem ipsum dolor sit amet.",
@@ -89,7 +89,7 @@
         }
       },
       {
-        "type": "work-text-image",
+        "type": "work-image-text",
         "data": {
           "title": "Fully guided experience",
           "description": "Description: Lorem ipsum dolor sit amet.",
@@ -114,7 +114,7 @@
         }
       },
       {
-        "type": "work-text-image",
+        "type": "work-image-text",
         "data": {
           "title": "Total Control",
           "description": "Description: Lorem ipsum dolor sit amet.",
@@ -137,7 +137,7 @@
         }
       },
       {
-        "type": "work-text-image",
+        "type": "work-image-text",
         "data": {
           "title": "Parents Informed on Every Step",
           "description": "Description: Lorem ipsum dolor sit amet.",
@@ -210,7 +210,7 @@
         }
       },
       {
-        "type": "work-text-image",
+        "type": "work-image-text",
         "data": {
           "title": "Watch the video and judge",
           "description": "Description: Lorem ipsum dolor sit amet.",
@@ -224,7 +224,7 @@
         }
       },
       {
-        "type": "work-text-image",
+        "type": "work-image-text",
         "data": {
           "title": "User have to answer fast",
           "description": "Description: Lorem ipsum dolor sit amet.",
@@ -238,7 +238,7 @@
         }
       },
       {
-        "type": "work-text-image",
+        "type": "work-image-text",
         "data": {
           "title": "Watch the answer",
           "description": "Description: Lorem ipsum dolor sit amet.",
@@ -289,7 +289,7 @@
         }
       },
       {
-        "type": "work-text-image",
+        "type": "work-image-text",
         "data": {
           "title": "User introduce code",
           "description": "Description: Lorem ipsum dolor sit amet.",
@@ -303,7 +303,7 @@
         }
       },
       {
-        "type": "work-text-image",
+        "type": "work-image-text",
         "data": {
           "title": "Answer few questions",
           "description": "Description: Lorem ipsum dolor sit amet.",
@@ -317,7 +317,7 @@
         }
       },
       {
-        "type": "work-text-image",
+        "type": "work-image-text",
         "data": {
           "title": "Get personalized character",
           "description": "Description: Lorem ipsum dolor sit amet.",

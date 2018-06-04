@@ -1,4 +1,5 @@
-import { Component, OnInit } from '@angular/core';
+import {Component, Input, OnInit} from '@angular/core';
+import {WorkGeneralData, WorkSliderData} from '../../work-data.model';
 
 @Component({
   selector: 'app-work-image-slider',
@@ -6,6 +7,9 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./work-image-slider.component.scss']
 })
 export class WorkImageSliderComponent implements OnInit {
+
+  @Input() generalData: WorkGeneralData;
+  @Input() detailData: WorkSliderData;
 
   constructor() { }
 
