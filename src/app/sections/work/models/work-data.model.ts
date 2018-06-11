@@ -24,13 +24,6 @@ export interface WorkGeneralData {
     hastags: Array<string>;
 }
 
-// export interface WorkHomeData {
-//     title: string;
-//     description: string;
-//     mainImg: string;
-//     logo: string;
-// }
-
 export interface WorkOverviewData {
     description: string;
     role: string;

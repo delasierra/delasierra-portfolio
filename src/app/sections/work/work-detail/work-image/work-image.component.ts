@@ -1,5 +1,5 @@
 import {Component, Input, OnInit} from '@angular/core';
-import {WorkGeneralData, WorkImgData} from '../../work-data.model';
+import {WorkGeneralData, WorkImgData} from '../../models/work-data.model';
 
 @Component({
   selector: 'app-work-image',

@@ -1,9 +1,0 @@
-{
-  "about":{
-    "title": "Esto es un título",
-    "bio": "Aliquam turpis ante, suscipit id interdum id, iaculis vitae purus. Cras vel vestibulum lectus, sit amet condimentum erat. Sed in molestie purus. Etiam commodo nunc vel facilisis luctus. Pellentesque lobortis, nibh eget eleifend sollicitudin, elit nisi dignissim erat, in congue augue mi sed nulla. Nulla at lorem sed dui suscipit elementum eu in purus. Fusce malesuada vitae lacus in fringilla. Phasellus a ante non felis maximus euismod. Quisque vitae purus vestibulum, consectetur arcu vitae, pretium justo. Vivamus gravida convallis feugiat. Praesent lobortis, dui at faucibus pulvinar, diam ante aliquet ex, non iaculis magna ipsum eget arcu. Quisque nisi erat, fermentum quis sagittis ac, placerat quis nunc. Integer ac velit id elit fermentum porttitor. Quisque turpis felis, tempus a pharetra et, sodales eget ipsum. Vivamus ligula urna, cursus in enim a, dapibus mattis nibh. Cras non rutrum felis, in molestie odio."
-  },
-  "contact":{
-    "header":"¿En qué proyecto estas pensando?"
-  }
-}

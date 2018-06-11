@@ -1,5 +1,5 @@
 import {Component, Input, OnInit} from '@angular/core';
-import {WorkGeneralData, WorkVideoData} from '../../work-data.model';
+import {WorkGeneralData, WorkVideoData} from '../../models/work-data.model';
 
 @Component({
   selector: 'app-work-video',

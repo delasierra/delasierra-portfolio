@@ -1,5 +1,5 @@
 import {Component, Input, OnInit} from '@angular/core';
-import {WorkGeneralData, WorkOverviewData} from '../../work-data.model';
+import {WorkGeneralData, WorkOverviewData} from '../../models/work-data.model';
 
 @Component({
   selector:    'app-work-description',

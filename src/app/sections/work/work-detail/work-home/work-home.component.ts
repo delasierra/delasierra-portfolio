@@ -1,5 +1,5 @@
 import {Component, Input, OnInit} from '@angular/core';
-import {WorkGeneralData} from '../../work-data.model';
+import {WorkGeneralData} from '../../models/work-data.model';
 
 @Component({
     selector:    'app-work-home',
@@ -9,6 +9,7 @@ import {WorkGeneralData} from '../../work-data.model';
 export class WorkHomeComponent implements OnInit {
 
     @Input() generalData: WorkGeneralData;
+    private mainBg = 'assets/work/01amte/bg_main.svg';
 
     constructor() {
     }

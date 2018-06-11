@@ -1,7 +1,7 @@
 import {Component, OnInit} from '@angular/core';
-import {WorkDataModel} from '../work-data.model';
 import {WorkService} from '../work.service';
 import {ActivatedRoute, Router} from '@angular/router';
+import {WorkDataModel} from '../models/work-data.model';
 
 @Component({
     selector:    'app-work-menu',

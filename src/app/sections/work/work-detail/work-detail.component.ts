@@ -1,7 +1,7 @@
 import {Component, OnInit} from '@angular/core';
 import {ActivatedRoute} from '@angular/router';
 import {WorkService} from '../work.service';
-import {WorkDataModel} from '../work-data.model';
+import {WorkDataModel} from '../models/work-data.model';
 
 @Component({
     selector:    'app-work-detail',
@@ -27,7 +27,7 @@ export class WorkDetailComponent implements OnInit {
     }
 
     ngOnInit() {
-        this.workCaseData = this.workService.getWorkCase(this.id);
+        this.workCaseData = this.workService.getWorkCaseData(this.id);
         console.log(this.workCaseData);
     }
 }

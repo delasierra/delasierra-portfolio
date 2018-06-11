@@ -1,10 +1,16 @@
 /*****************************************************
  * vendor imports
  *****************************************************/
+@import 'variables';
 @import '../../node_modules/bootstrap/scss/bootstrap.scss';
 
 /*****************************************************
  * project imports
  *****************************************************/
-@import 'variables';
-@import 'mixins';
+//@import 'mixins';
+
+/*****************************************************
+ * components
+ *****************************************************/
+//@import '../app/components/navbar-main/navbar-main.component.scss';
+@import 'navbar.scss';

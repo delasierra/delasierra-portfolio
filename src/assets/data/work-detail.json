@@ -2,11 +2,11 @@
   {
     "id": 19,
     "general": {
-      "mainColor": "0x4865ac",
-      "mainImg": "projectid/img/test.png",
-      "logo": "projectid/img/logo.svg",
+      "mainColor": "#4764ae",
+      "mainImg": "assets/work/01amte/bg_main.svg",
+      "logo": "assets/work/01amte/logo_uned.svg",
       "title": "AMTE",
-      "description": "Project description: Lorem ipsum dolor sit amet."
+      "description": "Web app para tratar la ansiedad y la depresión en adolescentes. Proyecto de investigación de La universidad UNED"
     },
     "screens": [
       {
@@ -16,36 +16,36 @@
       {
         "type": "work-overview",
         "data": {
-          "description": "description: Lorem ipsum dolor sit amet.",
-          "role": "role: Lorem ipsum dolor sit amet.",
-          "credits": "credits: Lorem ipsum dolor sit amet.",
-          "platforms": "platforms: Lorem ipsum dolor sit amet."
+          "description": "AMTE (Aprende a manejar tus emociones) es una web app funcional con la que se pretende estudiar la efectividad del diagnóstico y tratamiento de desórdenes de ansiedad y depresión en adolescentes utilizando nuevas tecnologías. Desarrollada para el departamento de psicología de la UNED bajo la supervisión del Dr. Bonifacio Sandín, catedrático de Personalidad, Evaluación y Tratamiento Psicológico, es una herramienta innovadora en este campo.",
+          "role": "Co-autor, frontend lead developer y dirección creativa.",
+          "credits": "Manuel Ottaviano, eHealth researcher",
+          "platforms": "Web app for desktop and tablets"
         }
       },
       {
         "type": "work-image-text",
         "data": {
-          "title": "Logotipo",
-          "description": "Description: Lorem ipsum dolor sit amet.",
+          "title": "Corporate identity",
+          "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In in tincidunt mi, in scelerisque eros.",
           "images": [
-            "url/image.png"
+            "assets/work/01amte/logo_amte.svg"
           ],
           "position": "right",
           "layout": "even",
-          "background": "0xffffff",
+          "background": "#ffffff",
           "fx": ""
         }
       },
       {
         "type": "work-image-text",
         "data": {
-          "title": "Three apps in one",
-          "description": "Description: Lorem ipsum dolor sit amet.",
+          "title": "3 apps behind AMTE portal",
+          "description": "Hacer animación con scroll de todas las pantallas",
           "images": [
-            "url/image.png",
-            "url/image.png",
-            "url/image.png",
-            "url/image.png"
+            "assets/work/01amte/web_public_view.png",
+            "assets/work/01amte/web_task_circles.png",
+            "assets/work/01amte/web_therapist_no_header.png",
+            "assets/work/01amte/web_parents_sm.png"
           ],
           "position": "left",
           "layout": "",
@@ -57,50 +57,50 @@
         "type": "work-image-text",
         "data": {
           "title": "Simple UI for complex system",
-          "description": "Description: Lorem ipsum dolor sit amet.",
+          "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In in tincidunt mi, in scelerisque eros.",
           "images": [
-            "url/image.png"
+            "assets/work/01amte/web_insertion.png"
           ],
           "position": "right",
           "layout": "",
-          "background": "0xffffff",
-          "fx": ""
-        }
-      },
-      {
-        "type": "work-image",
-        "data": {
-          "images": [
-            "url/image.png"
-          ],
-          "position": "center",
-          "layout": "",
-          "background": "url/imagebg",
+          "background": "#ffffff",
           "fx": ""
         }
       },
       {
         "type": "work-text",
         "data": {
-          "title": "Simple UI for complex system",
-          "description": "Description: Lorem ipsum dolor sit amet.",
+          "title": "User View",
+          "description": "Hacer animación con scroll de todas las pantallas",
           "position": "center",
-          "background": "0xffffff"
+          "background": "#ffffff"
+        }
+      },
+      {
+        "type": "work-image",
+        "data": {
+          "images": [
+            "assets/work/01amte/web_avatar_config.png"
+          ],
+          "position": "center",
+          "layout": "",
+          "background": "assets/work/01amte/bg_avatars.png",
+          "fx": ""
         }
       },
       {
         "type": "work-image-text",
         "data": {
           "title": "Fully guided experience",
-          "description": "Description: Lorem ipsum dolor sit amet.",
+          "description": "With two different avatar the user will be guided on every step of the study",
           "images": [
-            "url/image.png",
-            "url/image.png",
-            "url/image.png"
+            "assets/work/01amte/web_user_home.png",
+            "assets/work/01amte/web_user_record.png",
+            "assets/work/01amte/web_user_calendar.png"
           ],
           "position": "left",
           "layout": "",
-          "background": "0xffffff",
+          "background": "#ffffff",
           "fx": ""
         }
       },
@@ -108,7 +108,7 @@
         "type": "work-text",
         "data": {
           "title": "Therapist View",
-          "description": "Description: Lorem ipsum dolor sit amet.",
+          "description": "Hacer animación con scroll de todas las pantallas",
           "position": "center",
           "background": ""
         }
@@ -117,13 +117,13 @@
         "type": "work-image-text",
         "data": {
           "title": "Total Control",
-          "description": "Description: Lorem ipsum dolor sit amet.",
+          "description": "Therapist plan the study for each user independely. Follow progress and send feedback and help to teenagers and parents",
           "images": [
-            "url/image.png"
+            "assets/work/01amte/web_therapist.png"
           ],
           "position": "right",
           "layout": "",
-          "background": "0xffffff",
+          "background": "#ffffff",
           "fx": ""
         }
       },
@@ -131,7 +131,7 @@
         "type": "work-text",
         "data": {
           "title": "Parents View",
-          "description": "Description: Lorem ipsum dolor sit amet.",
+          "description": "Hacer animación con scroll de todas las pantallas",
           "position": "center",
           "background": ""
         }
@@ -139,15 +139,15 @@
       {
         "type": "work-image-text",
         "data": {
-          "title": "Parents Informed on Every Step",
-          "description": "Description: Lorem ipsum dolor sit amet.",
+          "title": "Parents informed on every step",
+          "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In in tincidunt mi, in scelerisque eros",
           "images": [
-            "url/image.png",
-            "url/image.png"
+            "assets/work/01amte/web_parents_sm_header.png",
+            "assets/work/01amte/web_parents2.png"
           ],
           "position": "left",
           "layout": "",
-          "background": "0xffffff",
+          "background": "#ffffff",
           "fx": ""
         }
       },
@@ -155,7 +155,7 @@
         "type": "work-image",
         "data": {
           "images": [
-            "url/image.png"
+            "assets/work/01amte/bg_collage.png"
           ],
           "position": "cover",
           "layout": "",
@@ -168,7 +168,7 @@
   {
     "id": 20,
     "general": {
-      "mainColor": "0x4865ac",
+      "mainColor": "#4865ac",
       "mainImg": "projectid/img/test.png",
       "logo": "projectid/img/logo.svg",
       "title": "Eye Hawk",
@@ -252,6 +252,13 @@
         }
       },
       {
+        "type": "work-video",
+        "data": {
+          "video": "video/intro/",
+          "background": ""
+        }
+      },
+      {
         "type": "work-image",
         "data": {
           "images": [
@@ -268,7 +275,7 @@
   {
     "id": 21,
     "general": {
-      "mainColor": "0x4865ac",
+      "mainColor": "#4865ac",
       "mainImg": "projectid/img/test.png",
       "logo": "projectid/img/logo.svg",
       "title": "Westworld",

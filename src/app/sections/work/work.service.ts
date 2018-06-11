@@ -1,5 +1,5 @@
 import {Injectable} from '@angular/core';
-import {WorkDataModel} from './work-data.model';
+import {WorkDataModel} from './models/work-data.model';
 
 @Injectable(
     {
@@ -17,13 +17,7 @@ export class WorkService {
         return this.workCasesList;
     }
 
-    // public getWorkCaseList(): Observable<WorkDataModel> {
-    //     this.workListObs = this.http.get<WorkDataModel>(this.dataUrl);
-    //     return this.workListObs;
-    //     // return this.http.get(this.dataUrl);
-    // }
-
-    public getWorkCase(id: number): WorkDataModel {
+    public getWorkCaseData(id: number): WorkDataModel {
         let workcaseData: WorkDataModel;
         for (let i = 0; i < this.workCasesList.length; i++) {
             console.log(this.workCasesList[i].id);

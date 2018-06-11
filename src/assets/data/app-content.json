@@ -1,0 +1,63 @@
+{
+  "about": {
+    "title": "Hello",
+    "bio": [
+      "I am a Sr. developer. blockchain, AR, VR and 3D enthusiast. I enjoy experimenting with multimedia using the new stuffs and applying the old ones differently. I try to include a new framework or libraries in my projects. Code in any context interacting with anything.",
+      "I am a Sr. Designer. I design intuitive and functional User interfaces. I do illustrations mixing Illustrator, Photoshop and hand drawing. I like to create textures when fits the projects style. I like vector drawing for responsive UIs and svg animations.",
+      "I also do management. I am good at transforming Word documents in a well structured good looking app/web/thing that is easy to use. I visualize style, animations and code structure from a briefing. I can write a proposal and present it to final client. I am good at coordinating teams and communicating with different departments and final clients. I write technical documents."
+    ]
+  },
+  "contact": {
+    "title": "Wnat to know more?",
+    "introText": [
+      "If you hava a project and think iI can give you a hand, you are a great agency and think I can fit in as a team member or just would like to get in touch, please drop me a line:"
+    ],
+    "message": {
+      "placeholder": "Drop me a line or two",
+      "errors": {
+        "minLength": "Must be at least 20 characers",
+        "required": "Please tell me a bit more"
+      }
+    },
+    "name": {
+      "placeholder": "How should I call you?",
+      "errors": {
+        "minLength": "Must be at least 2 characers",
+        "required": "Please tell me a bit more"
+      }
+    },
+    "email": {
+      "placeholder": "Add here your email",
+      "errors": {
+        "invalid": "Email is not valid",
+        "required": "email is requiered"
+      }
+    },
+    "buttonText": "Send"
+  },
+  "socialMedia": {
+    "introText": "You can also find me at:",
+    "links": [
+      {
+        "logo": "url/logo1",
+        "link": "url/link1"
+      },
+      {
+        "logo": "url/logo2",
+        "link": "url/link2"
+      },
+      {
+        "logo": "url/logo3",
+        "link": "url/link3"
+      },
+      {
+        "logo": "url/logo4",
+        "link": "url/link4"
+      },
+      {
+        "logo": "url/logo5",
+        "link": "url/link5"
+      }
+    ]
+  }
+}

@@ -1,7 +1,6 @@
 import {NgModule} from '@angular/core';
 import {PreloadAllModules, RouterModule, Routes} from '@angular/router';
 import {HomeComponent} from './sections/home/home.component';
-import {ContactComponent} from './sections/contact/contact.component';
 import {SECTION} from './models/routing.model';
 import {AboutComponent} from './sections/about/about.component';
 import {WorkModule} from './sections/work/work.module';
@@ -28,10 +27,10 @@ const ROUTES: Routes = [
         path:      SECTION.about,
         component: AboutComponent,
     },
-    {
-        path:      SECTION.contact,
-        component: ContactComponent,
-    },
+    // {
+    //     path:      SECTION.contact-form,
+    //     component: ContactFormComponent,
+    // },
     {path: '**', component: HomeComponent}
 ];
 
