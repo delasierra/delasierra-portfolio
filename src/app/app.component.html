@@ -1,7 +1,11 @@
-<app-navbar-main></app-navbar-main>
-<div class="container-fluid">
-  <router-outlet></router-outlet>
-  <app-webgl></app-webgl>
+<!--TODO change background class with router event-->
+<div class="app-wrapper work-background">
+    <app-navbar-main></app-navbar-main>
+    <div class="container-fluid">
+        <div class="sections">
+            <router-outlet></router-outlet>
+        </div>
+        <app-webgl></app-webgl>
+    </div>
 </div>
-
 

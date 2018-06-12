@@ -3,7 +3,6 @@ import {NgModule} from '@angular/core';
 import {FormsModule} from '@angular/forms';
 
 import {AppComponent} from './app.component';
-import {WebglComponent} from './webgl/webgl.component';
 import {AboutComponent} from './sections/about/about.component';
 import {HomeComponent} from './sections/home/home.component';
 import {NavbarMainComponent} from './components/navbar-main/navbar-main.component';
@@ -12,6 +11,9 @@ import {HttpClientModule} from '@angular/common/http';
 import {NgbModule} from '@ng-bootstrap/ng-bootstrap';
 import {ContactFormComponent} from './components/contact-form/contact-form.component';
 import { SocialMediaLinksComponent } from './components/social-media/social-media.component';
+
+import { AngularFontAwesomeModule } from 'angular-font-awesome';
+import {WebglComponent} from './components/webgl/webgl.component';
 
 @NgModule({
     declarations: [
@@ -29,6 +31,7 @@ import { SocialMediaLinksComponent } from './components/social-media/social-medi
         HttpClientModule,
         FormsModule,
         NgbModule.forRoot(),
+        AngularFontAwesomeModule,
     ],
     providers:    [],
     bootstrap:    [AppComponent]

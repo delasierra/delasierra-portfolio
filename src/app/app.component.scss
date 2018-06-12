@@ -1,0 +1,42 @@
+.sections{
+  position: relative;
+  z-index: 100;
+}
+
+.app-wrapper{
+  //background-color: aqua;
+  min-height: 100vh;
+}
+
+.work-background{
+  background: linear-gradient(167deg, #e41d29, #3d3091);
+  background-size: 200% 200%;
+
+  -webkit-animation: workBackground 38s ease infinite;
+  -moz-animation: workBackground 38s ease infinite;
+  animation: workBackground 38s ease infinite;
+
+  @-webkit-keyframes workBackground {
+    0%{background-position:13% 0%}
+    50%{background-position:50% 60%}
+    100%{background-position:13% 0%}
+  }
+  @-moz-keyframes workBackground {
+    0%{background-position:13% 0%}
+    50%{background-position:50% 60%}
+    100%{background-position:13% 0%}
+  }
+  @keyframes workBackground {
+    0%{background-position:13% 0%}
+    50%{background-position:50% 60%}
+    100%{background-position:13% 0%}
+  }
+}
+
+.home-background{
+  background: linear-gradient(167deg, #2b2c33, #1f2126);
+}
+
+.about-background{
+  background: linear-gradient(167deg, #e41d29, #3d3091);
+}

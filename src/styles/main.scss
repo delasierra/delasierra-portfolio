@@ -1,16 +1,24 @@
 /*****************************************************
- * vendor imports
+ * Project Imports
  *****************************************************/
 @import 'variables';
+@import 'mixins';
+
+/*****************************************************
+ * Vendor Imports
+ *****************************************************/
 @import '../../node_modules/bootstrap/scss/bootstrap.scss';
 
-/*****************************************************
- * project imports
- *****************************************************/
-//@import 'mixins';
 
 /*****************************************************
- * components
+ * Components
  *****************************************************/
-//@import '../app/components/navbar-main/navbar-main.component.scss';
-@import 'navbar.scss';
+//@import '../app/components-bootstrap/navbar-main/navbar-main.component.scss';
+@import '../app/app.component';
+@import 'components-bootstrap/navbar.scss';
+
+
+/*****************************************************
+ * Sections
+ *****************************************************/
+@import 'sections/home.component';

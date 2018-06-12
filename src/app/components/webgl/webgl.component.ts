@@ -5,7 +5,7 @@ import {TweenMax, TimelineMax, Ease, Power1, Bounce, Linear} from 'gsap';
 @Component({
     selector:    'app-webgl',
     templateUrl: './webgl.component.html',
-    styleUrls:   [],
+    styleUrls: ['./webgl.component.scss']
 })
 export class WebglComponent implements OnInit {
     private canEleId = 'renderCanvas';

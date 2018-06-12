@@ -1,22 +1,30 @@
-<div class="trapezoid"></div>
-<nav class="navbar navbar-expand navbar-dark bg-dark mb-4">
-  <div class="container">
-    <a routerLink="/" class="navbar-brand">Webgl SPA Starter</a>
-    <div>
-      <ul class="navbar-nav ml-auto">
+<nav class="navbar navbar-expand navbar-dalasierra">
+    <a routerLink="/" class="navbar-brand">
+        <img class="main-logo" src="assets/vectors/carlos_de_la_sierra_logo.svg">
+    </a>
+    <ul class="navbar-nav">
         <li class="nav-item">
-          <a routerLink="/work" class="nav-link" [routerLinkActive]="['active']"
-             [routerLinkActiveOptions]="{exact: true}">Work</a>
+            <a routerLink="/work"
+               class="nav-link"
+               [routerLinkActive]="['active']"
+               [routerLinkActiveOptions]="{exact: true}">
+                Work
+            </a>
         </li>
         <li class="nav-item">
-          <a routerLink="/" class="nav-link" [routerLinkActive]="['active']"
-             [routerLinkActiveOptions]="{exact: true}">Home</a>
+            <a routerLink="/" class="nav-link"
+               [routerLinkActive]="['active']"
+               [routerLinkActiveOptions]="{exact: true}">
+                <i class="icon-brain icon-link"></i>
+            </a>
         </li>
         <li>
-          <a routerLink="/about" class="nav-link" [routerLinkActive]="['active']"
-             [routerLinkActiveOptions]="{exact: true}">About</a>
+            <a routerLink="/about" class="nav-link"
+               [routerLinkActive]="['active']"
+               [routerLinkActiveOptions]="{exact: true}">
+                About
+            </a>
         </li>
-      </ul>
-    </div>
-  </div>
+    </ul>
+    <div class="bg-navbar"></div>
 </nav>

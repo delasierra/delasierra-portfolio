@@ -38,7 +38,7 @@ export class WebglService {
         this.light.position.z = 10;
         this.scene.add(this.light);
 
-        const geometry = new THREE.BoxGeometry(1, 1, 1);
+        const geometry = new THREE.BoxGeometry(3, 3, 3);
         // let material = new THREE.MeshBasicMaterial({ color: 0x00ff00 });
         const material = new THREE.MeshBasicMaterial({color: 0x00ff00, wireframe: true});
         this.cube = new THREE.Mesh(geometry, material);
@@ -61,18 +61,20 @@ export class WebglService {
             this.render();
         });
 
-        this.cube.rotation.x += 0.01;
-        this.cube.rotation.y += 0.01;
+        this.cube.rotation.x += 0.005;
+        this.cube.rotation.y += 0.005;
         this.renderer.render(this.scene, this.camera);
     }
 
     resize() {
         const width = window.innerWidth;
         const height = window.innerHeight;
+        // console.log('Window size: ' + width + 'x' + height + 'px');
 
         this.camera.aspect = width / height;
         this.camera.updateProjectionMatrix();
 
         this.renderer.setSize(width, height);
+
     }
 }
