@@ -14,6 +14,7 @@ import { SocialMediaLinksComponent } from './components/social-media/social-medi
 
 import { AngularFontAwesomeModule } from 'angular-font-awesome';
 import {WebglComponent} from './components/webgl/webgl.component';
+import { BackgroundColorDirective } from './directives/attributes/background-color.directive';
 
 @NgModule({
     declarations: [
@@ -24,6 +25,7 @@ import {WebglComponent} from './components/webgl/webgl.component';
         HomeComponent,
         NavbarMainComponent,
         SocialMediaLinksComponent,
+        BackgroundColorDirective,
     ],
     imports:      [
         BrowserModule,

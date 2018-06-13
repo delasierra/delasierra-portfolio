@@ -1,42 +1,108 @@
-.sections{
+$main-red: #e41d29;
+$main-purple: #3d3091;
+.sections {
   position: relative;
   z-index: 100;
 }
 
-.app-wrapper{
+.app-wrapper {
   //background-color: aqua;
   min-height: 100vh;
+
+  //--mainRed: #e41d29;
+
+  //> .bg-animation {
+  //  background-size: 200% 200%;
+  //  -webkit-animation: workBackground 38s ease infinite;
+  //  -moz-animation: workBackground 38s ease infinite;
+  //  animation: workBackground 38s ease infinite;
+  //
+  //  @-webkit-keyframes workBackground {
+  //    0% {
+  //      background-position: 13% 0%
+  //    }
+  //    50% {
+  //      background-position: 50% 60%
+  //    }
+  //    100% {
+  //      background-position: 13% 0%
+  //    }
+  //  }
+  //  @-moz-keyframes workBackground {
+  //    0% {
+  //      background-position: 13% 0%
+  //    }
+  //    50% {
+  //      background-position: 50% 60%
+  //    }
+  //    100% {
+  //      background-position: 13% 0%
+  //    }
+  //  }
+  //  @keyframes workBackground {
+  //    0% {
+  //      background-position: 13% 0%
+  //    }
+  //    50% {
+  //      background-position: 50% 60%
+  //    }
+  //    100% {
+  //      background-position: 13% 0%
+  //    }
+  //  }
+  //}
 }
 
-.work-background{
+@-webkit-keyframes workBackground {
+  0% {
+    background-position: 13% 0%
+  }
+  50% {
+    background-position: 50% 60%
+  }
+  100% {
+    background-position: 13% 0%
+  }
+}
+@-moz-keyframes workBackground {
+  0% {
+    background-position: 13% 0%
+  }
+  50% {
+    background-position: 50% 60%
+  }
+  100% {
+    background-position: 13% 0%
+  }
+}
+@keyframes workBackground {
+  0% {
+    background-position: 13% 0%
+  }
+  50% {
+    background-position: 50% 60%
+  }
+  100% {
+    background-position: 13% 0%
+  }
+}
+
+.bg-work {
   background: linear-gradient(167deg, #e41d29, #3d3091);
-  background-size: 200% 200%;
+  //transform: translateZ(0);
 
-  -webkit-animation: workBackground 38s ease infinite;
-  -moz-animation: workBackground 38s ease infinite;
-  animation: workBackground 38s ease infinite;
+  //background-size: 200% 200%;
+  //-webkit-animation: workBackground 38s ease infinite;
+  //-moz-animation: workBackground 38s ease infinite;
+  //animation: workBackground 38s ease infinite;
 
-  @-webkit-keyframes workBackground {
-    0%{background-position:13% 0%}
-    50%{background-position:50% 60%}
-    100%{background-position:13% 0%}
-  }
-  @-moz-keyframes workBackground {
-    0%{background-position:13% 0%}
-    50%{background-position:50% 60%}
-    100%{background-position:13% 0%}
-  }
-  @keyframes workBackground {
-    0%{background-position:13% 0%}
-    50%{background-position:50% 60%}
-    100%{background-position:13% 0%}
-  }
 }
 
-.home-background{
-  background: linear-gradient(167deg, #2b2c33, #1f2126);
+.bg-home {
+  background-color: #1f2126;
+  //background: linear-gradient(167deg, #2b2c33, #1f2126);
 }
 
-.about-background{
+.bg-about {
   background: linear-gradient(167deg, #e41d29, #3d3091);
 }
