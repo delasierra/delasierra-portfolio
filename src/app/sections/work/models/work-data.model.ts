@@ -37,12 +37,14 @@ export interface WorkTextData {
     position: string;
     background: string;
 }
+
 export interface WorkImgData {
     images: Array<string>;
     position: string;
     background: string;
     fx: string;
 }
+
 export interface WorkImageTextData {
     text: WorkTextData;
     images: WorkImgData;
@@ -51,10 +53,12 @@ export interface WorkImageTextData {
     layout: string;
 
 }
+
 export interface WorkSliderData {
     images: Array<string>;
     background: string;
 }
+
 export interface WorkVideoData {
     video: string;
     background: string;

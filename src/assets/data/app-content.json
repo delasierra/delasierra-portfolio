@@ -1,4 +1,9 @@
 {
+  "work":{
+    "projectTitle": "The Project",
+    "roleTitle": "My Role",
+    "creditsTitle": "Credits"
+  },
   "about": {
     "title": "Hello",
     "bio": [

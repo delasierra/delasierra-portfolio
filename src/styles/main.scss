@@ -1,6 +1,7 @@
 /*****************************************************
  * Project Imports
  *****************************************************/
+@import url('https://fonts.googleapis.com/css?family=Raleway:300,400,600');
 @import 'variables';
 @import 'mixins';
 
@@ -15,7 +16,8 @@
  *****************************************************/
 //@import '../app/components-bootstrap/navbar-main/navbar-main.component.scss';
 @import '../app/app.component';
-@import 'components-bootstrap/navbar.scss';
+@import 'components-bootstrap/navbar';
+@import 'type';
 
 
 /*****************************************************

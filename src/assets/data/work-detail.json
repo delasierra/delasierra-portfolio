@@ -23,6 +23,15 @@
         }
       },
       {
+        "type": "work-text",
+        "data": {
+          "title": "TEST User View",
+          "description": "TEST Hacer animación con scroll de todas las pantallas",
+          "position": "center",
+          "background": "#4764ae"
+        }
+      },
+      {
         "type": "work-image-text",
         "data": {
           "title": "Corporate identity",

@@ -1,3 +1,9 @@
-<p>
-  work-text works!
-</p>
+<section
+        class="work-slide work-overview row"
+        [ngStyle]="{'background-color': detailData.background}">
+  <div class="work-content">
+    <!--TODO add NgStyle condition para cambiar el color del texto a blanco o color main + negro-->
+    <h2>{{detailData.title}}</h2>
+    <p>{{detailData.description}}</p>
+  </div>
+</section>

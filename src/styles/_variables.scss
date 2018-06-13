@@ -10,10 +10,11 @@
 //
 
 //Project colors
-$primary-gray: #212227;
+//$primary-gray: #212227;
+$primary-gray: #292a31;
 
 //// stylelint-disable
-//$white:    #fff !default;
+$white:    #fff;
 //$gray-100: #f8f9fa !default;
 //$gray-200: #e9ecef !default;
 //$gray-300: #dee2e6 !default;
@@ -145,8 +146,8 @@ $primary: $primary-gray;
 ////
 //// Settings for the `<body>` element.
 //
-//$body-bg: $primary-gray;
-//$body-color:                $gray-900 !default;
+$body-bg: $primary-gray;
+$body-color:                $white;
 //
 //// Links
 ////
@@ -235,7 +236,7 @@ $primary: $primary-gray;
 //// Font, line-height, and color for body text, headings, and more.
 //
 //// stylelint-disable value-keyword-case
-//$font-family-sans-serif:      -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol" !default;
+$font-family-sans-serif:      'Raleway', sans-serif; //-apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol" !default;
 //$font-family-monospace:       SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace !default;
 //$font-family-base:            $font-family-sans-serif !default;
 //// stylelint-enable value-keyword-case
@@ -246,7 +247,7 @@ $primary: $primary-gray;
 //
 //$font-weight-light:           300 !default;
 //$font-weight-normal:          400 !default;
-//$font-weight-bold:            700 !default;
+$font-weight-bold:            600;
 //
 //$font-weight-base:            $font-weight-normal !default;
 //$line-height-base:            1.5 !default;
@@ -260,9 +261,9 @@ $primary: $primary-gray;
 //
 //$headings-margin-bottom:      ($spacer / 2) !default;
 //$headings-font-family:        inherit !default;
-//$headings-font-weight:        500 !default;
+$headings-font-weight:        600;
 //$headings-line-height:        1.2 !default;
-//$headings-color:              inherit !default;
+$headings-color:              $white;
 //
 //$display1-size:               6rem !default;
 //$display2-size:               5.5rem !default;

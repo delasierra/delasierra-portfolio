@@ -1,5 +1,5 @@
 import {Injectable} from '@angular/core';
-import {WorkDataModel} from './models/work-data.model';
+import {WorkDataModel, WorkGeneralData} from './models/work-data.model';
 
 @Injectable(
     {

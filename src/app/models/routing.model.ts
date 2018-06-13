@@ -6,5 +6,5 @@ export const SECTION = {
     work: 'work',
     about: 'about',
     contact: 'contact',
-    projectDetails: 'project/:id'
+    projectDetails: 'detail/:id'
 };

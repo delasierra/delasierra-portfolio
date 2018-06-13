@@ -7,7 +7,9 @@ $main-purple: #3d3091;
 
 .app-wrapper {
   //background-color: aqua;
-  min-height: 100vh;
+  //min-height: 100vh;
+  height: 100vh;
+  overflow-y: scroll;
 
   //--mainRed: #e41d29;
 
@@ -87,22 +89,22 @@ $main-purple: #3d3091;
   }
 }
 
-.bg-work {
-  background: linear-gradient(167deg, #e41d29, #3d3091);
-  //transform: translateZ(0);
-
-  //background-size: 200% 200%;
-  //-webkit-animation: workBackground 38s ease infinite;
-  //-moz-animation: workBackground 38s ease infinite;
-  //animation: workBackground 38s ease infinite;
-
-}
-
-.bg-home {
-  background-color: #1f2126;
-  //background: linear-gradient(167deg, #2b2c33, #1f2126);
-}
-
-.bg-about {
-  background: linear-gradient(167deg, #e41d29, #3d3091);
-}
+//.bg-work {
+//  background: linear-gradient(167deg, #e41d29, #3d3091);
+//  //transform: translateZ(0);
+//
+//  //background-size: 200% 200%;
+//  //-webkit-animation: workBackground 38s ease infinite;
+//  //-moz-animation: workBackground 38s ease infinite;
+//  //animation: workBackground 38s ease infinite;
+//
+//}
+//
+//.bg-home {
+//  background-color: #1f2126;
+//  //background: linear-gradient(167deg, #2b2c33, #1f2126);
+//}
+//
+//.bg-about {
+//  background: linear-gradient(167deg, #e41d29, #3d3091);
+//}

@@ -1,8 +1,9 @@
-<h1> Home data </h1>
-<!--<div [ngStyle]="{'height':'400px', 'width': '400px', 'background-image': 'url(' + mainBg + ')'}"></div>-->
-<p>
-    {{generalData.mainColor}}<br>
-    {{generalData.mainImg}}<br>
-    {{generalData.logo}}<br>
-    {{generalData.description}}<br>
-</p>
+<section class="work-slide work-home" [ngStyle]="{'background-image': 'url(' + generalData.mainImg + ')'}">
+    <div class="work-content">
+        <div class="work-logo">
+            <img class="main-logo" src="{{generalData.logo}}">
+        </div>
+        <h1>{{generalData.title}}</h1>
+        <h5>{{generalData.description}}</h5>
+    </div>
+</section>

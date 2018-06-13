@@ -6,7 +6,6 @@ import {NavigationEnd, Router} from '@angular/router';
     selector: '[appBackgroundColor]'
 })
 export class BackgroundColorDirective {
-    // @Input('appBackgroundColor') backgroundColor: string;
     @Input('appBackgroundColor') backgroundColor: { color1: string, color2: string };
 
     tl = new TimelineMax();
@@ -51,7 +50,7 @@ export class BackgroundColorDirective {
             case '/about':
                 this.tl
                     .to(this.el.nativeElement, 1, {
-                        backgroundImage: 'linear-gradient(170deg, #292a31, #35363f)',
+                        backgroundImage: 'linear-gradient(170deg, #292a31, #212227)',
                         overwrite:       'all'
                     });
                 break;

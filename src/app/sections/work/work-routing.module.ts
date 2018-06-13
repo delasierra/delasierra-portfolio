@@ -2,6 +2,7 @@ import {NgModule} from '@angular/core';
 import {Routes, RouterModule} from '@angular/router';
 import {WorkDetailComponent} from './work-detail/work-detail.component';
 import {WorkComponent} from './work.component';
+import {SECTION} from '../../models/routing.model';
 
 const routes: Routes = [
     {
@@ -9,7 +10,7 @@ const routes: Routes = [
         component: WorkComponent,
     },
     {
-        path: 'detail/:id',
+        path: SECTION.projectDetails,
         component: WorkDetailComponent,
     }
 ];
