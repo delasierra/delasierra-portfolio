@@ -28,6 +28,8 @@ export class WorkDetailComponent implements OnInit {
 
     ngOnInit() {
         this.workCaseData = this.workService.getWorkCaseData(this.id);
-        console.log(this.workCaseData);
+        // console.log(this.workCaseData);
     }
+
+//    Change header background color
 }

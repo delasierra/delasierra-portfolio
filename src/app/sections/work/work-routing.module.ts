@@ -10,7 +10,7 @@ const routes: Routes = [
         component: WorkComponent,
     },
     {
-        path: SECTION.projectDetails,
+        path: SECTION.workDetails + '/:id',
         component: WorkDetailComponent,
     }
 ];

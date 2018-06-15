@@ -282,10 +282,11 @@
     height: 140px;
     //background-image: linear-gradient(#e51d2a, #c4213e);
     //background-color: #e51d2a;
+    transform: translateZ(0);
     transform: skewY(-2deg);
     transform-origin: top left;
     //z-index: 1000;
-    opacity: .5;
+    opacity: .95;
   }
 }
 

@@ -1,5 +1,14 @@
-<p>
-  work-image-text works!
-</p>
-<app-work-text></app-work-text>
-<app-work-image></app-work-image>
+<section class="work-slide-content row"
+         [ngStyle]="{'background': detailData.background}">
+    <div class="col-md-6">
+        <app-work-text
+                [generalData]="generalData"
+                [detailData]="detailData">
+        </app-work-text>
+    </div>
+    <div class="col-md-6">
+        <app-work-image
+                [generalData]="generalData"
+                [detailData]="detailData"></app-work-image>
+    </div>
+</section>

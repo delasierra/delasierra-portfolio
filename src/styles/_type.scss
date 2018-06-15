@@ -18,11 +18,11 @@ h1, h2, h3, h4, h5, h6,
 
 h2,
 .h2 {
-  font-weight: $font-weight-light;
+  font-weight: $font-weight-normal;
 }
 
-h4, h5, h6,
-.h4, .h5, .h6 {
+h2, h4, h5, h6,
+.h2, .h4, .h5, .h6 {
   font-weight: $font-weight-normal;
 }
 
@@ -135,4 +135,13 @@ mark,
   &::before {
     content: "\2014 \00A0"; // em dash, nbsp
   }
+}
+
+// Color options
+.dark-text{
+  color: $primary-gray;
+}
+
+.light-text{
+  color: white;
 }

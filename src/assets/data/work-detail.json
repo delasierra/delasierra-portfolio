@@ -22,13 +22,29 @@
           "platforms": "Web app for desktop and tablets"
         }
       },
+
+      {
+        "type": "work-image",
+        "data": {
+          "images": [
+            "assets/work/01amte/web_public_view.png",
+            "assets/work/01amte/web_task_circles.png",
+            "assets/work/01amte/web_therapist_no_header.png",
+            "assets/work/01amte/web_parents_sm.png"
+          ],
+          "position": "center",
+          "layout": "",
+          "background": "assets/work/01amte/bg_avatars.png",
+          "fx": ""
+        }
+      },
       {
         "type": "work-text",
         "data": {
           "title": "TEST User View",
           "description": "TEST Hacer animación con scroll de todas las pantallas",
           "position": "center",
-          "background": "#4764ae"
+          "background": "#ffffff"
         }
       },
       {
@@ -177,7 +193,7 @@
   {
     "id": 20,
     "general": {
-      "mainColor": "#4865ac",
+      "mainColor": "#182b55",
       "mainImg": "projectid/img/test.png",
       "logo": "projectid/img/logo.svg",
       "title": "Eye Hawk",
@@ -284,7 +300,7 @@
   {
     "id": 21,
     "general": {
-      "mainColor": "#4865ac",
+      "mainColor": "#151515",
       "mainImg": "projectid/img/test.png",
       "logo": "projectid/img/logo.svg",
       "title": "Westworld",

@@ -1,6 +1,6 @@
 import {Injectable} from '@angular/core';
 import {ContactSectionData} from './contact-form.model';
-import {AppService} from '../../app.service';
+import {AppService} from '../../services/app.service';
 
 @Injectable({
     providedIn: 'root'

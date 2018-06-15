@@ -1,6 +1,6 @@
 import {Injectable} from '@angular/core';
-import {AppService} from '../../app.service';
 import {SocialMediaLinkModel, SocialMediaModel} from './social-media.model';
+import {AppService} from '../../services/app.service';
 
 @Injectable({
     providedIn: 'root'

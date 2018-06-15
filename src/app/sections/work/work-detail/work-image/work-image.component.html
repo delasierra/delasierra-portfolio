@@ -1,3 +1,12 @@
-<p>
-  work-image works!
-</p>
+<section class="work-slide-content work-text row"
+         [ngStyle]="{'background': detailData.background}">
+    <h1>{{log}}</h1>
+    <div class="col-xs-6 work-content">
+        <img *ngFor="let image of images; let i = index"
+             [ngStyle]="setImagePosition(i)"
+             src="{{ image }}">
+    </div>
+
+
+
+</section>

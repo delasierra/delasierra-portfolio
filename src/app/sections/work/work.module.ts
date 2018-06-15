@@ -28,7 +28,7 @@ import { WorkComponent } from './work.component';
         WorkImageTextComponent,
         WorkImageSliderComponent,
         WorkVideoComponent,
-        WorkComponent
+        WorkComponent,
     ],
     providers:    [],
 })

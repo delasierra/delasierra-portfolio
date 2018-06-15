@@ -1,0 +1,29 @@
+.work-content {
+  //flex: 0 0 auto;
+  //flex-shrink: 0;
+  //flex-grow: 0;
+  //flex-basis: 100%;
+  //display: flex;
+  //justify-content: start;
+  //align-items: center;
+  padding: 0 40px;
+
+  width: 100vw;
+
+  //overflow: hidden;
+  //.work-images {
+  img {
+    //flex: 0 0 0;
+    //position: relative;
+    float: left;
+    //width: 100%;
+
+    -webkit-box-shadow: 0 0 24px 0 rgba(0, 0, 0, .3);
+    -moz-box-shadow: 0 0 24px 0 rgba(0, 0, 0, .3);
+    box-shadow: 0 0 24px 0 rgba(0, 0, 0, .3);
+
+    opacity: .7;
+  }
+  //}
+
+}

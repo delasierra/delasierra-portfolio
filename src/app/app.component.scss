@@ -6,105 +6,58 @@ $main-purple: #3d3091;
 }
 
 .app-wrapper {
-  //background-color: aqua;
-  //min-height: 100vh;
   height: 100vh;
   overflow-y: scroll;
 
-  //--mainRed: #e41d29;
+  &:after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    pointer-events: none;
 
-  //> .bg-animation {
-  //  background-size: 200% 200%;
-  //  -webkit-animation: workBackground 38s ease infinite;
-  //  -moz-animation: workBackground 38s ease infinite;
-  //  animation: workBackground 38s ease infinite;
-  //
-  //  @-webkit-keyframes workBackground {
-  //    0% {
-  //      background-position: 13% 0%
-  //    }
-  //    50% {
-  //      background-position: 50% 60%
-  //    }
-  //    100% {
-  //      background-position: 13% 0%
-  //    }
-  //  }
-  //  @-moz-keyframes workBackground {
-  //    0% {
-  //      background-position: 13% 0%
-  //    }
-  //    50% {
-  //      background-position: 50% 60%
-  //    }
-  //    100% {
-  //      background-position: 13% 0%
-  //    }
-  //  }
-  //  @keyframes workBackground {
-  //    0% {
-  //      background-position: 13% 0%
-  //    }
-  //    50% {
-  //      background-position: 50% 60%
-  //    }
-  //    100% {
-  //      background-position: 13% 0%
-  //    }
-  //  }
-  //}
-}
+    -webkit-box-shadow: inset 0px 0px 200px -20px rgba(0, 0, 0, 0.3);
+    -moz-box-shadow: inset 0px 0px 200px -20px rgba(0, 0, 0, 0.3);
+    box-shadow: inset 0px 0px 200px -20px rgba(0, 0, 0, 0.3);
+    z-index: 1000;
 
-@-webkit-keyframes workBackground {
-  0% {
-    background-position: 13% 0%
-  }
-  50% {
-    background-position: 50% 60%
-  }
-  100% {
-    background-position: 13% 0%
-  }
-}
-@-moz-keyframes workBackground {
-  0% {
-    background-position: 13% 0%
-  }
-  50% {
-    background-position: 50% 60%
-  }
-  100% {
-    background-position: 13% 0%
-  }
-}
-@keyframes workBackground {
-  0% {
-    background-position: 13% 0%
-  }
-  50% {
-    background-position: 50% 60%
-  }
-  100% {
-    background-position: 13% 0%
+    transform: translateZ(0);
   }
 }
 
-//.bg-work {
-//  background: linear-gradient(167deg, #e41d29, #3d3091);
-//  //transform: translateZ(0);
-//
-//  //background-size: 200% 200%;
-//  //-webkit-animation: workBackground 38s ease infinite;
-//  //-moz-animation: workBackground 38s ease infinite;
-//  //animation: workBackground 38s ease infinite;
-//
+// NOTE: This animation is very expensive
+//@-webkit-keyframes workBackground {
+//  0% {
+//    background-position: 13% 0%
+//  }
+//  50% {
+//    background-position: 50% 60%
+//  }
+//  100% {
+//    background-position: 13% 0%
+//  }
 //}
-//
-//.bg-home {
-//  background-color: #1f2126;
-//  //background: linear-gradient(167deg, #2b2c33, #1f2126);
+//@-moz-keyframes workBackground {
+//  0% {
+//    background-position: 13% 0%
+//  }
+//  50% {
+//    background-position: 50% 60%
+//  }
+//  100% {
+//    background-position: 13% 0%
+//  }
 //}
-//
-//.bg-about {
-//  background: linear-gradient(167deg, #e41d29, #3d3091);
+//@keyframes workBackground {
+//  0% {
+//    background-position: 13% 0%
+//  }
+//  50% {
+//    background-position: 50% 60%
+//  }
+//  100% {
+//    background-position: 13% 0%
+//  }
 //}

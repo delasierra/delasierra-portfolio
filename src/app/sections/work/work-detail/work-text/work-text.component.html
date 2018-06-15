@@ -1,9 +1,15 @@
-<section
-        class="work-slide work-overview row"
-        [ngStyle]="{'background-color': detailData.background}">
-  <div class="work-content">
-    <!--TODO add NgStyle condition para cambiar el color del texto a blanco o color main + negro-->
-    <h2>{{detailData.title}}</h2>
-    <p>{{detailData.description}}</p>
-  </div>
+<section class="work-slide-content work-text row"
+         [ngStyle]="{'background': detailData.background}">
+
+    <div class="work-content">
+
+        <h2 [ngStyle]="getTitleStyles()">
+            {{detailData.title}}
+        </h2>
+
+        <p [ngStyle]="getParagraphStyles()"
+           [ngClass]="{'dark-text': detailData.background === '#ffffff' || detailData.background === '#fff' || detailData.background === 'white' || detailData.background === ''}">
+            {{detailData.description}}
+        </p>
+    </div>
 </section>
