@@ -12,6 +12,7 @@ import {WorkImageSliderComponent} from './work-detail/work-image-slider/work-ima
 import {WorkVideoComponent} from './work-detail/work-video/work-video.component';
 import {WorkHomeComponent} from './work-detail/work-home/work-home.component';
 import { WorkComponent } from './work.component';
+import {BgStyleDirective} from '../../directives/attributes/bg-style.directive';
 
 @NgModule({
     imports:      [
@@ -29,6 +30,7 @@ import { WorkComponent } from './work.component';
         WorkImageSliderComponent,
         WorkVideoComponent,
         WorkComponent,
+        BgStyleDirective,
     ],
     providers:    [],
 })

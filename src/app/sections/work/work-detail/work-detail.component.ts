@@ -31,5 +31,9 @@ export class WorkDetailComponent implements OnInit {
         // console.log(this.workCaseData);
     }
 
+    // getBackStyle(bg: string): string {
+    //     return this.workService.getBackgroundStyle(bg);
+    // }
+
 //    Change header background color
 }

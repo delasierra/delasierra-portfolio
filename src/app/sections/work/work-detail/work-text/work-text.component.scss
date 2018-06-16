@@ -1,20 +1,18 @@
 @import '../work-detail.component';
-
 .work-text {
-
   .work-content {
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 50%; //add to mediaquery
+    //width: 50%; //add to mediaquery
     text-align: center;
+    margin: 40px;
 
     h2,
     .h2 {
       width: 100%;
       border-bottom: solid white thin;
       padding-bottom: 8px;
-      //color: $primary-gray;
     }
 
   }

@@ -22,31 +22,6 @@
           "platforms": "Web app for desktop and tablets"
         }
       },
-
-      {
-        "type": "work-image",
-        "data": {
-          "images": [
-            "assets/work/01amte/web_public_view.png",
-            "assets/work/01amte/web_task_circles.png",
-            "assets/work/01amte/web_therapist_no_header.png",
-            "assets/work/01amte/web_parents_sm.png"
-          ],
-          "position": "center",
-          "layout": "",
-          "background": "assets/work/01amte/bg_avatars.png",
-          "fx": ""
-        }
-      },
-      {
-        "type": "work-text",
-        "data": {
-          "title": "TEST User View",
-          "description": "TEST Hacer animación con scroll de todas las pantallas",
-          "position": "center",
-          "background": "#ffffff"
-        }
-      },
       {
         "type": "work-image-text",
         "data": {
@@ -180,11 +155,10 @@
         "type": "work-image",
         "data": {
           "images": [
-            "assets/work/01amte/bg_collage.png"
           ],
           "position": "cover",
           "layout": "",
-          "background": "",
+          "background": "assets/work/01amte/bg_collage.png",
           "fx": ""
         }
       }

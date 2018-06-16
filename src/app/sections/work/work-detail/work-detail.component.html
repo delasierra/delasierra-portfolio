@@ -1,5 +1,5 @@
 <div class="work-slide row"
-     [ngStyle]="{'background': workCaseData.general.mainColor}"
+     [appBgStyle]="workCaseData.general.mainColor"
      *ngFor="let section of workCaseData.screens">
 
     <section [ngSwitch]="section.type" class="col-12">

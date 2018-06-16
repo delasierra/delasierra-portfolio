@@ -46,8 +46,8 @@ export interface WorkImgData {
 }
 
 export interface WorkImageTextData {
-    text: WorkTextData;
-    images: WorkImgData;
+    text: any;
+    images: any;
     position: string;
     background: string;
     layout: string;

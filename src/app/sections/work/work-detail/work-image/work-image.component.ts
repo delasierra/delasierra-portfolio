@@ -10,13 +10,10 @@ export class WorkImageComponent implements OnInit {
 
     @Input() generalData: WorkGeneralData;
     @Input() detailData: WorkImgData;
+
     @ViewChild('imagesContainer') imagesContainerEl: ElementRef;
 
-    mobHeight: any;
-    mobWidth: any;
-    log: any;
-
-    private images: Array<string>;
+    images: Array<string>;
 
     constructor() {
 
@@ -25,23 +22,39 @@ export class WorkImageComponent implements OnInit {
     ngOnInit() {
         this.images = this.detailData.images;
 
-
-        this.mobHeight = (window.screen.height) + 'px';
-        this.mobWidth = (window.screen.width) + 'px';
-        console.log(this.mobHeight);
-        console.log(this.mobWidth);
-        this.log += this.mobWidth;
-        this.log += this.imagesContainerEl.nativeElement.width;
+        // this.mobHeight = (window.screen.height) + 'px';
+        // this.imagesContainerWidth = (window.screen.width) + 'px';
+        // console.log(this.mobHeight);
+        // console.log(this.imagesContainerWidth);
+        // this.log += this.imagesContainerWidth;
+        // this.log += this.imagesContainerEl.nativeElement.width;
     }
 
-    // ngAfterViewInit() {
-    //
-    // }
-
+    // TODO animate position of images when scrolling
     setImagePosition(index: number): object {
-        return {
-            'transform': 'translate(' + (index * -100) / (this.images.length + 1) + '%)'
+        // console.log(this.imagesContainerWidth);
+        // console.log(this.detailData.images[index]);
 
-        };
+        let styles: object;
+        if (this.detailData.position === 'cover') {
+            styles = {
+                // 'height':           '100%',
+                // 'width':            '100%',
+                // 'opacity':          '.1',
+                // 'background-image': 'url("' + this.detailData.images[index] + '")',
+                // 'background-size':  'cover'
+            };
+        } else {
+            styles = {
+                // 'position': 'relative',
+                // 'margin-left': '-' + (index * 100) / (this.images.length) + '%'
+                // 'left': (index * 100) / (this.images.length) + 'px'
+                // 'left': 'calc(' + (index * 100) / (this.images.length) + 'px)'
+                // 'left': 'calc( 100vw - ' + (index * 100) / (this.images.length) + 'px)'
+                // 'transform': 'translate(' + this.imagesContainerWidth / ((index * -100) / (this.images.length)) +
+                // 'px)'
+            };
+        }
+        return styles;
     }
 }

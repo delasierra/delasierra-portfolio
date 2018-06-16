@@ -1,14 +1,20 @@
-<section class="work-slide-content row"
-         [ngStyle]="{'background': detailData.background}">
-    <div class="col-md-6">
+<section class="work-slide-content work-image-text row"
+         [appBgStyle]="detailData.background"
+         [ngClass]="{'left-layout': detailData.position === 'left'}">
+    <!--<div [className]="{getTextLayout()}">-->
+
+    <div [ngClass]="getTextLayout()">
         <app-work-text
                 [generalData]="generalData"
                 [detailData]="detailData">
         </app-work-text>
     </div>
-    <div class="col-md-6">
+    <div [ngClass]="getImagesLayout()">
+         <!--[ngClass]="{'col-md-6' : isEvenLayout()}">-->
         <app-work-image
                 [generalData]="generalData"
-                [detailData]="detailData"></app-work-image>
+                [detailData]="getImageStyles()">
+
+        </app-work-image>
     </div>
 </section>

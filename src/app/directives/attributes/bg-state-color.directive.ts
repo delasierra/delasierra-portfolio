@@ -1,6 +1,6 @@
 import {Directive, ElementRef, Input} from '@angular/core';
 import {TimelineMax} from 'gsap';
-import {ActivatedRoute, NavigationEnd, Router, RouterEvent} from '@angular/router';
+import {NavigationEnd, Router, RouterEvent} from '@angular/router';
 import {map, filter} from 'rxjs/operators';
 import {WorkService} from '../../sections/work/work.service';
 import {SECTION} from '../../models/routing.model';
@@ -9,7 +9,7 @@ import {SECTION} from '../../models/routing.model';
     selector: '[appBgStateColor]'
 })
 export class BgStateColorDirective {
-    @Input('appBgStateColor') stateColor: { color1: string, color2: string };
+    @Input('appBgStateColor') appBgStateColor: { color1: string, color2: string };
 
     tl = new TimelineMax();
 
@@ -39,12 +39,12 @@ export class BgStateColorDirective {
     }
 
     private updateBackground(section: string, param?: string) {
-        if (this.stateColor) {
-            this.setCustomColors(this.stateColor.color1, this.stateColor.color2);
-
-        } else {
+        // if (this.stateColor) {
+        //     this.setCustomColors(this.stateColor.color1, this.stateColor.color2);
+        //
+        // } else {
+        // }
             this.setDefaultColors(section, param);
-        }
         this.tl.play();
     }
 
