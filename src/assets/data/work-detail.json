@@ -167,11 +167,11 @@
   {
     "id": 20,
     "general": {
-      "mainColor": "#182b55",
-      "mainImg": "projectid/img/test.png",
-      "logo": "projectid/img/logo.svg",
-      "title": "Eye Hawk",
-      "description": "Project description: Lorem ipsum dolor sit amet."
+      "mainColor": "#182b54",
+      "mainImg": "assets/work/02eyehawk/BG_ojoHalcon.png",
+      "logo": "assets/work/02eyehawk/logo_rafanadal.svg",
+      "title": "HAW EYE",
+      "description": "Installation game. Two desktop apps communicating via sockets"
     },
     "screens": [
       {
@@ -191,32 +191,29 @@
         "type": "work-image",
         "data": {
           "images": [
-            "url/image.png"
           ],
           "position": "cover",
           "layout": "",
-          "background": "",
+          "background": "assets/work/02eyehawk/instalation_2screens.png",
           "fx": ""
         }
       },
       {
         "type": "work-text",
         "data": {
-          "title": "How does the app works",
-          "description": "Description: Lorem ipsum dolor sit amet.",
+          "title": "match point video",
+          "description": "Watch the match point on the app in the big screen and follow the ball like a eye hawk",
           "position": "center",
           "background": ""
         }
       },
       {
-        "type": "work-image-text",
+        "type": "work-image",
         "data": {
-          "title": "Watch the video and judge",
-          "description": "Description: Lorem ipsum dolor sit amet.",
           "images": [
-            "url/image.png"
+            "assets/work/02eyehawk/match_point.png"
           ],
-          "position": "right",
+          "position": "center",
           "layout": "",
           "background": "",
           "fx": ""
@@ -226,23 +223,9 @@
         "type": "work-image-text",
         "data": {
           "title": "User have to answer fast",
-          "description": "Description: Lorem ipsum dolor sit amet.",
+          "description": "Los usuarios compiten para ver quiñen acierta y ademas consiguen más puntos cuanto más rápido contesten EACH ROUND",
           "images": [
-            "url/image.png"
-          ],
-          "position": "left",
-          "layout": "",
-          "background": "",
-          "fx": ""
-        }
-      },
-      {
-        "type": "work-image-text",
-        "data": {
-          "title": "Watch the answer",
-          "description": "Description: Lorem ipsum dolor sit amet.",
-          "images": [
-            "url/image.png"
+            "assets/work/02eyehawk/in_out_user.png"
           ],
           "position": "right",
           "layout": "",
@@ -251,9 +234,11 @@
         }
       },
       {
-        "type": "work-video",
+        "type": "work-text",
         "data": {
-          "video": "video/intro/",
+          "title": "Eye hawk 3d video",
+          "description": "Watch the match point on the app in the big screen and follow the ball like a eye hawk",
+          "position": "center",
           "background": ""
         }
       },
@@ -261,11 +246,34 @@
         "type": "work-image",
         "data": {
           "images": [
-            "url/image.png"
+            "assets/work/02eyehawk/hawkeye_full1.png"
+          ],
+          "position": "center",
+          "layout": "",
+          "background": "",
+          "fx": ""
+        }
+      },
+      {
+        "type": "work-image",
+        "data": {
+          "images": [
+            "assets/work/02eyehawk/hawkeye_full2.png"
+          ],
+          "position": "center",
+          "layout": "",
+          "background": "",
+          "fx": ""
+        }
+      },
+      {
+        "type": "work-image",
+        "data": {
+          "images": [
           ],
           "position": "cover",
           "layout": "",
-          "background": "",
+          "background": "assets/work/02eyehawk/instalation_2screens_closeup.png",
           "fx": ""
         }
       }
