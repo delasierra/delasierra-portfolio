@@ -282,11 +282,11 @@
   {
     "id": 21,
     "general": {
-      "mainColor": "#151515",
-      "mainImg": "projectid/img/test.png",
-      "logo": "projectid/img/logo.svg",
+      "mainColor": "#242424",
+      "mainImg": "assets/work/03westworld/main_img.png",
+      "logo": "assets/work/03westworld/logo_hbo.svg",
       "title": "Westworld",
-      "description": "Project description: Lorem ipsum dolor sit amet."
+      "description": "Project description Lorem ipsum dolor sit amet."
     },
     "screens": [
       {
@@ -308,9 +308,9 @@
           "title": "User introduce code",
           "description": "Description: Lorem ipsum dolor sit amet.",
           "images": [
-            "url/image.png"
+            "assets/work/03westworld/screen1.png"
           ],
-          "position": "right",
+          "position": "left",
           "layout": "",
           "background": "",
           "fx": ""
@@ -322,9 +322,9 @@
           "title": "Answer few questions",
           "description": "Description: Lorem ipsum dolor sit amet.",
           "images": [
-            "url/image.png"
+            "assets/work/03westworld/screen2.png"
           ],
-          "position": "left",
+          "position": "right",
           "layout": "",
           "background": "",
           "fx": ""
@@ -336,9 +336,9 @@
           "title": "Get personalized character",
           "description": "Description: Lorem ipsum dolor sit amet.",
           "images": [
-            "url/image.png"
+            "assets/work/03westworld/screen3.png"
           ],
-          "position": "right",
+          "position": "left",
           "layout": "",
           "background": "",
           "fx": ""
@@ -358,6 +358,632 @@
             "url/image.png"
           ],
           "background": "url/imagebg"
+        }
+      }
+    ]
+  },
+  {
+    "id": 22,
+    "general": {
+      "mainColor": "#263049",
+      "mainImg": "assets/work/04reflexes/main_bg.png",
+      "logo": "assets/work/04reflexes/logo_rafanadal.svg",
+      "title": "Reflexes",
+      "description": "Test your reflexes desktop app and arduino"
+    },
+    "screens": [
+      {
+        "type": "work-home",
+        "data": null
+      },
+      {
+        "type": "work-overview",
+        "data": {
+          "description": "description: Lorem ipsum dolor sit amet.",
+          "role": "role: Lorem ipsum dolor sit amet.",
+          "credits": "credits: Lorem ipsum dolor sit amet.",
+          "platforms": "platforms: Lorem ipsum dolor sit amet."
+        }
+      },
+      {
+        "type": "work-image",
+        "data": {
+          "images": [
+          ],
+          "position": "cover",
+          "layout": "",
+          "background": "assets/work/04reflexes/instalation1.png",
+          "fx": ""
+        }
+      },
+      {
+        "type": "work-text",
+        "data": {
+          "title": "Game Rules",
+          "description": "User must hit the buttons as they turn on as fast as they can",
+          "position": "center",
+          "background": ""
+        }
+      },
+      {
+        "type": "work-image",
+        "data": {
+          "images": [
+          ],
+          "position": "cover",
+          "layout": "",
+          "background": "assets/work/04reflexes/instalation2.png",
+          "fx": ""
+        }
+      },
+      {
+        "type": "work-text",
+        "data": {
+          "title": "About the app",
+          "description": "Two diferent apps communicating throught sockets",
+          "position": "center",
+          "background": ""
+        }
+      },
+      {
+        "type": "work-image",
+        "data": {
+          "images": [
+            "assets/work/04reflexes/screen1.png"
+          ],
+          "position": "left",
+          "layout": "",
+          "background": "",
+          "fx": ""
+        }
+      },
+      {
+        "type": "work-image",
+        "data": {
+          "images": [
+            "assets/work/04reflexes/screen2.png"
+          ],
+          "position": "right",
+          "layout": "",
+          "background": "",
+          "fx": ""
+        }
+      },
+      {
+        "type": "work-image-text",
+        "data": {
+          "title": "Made for childrenand adults",
+          "description": "Cuando los dos usuarios hayan contestado o el tiempo se acabe se muestra la respuesta en pantalla",
+          "images": [
+            "assets/work/04reflexes/screen3.png"
+          ],
+          "position": "left",
+          "layout": "",
+          "background": "",
+          "fx": ""
+        }
+      },
+      {
+        "type": "work-image-text",
+        "data": {
+          "title": "Used for real training",
+          "description": "Utilizado por profesionales para un entrenamiento serio",
+          "images": [
+            "assets/work/04reflexes/instalation_trainer.png"
+          ],
+          "position": "right",
+          "layout": "",
+          "background": "",
+          "fx": ""
+        }
+      },
+      {
+        "type": "work-image-text",
+        "data": {
+          "title": "Beat everyone else and save your record",
+          "description": "Cuando los dos usuarios hayan contestado o el tiempo se acabe se muestra la respuesta en pantalla",
+          "images": [
+            "assets/work/04reflexes/screen4.png",
+            "assets/work/04reflexes/screen5.png"
+          ],
+          "position": "left",
+          "layout": "",
+          "background": "",
+          "fx": ""
+        }
+      },
+      {
+        "type": "work-image",
+        "data": {
+          "images": [
+            "assets/work/04reflexes/screen6.png"
+          ],
+          "position": "center",
+          "layout": "",
+          "background": "",
+          "fx": ""
+        }
+      }
+    ]
+  },
+  {
+    "id": 23,
+    "general": {
+      "mainColor": "#5361a5",
+      "mainImg": "assets/work/05camelcolors/main_bg.png",
+      "logo": "assets/work/05camelcolors/logo_camel.svg",
+      "title": "Camel Colors",
+      "description": "Augmented reality ios app"
+    },
+    "screens": [
+      {
+        "type": "work-home",
+        "data": null
+      },
+      {
+        "type": "work-overview",
+        "data": {
+          "description": "description: Lorem ipsum dolor sit amet.",
+          "role": "role: Lorem ipsum dolor sit amet.",
+          "credits": "credits: Lorem ipsum dolor sit amet.",
+          "platforms": "platforms: Lorem ipsum dolor sit amet."
+        }
+      },
+      {
+        "type": "work-image",
+        "data": {
+          "images": [
+            "assets/work/05camelcolors/screen1_big.png"
+          ],
+          "position": "center",
+          "layout": "",
+          "background": "",
+          "fx": ""
+        }
+      },
+      {
+        "type": "work-image-text",
+        "data": {
+          "title": "Choose your parade make up",
+          "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas ac congue eros, id pellentesque tortor. Aliquam accumsan sodales magna. ",
+          "images": [
+            "assets/work/05camelcolors/screen_makeup.png"
+          ],
+          "position": "left",
+          "layout": "",
+          "background": "",
+          "fx": ""
+        }
+      },
+      {
+        "type": "work-video",
+        "data": {
+          "videourl": "test/test.mp4",
+          "background": ""
+        }
+      },
+      {
+        "type": "work-image-text",
+        "data": {
+          "title": "Take a picturewith your make up",
+          "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas ac congue eros, id pellentesque tortor. Aliquam accumsan sodales magna. ",
+          "images": [
+            "assets/work/05camelcolors/screen_getpicture.png"
+          ],
+          "position": "right",
+          "layout": "",
+          "background": "",
+          "fx": ""
+        }
+      },
+      {
+        "type": "work-image-text",
+        "data": {
+          "title": "Get your picture in your email",
+          "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas ac congue eros, id pellentesque tortor. Aliquam accumsan sodales magna. ",
+          "images": [
+            "assets/work/05camelcolors/screen_form.png"
+          ],
+          "position": "left",
+          "layout": "",
+          "background": "",
+          "fx": ""
+        }
+      },
+      {
+        "type": "work-image",
+        "data": {
+          "images": [
+            "assets/work/05camelcolors/screen_thanks_big.png"
+          ],
+          "position": "center",
+          "layout": "",
+          "background": "",
+          "fx": ""
+        }
+      }
+    ]
+  },
+  {
+    "id": 24,
+    "general": {
+      "mainColor": "#4263ab",
+      "mainImg": "assets/work/06tnt/main_bg.png",
+      "logo": "assets/work/06tnt/tnt_logo.svg",
+      "title": "Game TNT",
+      "description": "Inmersive event registration web app"
+    },
+    "screens": [
+      {
+        "type": "work-home",
+        "data": null
+      },
+      {
+        "type": "work-overview",
+        "data": {
+          "description": "description: Lorem ipsum dolor sit amet.",
+          "role": "role: Lorem ipsum dolor sit amet.",
+          "credits": "credits: Lorem ipsum dolor sit amet.",
+          "platforms": "platforms: Lorem ipsum dolor sit amet."
+        }
+      },
+      {
+        "type": "work-image-text",
+        "data": {
+          "title": "random character to look for",
+          "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas ac congue eros, id pellentesque tortor. Aliquam accumsan sodales magna. ",
+          "images": [
+            "assets/work/06tnt/drawing-flash.png"
+          ],
+          "position": "right",
+          "layout": "",
+          "background": "",
+          "fx": ""
+        }
+      },
+      {
+        "type": "work-image-text",
+        "data": {
+          "title": "Drag the image and find it",
+          "description": "Drag the image to find your character. Click and you will get if is the right one or not.",
+          "images": [
+            "assets/work/06tnt/screen1.png"
+          ],
+          "position": "left",
+          "layout": "",
+          "background": "assets/work/06tnt/screens-bg.png",
+          "fx": ""
+        }
+      },
+      {
+        "type": "work-image-text",
+        "data": {
+          "title": "random character to look for",
+          "description": "Drag the image to find your character. Click and you will get if is the right one or not.",
+          "images": [
+            "assets/work/06tnt/screen2.png"
+          ],
+          "position": "right",
+          "layout": "",
+          "background": "assets/work/06tnt/screens-bg.png",
+          "fx": ""
+        }
+      },
+      {
+        "type": "work-image",
+        "data": {
+          "images": [
+            "assets/work/06tnt/drawing-char.png"
+          ],
+          "position": "center",
+          "layout": "",
+          "background": "",
+          "fx": ""
+        }
+      },
+      {
+        "type": "work-image",
+        "data": {
+          "images": [
+            "assets/work/06tnt/drawing-char3.png"
+          ],
+          "position": "left",
+          "layout": "",
+          "background": "",
+          "fx": ""
+        }
+      },
+      {
+        "type": "work-image",
+        "data": {
+          "images": [
+            "assets/work/06tnt/drawing-char4.png"
+          ],
+          "position": "right",
+          "layout": "",
+          "background": "",
+          "fx": ""
+        }
+      },
+      {
+        "type": "work-image",
+        "data": {
+          "images": [
+            "assets/work/06tnt/drawing-char5.png"
+          ],
+          "position": "center",
+          "layout": "",
+          "background": "",
+          "fx": ""
+        }
+      },
+      {
+        "type": "work-image",
+        "data": {
+          "images": [
+            ""
+          ],
+          "position": "center",
+          "layout": "cover",
+          "background": "assets/work/06tnt/last_screen_hd.png",
+          "fx": ""
+        }
+      }
+    ]
+  },
+  {
+    "id": 25,
+    "general": {
+      "mainColor": "#b71b21",
+      "mainImg": "assets/work/07winston/main_bg.png",
+      "logo": "assets/work/07winston/winston_logo.svg",
+      "title": "Winston Game",
+      "description": "Android app for gathering user information in promotion"
+    },
+    "screens": [
+      {
+        "type": "work-home",
+        "data": null
+      },
+      {
+        "type": "work-overview",
+        "data": {
+          "description": "description: Lorem ipsum dolor sit amet.",
+          "role": "role: Lorem ipsum dolor sit amet.",
+          "credits": "credits: Lorem ipsum dolor sit amet.",
+          "platforms": "platforms: Lorem ipsum dolor sit amet."
+        }
+      },
+      {
+        "type": "work-image",
+        "data": {
+          "images": [
+            "assets/work/07winston/screen1.png"
+          ],
+          "position": "center",
+          "layout": "",
+          "background": "",
+          "fx": ""
+        }
+      },
+      {
+        "type": "work-image-text",
+        "data": {
+          "title": "the goal: find the eagles",
+          "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas ac congue eros, id pellentesque tortor. Aliquam accumsan sodales magna. ",
+          "images": [
+            "assets/work/07winston/screen2.png"
+          ],
+          "position": "right",
+          "layout": "",
+          "background": "#ffffff",
+          "fx": ""
+        }
+      },
+      {
+        "type": "work-image-text",
+        "data": {
+          "title": "time is against you",
+          "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas ac congue eros, id pellentesque tortor. Aliquam accumsan sodales magna. ",
+          "images": [
+            "assets/work/07winston/screen3.png"
+          ],
+          "position": "left",
+          "layout": "",
+          "background": "",
+          "fx": ""
+        }
+      },
+      {
+        "type": "work-image-text",
+        "data": {
+          "title": "different scenarios",
+          "description": "Drag the image to find your character. Click and you will get if is the right one or not.",
+          "images": [
+            "assets/work/07winston/scenarios1.png",
+            "assets/work/07winston/scenarios2.png",
+            "assets/work/07winston/scenarios3.png"
+          ],
+          "position": "right",
+          "layout": "",
+          "background": "#ffffff",
+          "fx": ""
+        }
+      },
+      {
+        "type": "work-image-text",
+        "data": {
+          "title": "result screens",
+          "description": "Drag the image to find your character. Click and you will get if is the right one or not.",
+          "images": [
+            "assets/work/07winston/results_screen1.png",
+            "assets/work/07winston/results_screen2.png"
+          ],
+          "position": "left",
+          "layout": "",
+          "background": "#ffffff",
+          "fx": ""
+        }
+      },
+      {
+        "type": "work-image-text",
+        "data": {
+          "title": "Participate and sign digitaly",
+          "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas ac congue eros, id pellentesque tortor. Aliquam accumsan sodales magna.",
+          "images": [
+            "assets/work/07winston/form_screen.png"
+          ],
+          "position": "right",
+          "layout": "",
+          "background": "",
+          "fx": ""
+        }
+      },
+      {
+        "type": "work-image-text",
+        "data": {
+          "title": "administrator screens",
+          "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas ac congue eros, id pellentesque tortor. Aliquam accumsan sodales magna.",
+          "images": [
+            "assets/work/07winston/admin1.png",
+            "assets/work/07winston/admin2.png",
+            "assets/work/07winston/admin3.png"
+          ],
+          "position": "left",
+          "layout": "",
+          "background": "#ffffff",
+          "fx": ""
+        }
+      }
+    ]
+  },
+  {
+    "id": 26,
+    "general": {
+      "mainColor": "#3b93a8",
+      "mainImg": "assets/work/08frutasverduras/main_bg.png",
+      "logo": "assets/work/08frutasverduras/logo_frutas.svg",
+      "title": "Frutas & Verduras web app",
+      "description": "Gamified virtual vist web app"
+    },
+    "screens": [
+      {
+        "type": "work-home",
+        "data": null
+      },
+      {
+        "type": "work-overview",
+        "data": {
+          "description": "description: Lorem ipsum dolor sit amet.",
+          "role": "role: Lorem ipsum dolor sit amet.",
+          "credits": "credits: Lorem ipsum dolor sit amet.",
+          "platforms": "platforms: Lorem ipsum dolor sit amet."
+        }
+      },
+      {
+        "type": "work-image-text",
+        "data": {
+          "title": "Overview of the hostel",
+          "description": "Give a realistic perspective of the hostel and its amenities",
+          "images": [
+            "assets/work/08frutasverduras/screen1.png"
+          ],
+          "position": "right",
+          "layout": "",
+          "background": "#ffffff",
+          "fx": ""
+        }
+      },
+      {
+        "type": "work-image-text",
+        "data": {
+          "title": "Navegación en cada edificio",
+          "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas ac congue eros, id pellentesque tortor. Aliquam accumsan sodales magna. ",
+          "images": [
+            "assets/work/08frutasverduras/screen2.png"
+          ],
+          "position": "left",
+          "layout": "",
+          "background": "",
+          "fx": ""
+        }
+      },
+      {
+        "type": "work-image",
+        "data": {
+          "images": [
+            "assets/work/08frutasverduras/illustration_main_building.png"
+          ],
+          "position": "center",
+          "layout": "",
+          "background": "assets/work/08frutasverduras/bg_illustrations.png",
+          "fx": ""
+        }
+      },
+      {
+        "type": "work-image",
+        "data": {
+          "images": [
+            "assets/work/08frutasverduras/illustration_toilets.png"
+          ],
+          "position": "center",
+          "layout": "",
+          "background": "assets/work/08frutasverduras/bg_illustrations.png",
+          "fx": ""
+        }
+      },
+      {
+        "type": "work-image",
+        "data": {
+          "images": [
+            "assets/work/08frutasverduras/illustration_terrace.png"
+          ],
+          "position": "center",
+          "layout": "",
+          "background": "assets/work/08frutasverduras/bg_illustrations.png",
+          "fx": ""
+        }
+      },
+      {
+        "type": "work-image-text",
+        "data": {
+          "title": "description of each corner",
+          "description": "Click on the eye icon to see pictures y get more information on specific area of the hostel",
+          "images": [
+            "assets/work/08frutasverduras/screen3.png"
+          ],
+          "position": "left",
+          "layout": "",
+          "background": "",
+          "fx": ""
+        }
+      },
+      {
+        "type": "work-image-text",
+        "data": {
+          "title": "Accommodation options and prices",
+          "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas ac congue eros, id pellentesque tortor. Aliquam accumsan sodales magna.",
+          "images": [
+            "assets/work/08frutasverduras/screen4.png"
+          ],
+          "position": "right",
+          "layout": "",
+          "background": "",
+          "fx": ""
+        }
+      },
+      {
+        "type": "work-image-text",
+        "data": {
+          "title": "How to get to and from the hostel",
+          "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas ac congue eros, id pellentesque tortor. Aliquam accumsan sodales magna.",
+          "images": [
+            "assets/work/08frutasverduras/screen5.png"
+          ],
+          "position": "left",
+          "layout": "",
+          "background": "#ffffff",
+          "fx": ""
         }
       }
     ]
