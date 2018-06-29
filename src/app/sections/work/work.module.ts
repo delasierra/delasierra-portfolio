@@ -13,11 +13,18 @@ import {WorkVideoComponent} from './work-detail/work-video/work-video.component'
 import {WorkHomeComponent} from './work-detail/work-home/work-home.component';
 import { WorkComponent } from './work.component';
 import {BgStyleDirective} from '../../directives/attributes/bg-style.directive';
+import {FontAwesomeModule} from '@fortawesome/angular-fontawesome';
+import {faCircle, faTimes} from '@fortawesome/free-solid-svg-icons';
+import {library} from '@fortawesome/fontawesome-svg-core';
+
+library.add(faTimes);
+library.add(faCircle);
 
 @NgModule({
     imports:      [
         CommonModule,
         WorkRoutingModule,
+        FontAwesomeModule,
     ],
     declarations: [
         WorkMenuComponent,

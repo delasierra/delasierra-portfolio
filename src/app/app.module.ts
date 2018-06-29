@@ -12,9 +12,9 @@ import {NgbModule} from '@ng-bootstrap/ng-bootstrap';
 import {ContactFormComponent} from './components/contact-form/contact-form.component';
 import { SocialMediaLinksComponent } from './components/social-media/social-media.component';
 
-import { AngularFontAwesomeModule } from 'angular-font-awesome';
 import {WebglComponent} from './components/webgl/webgl.component';
 import { BgStateColorDirective } from './directives/attributes/bg-state-color.directive';
+import {FontAwesomeModule} from '@fortawesome/angular-fontawesome';
 
 @NgModule({
     declarations: [
@@ -33,7 +33,7 @@ import { BgStateColorDirective } from './directives/attributes/bg-state-color.di
         HttpClientModule,
         FormsModule,
         NgbModule.forRoot(),
-        AngularFontAwesomeModule,
+        FontAwesomeModule,
     ],
     providers:    [],
     bootstrap:    [AppComponent]

@@ -1,7 +1,6 @@
 <section class="work-menu">
     <ul>
         <li *ngFor="let work of workListData">
-            <!--<a routerLink="detail">{{ work.project.id }} {{ work.project.general.title }}</a>-->
             <a [routerLink]="['detail', work.id]" routerLinkActive="active">{{ work.general.title }}</a>
         </li>
     </ul>
