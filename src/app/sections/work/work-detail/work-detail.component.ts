@@ -1,7 +1,8 @@
 import {Component, OnInit} from '@angular/core';
-import {ActivatedRoute} from '@angular/router';
+import {ActivatedRoute, Router} from '@angular/router';
 import {WorkService} from '../work.service';
 import {WorkDataModel} from '../models/work-data.model';
+import {SECTION} from '../../../models/routing.model';
 
 @Component({
     selector:    'app-work-detail',
@@ -10,8 +11,8 @@ import {WorkDataModel} from '../models/work-data.model';
 })
 export class WorkDetailComponent implements OnInit {
 
-    private id: number;
-    private workCaseData: WorkDataModel;
+    id: number;
+    workCaseData: WorkDataModel;
 
     private HOME_ID = 'work-home';
     private OVERVIEW_ID = 'work-overview';
@@ -22,6 +23,7 @@ export class WorkDetailComponent implements OnInit {
     private VIDEO_ID = 'work-video';
 
     constructor(private route: ActivatedRoute,
+                private router: Router,
                 private workService: WorkService) {
         this.id = this.route.snapshot.params['id'];
     }
@@ -29,6 +31,10 @@ export class WorkDetailComponent implements OnInit {
     ngOnInit() {
         this.workCaseData = this.workService.getWorkCaseData(this.id);
         // console.log(this.workCaseData);
+    }
+
+    closeWorkDetail(){
+        this.router.navigate([SECTION.work]);
     }
 
     // getBackStyle(bg: string): string {

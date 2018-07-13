@@ -8,7 +8,7 @@ import {WorkDataModel} from './models/work-data.model';
 )
 export class WorkService {
 
-    private workCasesList: Array<WorkDataModel> = require('../../../assets/data/work-detail.json');
+    workCasesList: Array<WorkDataModel> = require('../../../assets/data/work-detail.json');
 
     constructor() {
     }

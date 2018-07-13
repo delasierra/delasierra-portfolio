@@ -10,7 +10,7 @@ import {WorkDataModel} from '../models/work-data.model';
 })
 export class WorkMenuComponent implements OnInit {
 
-    private workListData: Array<WorkDataModel>;
+    workListData: Array<WorkDataModel>;
 
     constructor(private workService: WorkService,
                 private route: ActivatedRoute,

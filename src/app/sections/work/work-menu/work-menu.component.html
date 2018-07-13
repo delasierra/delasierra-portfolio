@@ -1,8 +1,12 @@
 <section class="work-menu">
-    <ul>
+    <ul class="list-unstyled">
         <li *ngFor="let work of workListData">
-            <a [routerLink]="['detail', work.id]" routerLinkActive="active">{{ work.general.title }}</a>
+            <!--<a [routerLink]="['detail', work.id]" routerLinkActive="active">{{ work.general.title }}</a>-->
+            <a [routerLink]="['detail', work.id]" routerLinkActive="active">
+                <app-work-menu-item></app-work-menu-item>
+            </a>
         </li>
     </ul>
+    <!--<app-work-menu-item></app-work-menu-item>-->
 </section>
 

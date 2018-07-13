@@ -9,7 +9,7 @@ import {SocialMediaLinksService} from './social-media.service';
 })
 export class SocialMediaLinksComponent implements OnInit {
 
-    private data: SocialMediaModel
+    data: SocialMediaModel
     // private linksData: SocialMediaLinkModel;
 
     constructor(private socialMediaLinksService: SocialMediaLinksService) {

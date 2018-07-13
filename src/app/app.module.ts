@@ -17,6 +17,14 @@ import { BgStateColorDirective } from './directives/attributes/bg-state-color.di
 import {FontAwesomeModule} from '@fortawesome/angular-fontawesome';
 
 @NgModule({
+    imports:      [
+        BrowserModule,
+        AppRoutingModule,
+        HttpClientModule,
+        FormsModule,
+        NgbModule.forRoot(),
+        FontAwesomeModule,
+    ],
     declarations: [
         AppComponent,
         WebglComponent,
@@ -26,14 +34,6 @@ import {FontAwesomeModule} from '@fortawesome/angular-fontawesome';
         NavbarMainComponent,
         SocialMediaLinksComponent,
         BgStateColorDirective,
-    ],
-    imports:      [
-        BrowserModule,
-        AppRoutingModule,
-        HttpClientModule,
-        FormsModule,
-        NgbModule.forRoot(),
-        FontAwesomeModule,
     ],
     providers:    [],
     bootstrap:    [AppComponent]

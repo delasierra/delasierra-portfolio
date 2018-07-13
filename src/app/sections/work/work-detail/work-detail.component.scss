@@ -12,12 +12,11 @@
 }
 
 .btn-close{
-  width: 90px;
-  height: 90px;
-  z-index: 900000000;
-  position: relative;
-  top:100px;
-  color: #ffffff;
-  //text-align: right;
-  //float: right;
+  z-index: 2;
+  position: fixed;
+  top: 100px;
+  left: 90vw;
+  cursor: pointer;
+
+//  TODO add media queries
 }

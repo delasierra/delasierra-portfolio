@@ -10,8 +10,9 @@ import {ContactFormService} from './contact-form.service';
 export class ContactFormComponent implements OnInit {
 
 
-    private data: ContactSectionData;
-    private user = {
+    data: ContactSectionData;
+    showContactForm: boolean;
+    user = {
         message: '',
         name:    '',
         email:   ''
