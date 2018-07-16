@@ -6,6 +6,7 @@
       "mainImg": "assets/work/01amte/bg_main.svg",
       "logo": "assets/work/01amte/logo_uned.svg",
       "title": "AMTE",
+      "subtitle": "Web app for research project",
       "description": "Web app para tratar la ansiedad y la depresión en adolescentes. Proyecto de investigación de La universidad UNED"
     },
     "screens": [
@@ -170,7 +171,8 @@
       "mainColor": "#182b54",
       "mainImg": "assets/work/02eyehawk/BG_ojoHalcon.png",
       "logo": "assets/work/02eyehawk/logo_rafanadal.svg",
-      "title": "HAW EYE",
+      "title": "HAWK EYE",
+      "subtitle": "Multi desktop app and game instalation",
       "description": "Installation game. Two desktop apps communicating via sockets"
     },
     "screens": [
@@ -285,7 +287,8 @@
       "mainColor": "#242424",
       "mainImg": "assets/work/03westworld/main_img.png",
       "logo": "assets/work/03westworld/logo_hbo.svg",
-      "title": "Westworld",
+      "title": "West world",
+      "subtitle": "Inmersive event registration web app game",
       "description": "Project description Lorem ipsum dolor sit amet."
     },
     "screens": [
@@ -369,6 +372,7 @@
       "mainImg": "assets/work/04reflexes/main_bg.png",
       "logo": "assets/work/04reflexes/logo_rafanadal.svg",
       "title": "Reflexes",
+      "subtitle": "Desktop app controlling Arduino",
       "description": "Test your reflexes desktop app and arduino"
     },
     "screens": [
@@ -513,6 +517,7 @@
       "mainImg": "assets/work/05camelcolors/main_bg.png",
       "logo": "assets/work/05camelcolors/logo_camel.svg",
       "title": "Camel Colors",
+      "subtitle": "Augmented reality iOS app",
       "description": "Augmented reality ios app"
     },
     "screens": [
@@ -611,7 +616,8 @@
       "mainImg": "assets/work/06tnt/main_bg.png",
       "logo": "assets/work/06tnt/tnt_logo.svg",
       "title": "Game TNT",
-      "description": "Inmersive event registration web app"
+      "subtitle": "Web app game",
+      "description": "Inmersive event registration web app game"
     },
     "screens": [
       {
@@ -738,6 +744,7 @@
       "mainImg": "assets/work/07winston/main_bg.png",
       "logo": "assets/work/07winston/winston_logo.svg",
       "title": "Winston Game",
+      "subtitle": "Android game",
       "description": "Android app for gathering user information in promotion"
     },
     "screens": [
@@ -863,7 +870,8 @@
       "mainColor": "#3b93a8",
       "mainImg": "assets/work/08frutasverduras/main_bg.png",
       "logo": "assets/work/08frutasverduras/logo_frutas.svg",
-      "title": "Frutas & Verduras web app",
+      "title": "Frutas & Verduras",
+      "subtitle": "Web app",
       "description": "Gamified virtual vist web app"
     },
     "screens": [

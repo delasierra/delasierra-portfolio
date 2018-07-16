@@ -1,6 +1,5 @@
 import {Component, OnInit} from '@angular/core';
 import {Router} from '@angular/router';
-import {TweenMax, TimelineMax, Ease, Power1, Bounce, Linear} from 'gsap';
 
 @Component({
     selector:    'app-work-menu-item',

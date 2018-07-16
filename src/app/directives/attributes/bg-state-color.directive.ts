@@ -44,7 +44,7 @@ export class BgStateColorDirective {
         //
         // } else {
         // }
-            this.setDefaultColors(section, param);
+        this.setDefaultColors(section, param);
         this.tl.play();
     }
 
@@ -56,6 +56,7 @@ export class BgStateColorDirective {
                 this.tl
                     .to(this.el.nativeElement, 1, {
                         backgroundImage: 'linear-gradient(170deg, #e41d29, #3d3091)',
+                        // backgroundImage: 'linear-gradient(170deg, #ffffff, #000000)',
                         overwrite:       'all'
                     });
                 break;
@@ -63,7 +64,8 @@ export class BgStateColorDirective {
             case 'about':
                 this.tl
                     .to(this.el.nativeElement, 1, {
-                        backgroundImage: 'linear-gradient(170deg, green, #212227)',
+                        // backgroundImage: 'linear-gradient(170deg, #1f2024, #212227)',
+                        backgroundImage: 'linear-gradient(170deg, #292a31, #212227)',
                         overwrite:       'all'
                     });
                 break;

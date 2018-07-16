@@ -13,26 +13,26 @@
     ]
   },
   "contact": {
-    "title": "Wnat to know more?",
+    "title": "Want to know more?",
     "introText": [
       "If you hava a project and think iI can give you a hand, you are a great agency and think I can fit in as a team member or just would like to get in touch, please drop me a line:"
     ],
     "message": {
-      "placeholder": "Drop me a line or two",
+      "placeholder": "Send me a message",
       "errors": {
         "minLength": "Must be at least 20 characers",
         "required": "Please tell me a bit more"
       }
     },
     "name": {
-      "placeholder": "How should I call you?",
+      "placeholder": "Write here your name",
       "errors": {
         "minLength": "Must be at least 2 characers",
         "required": "Please tell me a bit more"
       }
     },
     "email": {
-      "placeholder": "Add here your email",
+      "placeholder": "And here your email",
       "errors": {
         "invalid": "Email is not valid",
         "required": "email is requiered"

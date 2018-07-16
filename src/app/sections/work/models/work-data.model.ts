@@ -20,6 +20,7 @@ export interface WorkGeneralData {
     mainImg: string;
     logo: string;
     title: string;
+    subtitle: string;
     description: string;
     hastags: Array<string>;
 }

@@ -1,7 +1,14 @@
-// THIS WORKING VERSION
-//:host {
-  //background-color: #ff9d2f;
-  //width: 1200px;
-  //height: 1000px;
-//}
-// END WORKING VERSION
+.about{
+  margin-top: 150px;
+  padding: 0 40px;
+
+  h1{
+    font-weight: 100;
+    color: #a92746;
+    font-size: 2.7rem; //Query
+  }
+
+  p{
+    color: #ecd7dc;
+  }
+}

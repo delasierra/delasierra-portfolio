@@ -1,5 +1,5 @@
 import {Component, OnInit} from '@angular/core';
-import {ActivatedRoute, Router} from '@angular/router';
+import {ActivatedRoute, NavigationEnd, Router} from '@angular/router';
 import {WorkService} from '../work.service';
 import {WorkDataModel} from '../models/work-data.model';
 import {SECTION} from '../../../models/routing.model';
@@ -31,9 +31,10 @@ export class WorkDetailComponent implements OnInit {
     ngOnInit() {
         this.workCaseData = this.workService.getWorkCaseData(this.id);
         // console.log(this.workCaseData);
+
     }
 
-    closeWorkDetail(){
+    closeWorkDetail() {
         this.router.navigate([SECTION.work]);
     }
 

@@ -1,0 +1,72 @@
+<section class="form expanded-form">
+  <div class="card card-body">
+    <form #contactForm="ngForm" (ngSubmit)="onSubmit(contactForm)">
+      <div class="form-group">
+
+            <textarea
+                    type="text"
+                    [(ngModel)]="user.message"
+                    #userMessage="ngModel"
+                    [ngClass]="{'is-invalid' : userMessage.errors && userMessage.touched}"
+                    class="form-control is-invalid"
+                    name="message"
+                    required
+                    minlength="2"
+                    placeholder="{{data.message.placeholder}}"
+                    rows="2">
+            </textarea>
+        <div [hidden]="!userMessage.errors?.required" class="invalid-feedback">{{data.message.errors.required}}
+        </div>
+        <div [hidden]="!userMessage.errors?.minlength" class="invalid-feedback">
+          {{data.message.errors.minlength}}
+        </div>
+      </div>
+
+
+      <!--<div class="form-group" *ngIf="showContactForm">-->
+      <div class="form-group" >
+        <input
+                type="text"
+                [(ngModel)]="user.name"
+                #userName="ngModel"
+                [ngClass]="{'is-invalid' : userName.errors && userName.touched}"
+                class="form-control is-invalid"
+                name="name"
+                required
+                minlength="4"
+                placeholder="{{data.name.placeholder}}"
+        >
+        <div [hidden]="!userName.errors?.required" class="invalid-feedback">{{data.name.errors.required}}</div>
+        <div [hidden]="!userName.errors?.minlength" class="invalid-feedback">{{data.name.errors.minlength}}
+        </div>
+      </div>
+
+
+      <!--<div class="form-group" *ngIf="showContactForm">-->
+      <div class="form-group">
+        <input
+                type="email"
+                [(ngModel)]="user.email"
+                  #userEmail="ngModel"
+                [ngClass]="{'is-invalid' : userEmail.errors && userEmail.touched}"
+                class="form-control is-invalid"
+                name="email"
+                required
+                pattern="[a-z0-9!#$%&'*+/=?^_`{|}~-]+(?:\.[a-z0-9!#$%&'*+/=?^_`{|}~-]+)*@(?:[a-z0-9](?:[a-z0-9-]*[a-z0-9])?\.)+[a-z0-9](?:[a-z0-9-]*[a-z0-9])?"
+                placeholder="{{data.email.placeholder}}"
+        >
+        <div [hidden]="!userEmail.errors?.required" class="invalid-feedback">{{data.email.errors.required}}
+        </div>
+        <div [hidden]="!userEmail.errors?.pattern" class="invalid-feedback">{{data.email.errors.invalid}}</div>
+      </div>
+
+
+      <button [disabled]="!contactForm.form.valid"
+              [ngClass]="{'btn-send-form-activated': contactForm.form.valid}"
+              class="btn btn-block btn-primary btn-send-form mb-3">
+              <!--*ngIf="showContactForm">-->
+        {{data.buttonText}}
+      </button>
+    </form>
+  </div>
+</section>

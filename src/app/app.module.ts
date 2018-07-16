@@ -15,6 +15,7 @@ import { SocialMediaLinksComponent } from './components/social-media/social-medi
 import {WebglComponent} from './components/webgl/webgl.component';
 import { BgStateColorDirective } from './directives/attributes/bg-state-color.directive';
 import {FontAwesomeModule} from '@fortawesome/angular-fontawesome';
+import { ContactFormExpandableComponent } from './components/contact-form-expandable/contact-form-expandable.component';
 
 @NgModule({
     imports:      [
@@ -34,6 +35,7 @@ import {FontAwesomeModule} from '@fortawesome/angular-fontawesome';
         NavbarMainComponent,
         SocialMediaLinksComponent,
         BgStateColorDirective,
+        ContactFormExpandableComponent,
     ],
     providers:    [],
     bootstrap:    [AppComponent]

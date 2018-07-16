@@ -1,49 +1,50 @@
 <app-close-btn (click)="closeWorkDetail()" class="btn-close" [bgColor]="workCaseData.general.mainColor"></app-close-btn>
+<div class="work-detail">
+    <div class="work-slide row"
+         [appBgStyle]="workCaseData.general.mainColor"
+         *ngFor="let section of workCaseData.screens">
 
-<div class="work-slide row"
-     [appBgStyle]="workCaseData.general.mainColor"
-     *ngFor="let section of workCaseData.screens">
+        <section [ngSwitch]="section.type" class="col-12">
+            <app-work-home
+                    *ngSwitchCase="HOME_ID"
+                    [generalData]="workCaseData.general">
+            </app-work-home>
 
-    <section [ngSwitch]="section.type" class="col-12">
-        <app-work-home
-                *ngSwitchCase="HOME_ID"
-                [generalData]="workCaseData.general">
-        </app-work-home>
+            <app-work-description
+                    *ngSwitchCase="OVERVIEW_ID"
+                    [generalData]="workCaseData.general"
+                    [detailData]="section.data">
+            </app-work-description>
 
-        <app-work-description
-                *ngSwitchCase="OVERVIEW_ID"
-                [generalData]="workCaseData.general"
-                [detailData]="section.data">
-        </app-work-description>
+            <app-work-text
+                    *ngSwitchCase="TEXT_ID"
+                    [generalData]="workCaseData.general"
+                    [detailData]="section.data">
+            </app-work-text>
 
-        <app-work-text
-                *ngSwitchCase="TEXT_ID"
-                [generalData]="workCaseData.general"
-                [detailData]="section.data">
-        </app-work-text>
+            <app-work-image
+                    *ngSwitchCase="IMAGE_ID"
+                    [generalData]="workCaseData.general"
+                    [detailData]="section.data">
+            </app-work-image>
 
-        <app-work-image
-                *ngSwitchCase="IMAGE_ID"
-                [generalData]="workCaseData.general"
-                [detailData]="section.data">
-        </app-work-image>
+            <app-work-image-text
+                    *ngSwitchCase="IMAGE_TEXT_ID"
+                    [generalData]="workCaseData.general"
+                    [detailData]="section.data">
+            </app-work-image-text>
 
-        <app-work-image-text
-                *ngSwitchCase="IMAGE_TEXT_ID"
-                [generalData]="workCaseData.general"
-                [detailData]="section.data">
-        </app-work-image-text>
+            <app-work-image-slider
+                    *ngSwitchCase="SLIDER_ID"
+                    [generalData]="workCaseData.general"
+                    [detailData]="section.data">
+            </app-work-image-slider>
 
-        <app-work-image-slider
-                *ngSwitchCase="SLIDER_ID"
-                [generalData]="workCaseData.general"
-                [detailData]="section.data">
-        </app-work-image-slider>
-
-        <app-work-video
-                *ngSwitchCase="VIDEO_ID"
-                [generalData]="workCaseData.general"
-                [detailData]="section.data">
-        </app-work-video>
-    </section>
+            <app-work-video
+                    *ngSwitchCase="VIDEO_ID"
+                    [generalData]="workCaseData.general"
+                    [detailData]="section.data">
+            </app-work-video>
+        </section>
+    </div>
 </div>

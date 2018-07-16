@@ -1,0 +1,379 @@
+//FXs
+//.neon-fx {
+//  box-shadow: 0 0 5px #ffffff,
+//  0 0 15px #fda128,
+//  0 0 20px #fc157f;
+//}
+//
+//.neon-text-fx {
+//  text-shadow: 0 0 5px #ffffff,
+//  0 0 15px #fda128,
+//  0 0 20px #fc157f;
+//}
+
+//Menu wrapper
+.work-menu {
+  display: flex;
+  justify-content: center;
+
+  ul {
+    > :first-child {
+      padding-top: 70px;
+    }
+    > :last-child {
+      padding-bottom: 70px;
+    }
+  }
+}
+
+//Work Menu Item
+.item-container {
+  width: 90vw;
+  height: 25vh;
+  border: solid 5px #ffffff;
+  margin: 20px;
+  overflow: hidden;
+
+  -webkit-transform: translateZ(0px);
+
+  //@extend .fixed-background;
+  @extend .neon-fx;
+
+  //-webkit-border-radius: 63px 63px 63px 63px / 108px 108px 72px 72px;
+  //border-radius: 50% 50% 50% 50%  / 60% 60% 40% 40%;
+
+  //border-top-left-radius: 50% 50%;
+  //border-bottom-left-radius: 50% 50%;
+  //border-top-right-radius: 50% 50%;
+  //border-bottom-right-radius: 50% 50%;
+
+  -webkit-border-radius: 50%;
+  border-radius: 50%;
+
+
+  //***** BACKGROUNDS ******
+  //TODO find a way to show background when scrolling
+  .solid-background{
+    background-color: #db2235;
+  }
+
+  .fixed-background {
+    //background-image: linear-gradient(170deg, rgb(100, 29, 41), rgb(161, 218, 45));
+    background-image: linear-gradient(170deg, rgb(228, 29, 41), rgb(61, 48, 145));
+
+    background-attachment: fixed;
+
+    z-index: -3;
+    height: 150vh;
+    width: 100%;
+    min-height: 100%;
+    background-size: cover;
+    overflow: hidden;
+  }
+
+
+  .back-simple{
+    background-image: linear-gradient(180deg, rgba(228, 29, 41, .5), rgba(144, 39, 94, .7));
+
+
+    z-index: -3;
+    height: 150vh;
+    width: 100%;
+    min-height: 100%;
+    background-size: cover;
+    overflow: hidden;
+  }
+
+  .work-background{
+    float: left;
+  }
+
+  .back-chrome {
+    &:before {
+      content: ' ';
+      position: fixed; // instead of background-attachment
+      width: 100%;
+      height: 100%;
+      top: 0;
+      left: 0;
+      background-color: white;
+      background-image: linear-gradient(170deg, rgb(100, 29, 41), rgb(161, 218, 45));
+      //background-image: linear-gradient(170deg, rgb(228, 29, 41), rgb(61, 48, 145));
+      background-size: cover;
+      will-change: transform; // creates a new paint layer
+      z-index: -1;
+    }
+  }
+
+  //.background_fill {
+  //  overflow: hidden;
+  //  position: relative;
+  //  //color: red;
+  //  height: 300vh;
+  //  width: 100%;
+  //}
+  //.background_fill:before {
+  //  //background-color: white;
+  //  content: "";
+  //  z-index: -3;
+  //  position: fixed;
+  //  background-attachment: fixed;
+  //  background-image: linear-gradient(170deg, rgb(228, 29, 41), rgb(61, 48, 145));
+  //  background-size: cover;
+  //  background-repeat: no-repeat;
+  //  //background: url('http://www.lausanneworldpulse.com/pdfs/brierley_map_0507.jpg') no-repeat center center;
+  //  will-change: transform;
+  //  height: 300vh;
+  //  width: 100%;
+  //
+  //}
+
+  .item-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    z-index: 10;
+
+    .work-logo {
+      display: flex;
+      justify-content: center;
+      align-items: flex-end;
+      flex-direction: column;
+
+      width: 50%;
+      text-align: right;
+      img {
+        height: 65px;
+        margin-right: 20px;
+      }
+
+    }
+    .item-info {
+      display: flex;
+      justify-content: center;
+      flex-direction: column;
+
+      width: 50%;
+      min-height: 60%;
+      padding-left: 20px;
+      padding-top: 20px;
+      border-left: solid 1px #ffffff;
+
+      h3 {
+        //word-break: break-all;
+      }
+      p {
+        color: #ffffff;
+        text-transform: uppercase;
+        width: 80%;
+      }
+    }
+
+    &:hover {
+      text-decoration: none;
+      .work-logo {
+        img {
+
+          filter: drop-shadow(
+                          0 0 3px #fda158
+          );
+        }
+      }
+      .item-info {
+        h3, p {
+          @extend .neon-text-fx;
+        }
+      }
+    }
+  }
+}
+
+// Responsive
+@include media-breakpoint-up(xs) {
+  .item-container {
+
+    .item-button {
+
+      .work-logo {
+        img {
+          //height: 45px;
+          max-width: 80%;
+          margin-right: 10px;
+        }
+
+      }
+      .item-info {
+        padding-left: 10px;
+        padding-top: 10px;
+
+        h3 {
+          //font-size: $font-size-base;
+          font-size: $font-size-lg;
+        }
+
+        p {
+          display: none;
+
+        }
+      }
+
+      &:hover {
+        .work-logo {
+          img {
+          }
+        }
+        .item-info {
+
+        }
+      }
+    }
+  }
+}
+
+@include media-breakpoint-up(sm) {
+  .item-container {
+    .item-button {
+      .work-logo {
+        img {
+          max-width: 80%;
+          height: 80px;
+          max-height: 80%;
+          margin-right: 20px;
+        }
+      }
+
+      .item-info {
+        padding-left: 20px;
+        padding-top: 20px;
+
+        h3 {
+          font-size: $font-size-lg;
+        }
+
+        p {
+          //font-size: $font-size-sm;
+          display: block;
+        }
+      }
+
+      &:hover {
+        .work-logo {
+          img {
+          }
+        }
+        .item-info {
+
+        }
+      }
+    }
+  }
+}
+
+@include media-breakpoint-up(md) {
+  .item-container {
+    width: 80vw;
+    .item-button {
+      .work-logo {
+        img {
+          max-width: 90%;
+          margin-right: 20px;
+        }
+      }
+
+      .item-info {
+
+        h3 {
+          //font-size: $font-size-lg;
+        }
+
+        p {
+          //font-size: $font-size-lg;
+        }
+      }
+
+      &:hover {
+        .work-logo {
+          img {
+          }
+        }
+        .item-info {
+
+        }
+      }
+    }
+  }
+
+}
+
+@include media-breakpoint-up(lg) {
+  .item-container {
+    width: 70vw;
+    .item-button {
+      .work-logo {
+        img {
+          //max-width: 80%;
+          margin-right: 30px;
+        }
+      }
+
+      .item-info {
+        padding-left: 30px;
+        padding-top: 30px;
+
+        h3 {
+          //font-size: x-large;
+        }
+
+        p {
+          //font-size: $font-size-sm;
+        }
+      }
+
+      &:hover {
+        .work-logo {
+          img {
+          }
+        }
+        .item-info {
+
+        }
+      }
+    }
+  }
+}
+
+@include media-breakpoint-up(xl) {
+  .item-container {
+    width: 60vw;
+    .item-button {
+      .work-logo {
+        img {
+          max-width: 80%;
+          margin-right: 30px;
+        }
+      }
+
+      .item-info {
+        padding-left: 30px;
+        padding-top: 30px;
+
+        h3 {
+        }
+
+        p {
+        }
+      }
+
+      &:hover {
+        .work-logo {
+          img {
+          }
+        }
+        .item-info {
+
+        }
+      }
+    }
+  }
+}

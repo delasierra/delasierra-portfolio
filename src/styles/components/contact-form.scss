@@ -1,0 +1,129 @@
+.form {
+  .card {
+    background-image: linear-gradient(180deg, rgba(190, 34, 66, .7), rgba(147, 39, 92, .7));
+    //background-image: linear-gradient(180deg, rgb(190, 34, 66), rgb(147, 39, 92));
+    //opacity: .7;
+    line-height: 2;
+    border-radius: .8rem;
+    color: #ffffff;
+    border: none;
+    background-color: transparent;
+
+    &.card-body {
+      padding: 10px;
+    }
+
+    textarea,
+    input {
+      //border-style: none;
+      //border-color: transparent;
+      overflow: auto;
+      outline: none;
+      resize: none;
+      background-color: transparent;
+      border: solid 2px transparent;
+      color: #ffffff;
+      border-radius: 13px;
+
+      &:focus,
+      .uneditable-input:focus {
+        border-color: rgba(190, 34, 66, 0.8);
+        outline: 0 none;
+        -webkit-box-shadow: 0 0 0 4px rgba(163,41,71,1);
+        -moz-box-shadow: 0 0 0 4px rgba(163,41,71,1);
+        box-shadow: 0 0 0 4px rgba(163,41,71,1);
+      }
+
+      > .invalid-feedback {
+        margin-left: 15px;
+      }
+    }
+
+    .btn-send{
+      line-height: 2em;
+      border-radius: 13px;
+    }
+
+    &:hover,
+    &.hover,
+    &:focus,
+    &.focus,
+    &:focus-within {
+      @extend .expanded-form;
+    }
+  }
+}
+
+.expanded-form{
+  .card {
+    //background-image: linear-gradient(180deg, rgba(190, 34, 66, 1), rgba(147, 39, 92, 1));
+    textarea,
+    input {
+      border: solid 1px #a92c4a;
+    }
+  }
+
+}
+
+
+/***** Send btn ******/
+.btn-send-form{
+  line-height: 2;
+  border-radius: .8rem;
+  text-transform: uppercase;
+
+  &:disabled,
+  &[disabled]{
+    color: #fff;
+    background-color: #292a31;
+    border-color: #292a31;
+  }
+
+  &:hover{
+    opacity: 1;
+  }
+}
+
+.btn-send-form-activated{
+  background-image: linear-gradient(180deg, rgb(190, 34, 66), rgb(147, 39, 92));
+  opacity: 1;
+  color: #ffffff;
+  border: solid 2px #ffffff;
+  @extend .neon-fx;
+  @extend .neon-text-fx;
+}
+
+
+/***** Placeholder styles *******/
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+  //@extend .placeholder;
+  opacity: .8; /* Firefox */
+  //font-weight: 200;
+  color: #d4b5be;
+  font-style: italic;
+
+}
+
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+  //@extend .placeholder;
+  color: #c1c1c2;
+}
+
+:-ms-input-placeholder { /* Microsoft Edge */
+  //@extend .placeholder;
+  color: #c1c1c2;
+}
+
+//OLD form version
+//.btn-open-form{
+//  background-image: linear-gradient(180deg, rgb(190, 34, 66), rgb(147, 39, 92));
+//  opacity: .7;
+//  line-height: 2;
+//  border-radius: .8rem;
+//  color: #ffffff;
+//  border: none;
+//
+//  &:hover{
+//    opacity: 1;
+//  }
+//}

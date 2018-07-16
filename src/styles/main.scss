@@ -4,6 +4,7 @@
 @import url('https://fonts.googleapis.com/css?family=Raleway:100,200,300,400,600');
 @import 'variables';
 @import 'mixins';
+@import 'visual-fx';
 
 /*****************************************************
  * Vendor Imports
@@ -14,13 +15,15 @@
 /*****************************************************
  * Components
  *****************************************************/
-//@import '../app/components-bootstrap/navbar-main/navbar-main.component.scss';
+//@import '../app/components/navbar-main/navbar-main.component.scss';
 @import '../app/app.component';
-@import 'components-bootstrap/navbar';
+@import 'components/navbar';
 @import 'type';
+@import 'components/contact-form';
 
 
 /*****************************************************
  * Sections
  *****************************************************/
 @import 'sections/home.component';
+@import 'sections/work/work.component';

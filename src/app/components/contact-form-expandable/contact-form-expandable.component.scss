@@ -1,0 +1,66 @@
+//Styles in SASS project folder: src/styles/components/contact-form.scss
+
+input:-webkit-autofill {
+  -webkit-box-shadow: 0 0 0 50px rgb(190, 34, 66) inset;
+  //-webkit-box-shadow: 0 0 0 30px rgba(190, 34, 66, .1) inset;
+  -webkit-text-fill-color: #ffffff !important;
+  //opacity: .5;
+}
+
+//textarea:focus,
+//input[type="text"]:focus,
+//input[type="password"]:focus,
+//input[type="datetime"]:focus,
+//input[type="datetime-local"]:focus,
+//input[type="date"]:focus,
+//input[type="month"]:focus,
+//input[type="time"]:focus,
+//input[type="week"]:focus,
+//input[type="number"]:focus,
+//input[type="email"]:focus,
+//input[type="url"]:focus,
+//input[type="search"]:focus,
+//input[type="tel"]:focus,
+//input[type="color"]:focus,
+//.uneditable-input:focus {
+//  border: 1px solid rgb(190, 34, 66);
+//  -webkit-text-fill-color: rgb(190, 34, 66);
+//  -webkit-box-shadow: 0 0 0px 1000px rgba(190, 34, 66, .1) inset;
+//  transition: background-color 5000s ease-in-out 0s;
+//}
+
+
+
+
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus
+textarea:-webkit-autofill,
+textarea:-webkit-autofill:hover
+textarea:-webkit-autofill:focus,
+select:-webkit-autofill,
+select:-webkit-autofill:hover,
+select:-webkit-autofill:focus {
+  border: 1px solid rgb(190, 34, 66);
+  -webkit-text-fill-color: rgb(190, 34, 66);
+  -webkit-box-shadow: 0 0 0px 1000px rgba(190, 34, 66, .1) inset;
+  transition: background-color 5000s ease-in-out 0s;
+}
+
+/********* PLACEHOLDER ********/
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+  opacity: .8; /* Firefox */
+  color: #d4b5be;
+  font-style: italic;
+
+}
+
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+  //@extend .placeholder;
+  color: #c1c1c2;
+}
+
+:-ms-input-placeholder { /* Microsoft Edge */
+  //@extend .placeholder;
+  color: #c1c1c2;
+}

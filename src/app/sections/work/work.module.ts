@@ -18,6 +18,7 @@ import {faCircle, faTimes} from '@fortawesome/free-solid-svg-icons';
 import {library} from '@fortawesome/fontawesome-svg-core';
 import {CloseBtnComponent} from '../../components/close-btn/close-btn.component';
 import { WorkMenuItemComponent } from './work-menu/work-menu-item/work-menu-item.component';
+import { WorkMenuItem2Component } from './work-menu/work-menu-item2/work-menu-item2.component';
 
 library.add(faTimes);
 library.add(faCircle);
@@ -42,6 +43,7 @@ library.add(faCircle);
         BgStyleDirective,
         CloseBtnComponent,
         WorkMenuItemComponent,
+        WorkMenuItem2Component,
     ],
     providers:    [],
 })
