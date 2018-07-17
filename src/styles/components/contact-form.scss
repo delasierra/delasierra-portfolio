@@ -29,17 +29,22 @@
       .uneditable-input:focus {
         border-color: rgba(190, 34, 66, 0.8);
         outline: 0 none;
-        -webkit-box-shadow: 0 0 0 4px rgba(163,41,71,1);
-        -moz-box-shadow: 0 0 0 4px rgba(163,41,71,1);
-        box-shadow: 0 0 0 4px rgba(163,41,71,1);
+        -webkit-box-shadow: 0 0 0 4px rgba(163, 41, 71, 1);
+        -moz-box-shadow: 0 0 0 4px rgba(163, 41, 71, 1);
+        box-shadow: 0 0 0 4px rgba(163, 41, 71, 1);
       }
 
-      > .invalid-feedback {
-        margin-left: 15px;
+    }
+
+    .form-group {
+      .invalid-feedback {
+        //margin-left: 15px;
+        margin-top: 0.1rem;
+        padding-left: 16px;
       }
     }
 
-    .btn-send{
+    .btn-send {
       line-height: 2em;
       border-radius: 13px;
     }
@@ -54,7 +59,7 @@
   }
 }
 
-.expanded-form{
+.expanded-form {
   .card {
     //background-image: linear-gradient(180deg, rgba(190, 34, 66, 1), rgba(147, 39, 92, 1));
     textarea,
@@ -65,26 +70,25 @@
 
 }
 
-
 /***** Send btn ******/
-.btn-send-form{
+.btn-send-form {
   line-height: 2;
   border-radius: .8rem;
   text-transform: uppercase;
 
   &:disabled,
-  &[disabled]{
+  &[disabled] {
     color: #fff;
     background-color: #292a31;
     border-color: #292a31;
   }
 
-  &:hover{
+  &:hover {
     opacity: 1;
   }
 }
 
-.btn-send-form-activated{
+.btn-send-form-activated {
   background-image: linear-gradient(180deg, rgb(190, 34, 66), rgb(147, 39, 92));
   opacity: 1;
   color: #ffffff;
@@ -92,7 +96,6 @@
   @extend .neon-fx;
   @extend .neon-text-fx;
 }
-
 
 /***** Placeholder styles *******/
 ::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */

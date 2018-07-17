@@ -1,0 +1,17 @@
+.social-media {
+  margin-top: 10px;
+
+  p {
+    margin-bottom: 5px;
+  }
+
+  .social-media-links {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+
+    .social-media-item {
+      margin-right: 10px;
+    }
+  }
+}

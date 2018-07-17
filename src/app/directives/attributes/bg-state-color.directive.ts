@@ -65,7 +65,8 @@ export class BgStateColorDirective {
                 this.tl
                     .to(this.el.nativeElement, 1, {
                         // backgroundImage: 'linear-gradient(170deg, #1f2024, #212227)',
-                        backgroundImage: 'linear-gradient(170deg, #292a31, #212227)',
+                        // backgroundImage: 'linear-gradient(170deg, #292a31, #212227)',
+                        backgroundImage: 'linear-gradient(170deg, #1f2025, #212227)',
                         overwrite:       'all'
                     });
                 break;

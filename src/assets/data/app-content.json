@@ -44,24 +44,16 @@
     "introText": "You can also find me at:",
     "links": [
       {
-        "logo": "url/logo1",
-        "link": "url/link1"
+        "logo": "assets/vectors/social_github_icon.svg",
+        "link": "https://github.com/delasierra"
       },
       {
-        "logo": "url/logo2",
-        "link": "url/link2"
+        "logo": "assets/vectors/social_linkedin_icon.svg",
+        "link": "https://www.linkedin.com/in/delasierra/"
       },
       {
-        "logo": "url/logo3",
-        "link": "url/link3"
-      },
-      {
-        "logo": "url/logo4",
-        "link": "url/link4"
-      },
-      {
-        "logo": "url/logo5",
-        "link": "url/link5"
+        "logo": "assets/vectors/social_twitter_icon.svg",
+        "link": "https://twitter.com/__delasierra"
       }
     ]
   }

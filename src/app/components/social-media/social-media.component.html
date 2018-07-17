@@ -1,8 +1,12 @@
-<p>
-  social-media-links works!
-</p>
-<section>
-  <div *ngFor="let link of data.links">
-    {{link.logo}}
-  </div>
+<section class="social-media">
+    <p>
+        {{data.introText}}
+    </p>
+    <div class="social-media-links">
+        <div class="social-media-item" *ngFor="let link of data.links">
+            <a [href]="link.link" target="_blank">
+                <img src="{{link.logo}}" alt="">
+            </a>
+        </div>
+    </div>
 </section>
