@@ -6,8 +6,8 @@
       "mainImg": "assets/work/01amte/bg_main.svg",
       "logo": "assets/work/01amte/logo_uned.svg",
       "title": "AMTE",
-      "subtitle": "Web app for research project",
-      "description": "Web app para tratar la ansiedad y la depresión en adolescentes. Proyecto de investigación de La universidad UNED"
+      "subtitle": "Web app",
+      "description": "Web app para el tratamiento de la ansiedad y depresión en adolescentes"
     },
     "screens": [
       {
@@ -17,31 +17,29 @@
       {
         "type": "work-overview",
         "data": {
-          "description": "AMTE (Aprende a manejar tus emociones) es una web app funcional con la que se pretende estudiar la efectividad del diagnóstico y tratamiento de desórdenes de ansiedad y depresión en adolescentes utilizando nuevas tecnologías. Desarrollada para el departamento de psicología de la UNED bajo la supervisión del Dr. Bonifacio Sandín, catedrático de Personalidad, Evaluación y Tratamiento Psicológico, es una herramienta innovadora en este campo.",
-          "role": "Co-autor, frontend lead developer y dirección creativa.",
-          "credits": "Manuel Ottaviano, eHealth researcher",
-          "platforms": "Web app for desktop and tablets"
-        }
-      },
-      {
-        "type": "work-image-text",
-        "data": {
-          "title": "Corporate identity",
-          "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In in tincidunt mi, in scelerisque eros.",
-          "images": [
-            "assets/work/01amte/logo_amte.svg"
+          "description": [
+            "AMTE (Aprende a manejar tus emociones) es una web app funcional con la que se pretende estudiar la efectividad del diagnóstico y tratamiento de desórdenes de ansiedad y depresión en adolescentes utilizando nuevas tecnologías. Desarrollada para el departamento de psicología de la UNED bajo la supervisión del Dr. Bonifacio Sandín, catedrático de Personalidad, Evaluación y Tratamiento Psicológico, es una herramienta innovadora en este campo."
           ],
-          "position": "right",
-          "layout": "even",
-          "background": "#ffffff",
-          "fx": ""
+          "client": "Universidad Nacional de Educación a Distancia (UNED)",
+          "role": [
+            "Co-autor",
+            "Frontend lead developer",
+            "Creative direction"
+          ],
+          "credits": [
+            "Bonifacio Sadín: Jefe del proyecto de investigación",
+            "Manuel Ottaviano: Co-autor and eHealth researcher"
+          ],
+          "platforms": [
+            "Desktop and mobile browsers"
+          ]
         }
       },
       {
         "type": "work-image-text",
         "data": {
-          "title": "3 apps behind AMTE portal",
-          "description": "Hacer animación con scroll de todas las pantallas",
+          "title": "Sistema de 3 aplicaciones y una web",
+          "description": "El sistema permite la interacción entre paciente, terapeuta y padres, además de un portal con información para el público",
           "images": [
             "assets/work/01amte/web_public_view.png",
             "assets/work/01amte/web_task_circles.png",
@@ -57,44 +55,33 @@
       {
         "type": "work-image-text",
         "data": {
-          "title": "Simple UI for complex system",
-          "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In in tincidunt mi, in scelerisque eros.",
+          "title": "UI y flujos sencillos",
+          "description": "Uno de los mayores retos fué transformar complejos y largos documentos en flujos atractivos",
           "images": [
             "assets/work/01amte/web_insertion.png"
           ],
           "position": "right",
           "layout": "",
-          "background": "#ffffff",
+          "background": "",
           "fx": ""
         }
       },
       {
         "type": "work-text",
         "data": {
-          "title": "User View",
-          "description": "Hacer animación con scroll de todas las pantallas",
+          "title": "La app del adolescente",
+          "description": "Diseñada para aprender y poner en práctica conceptos de psicología que ayudarán a controlar las situaciones de ansiedad y depresión",
           "position": "center",
           "background": "#ffffff"
         }
       },
       {
-        "type": "work-image",
-        "data": {
-          "images": [
-            "assets/work/01amte/web_avatar_config.png"
-          ],
-          "position": "center",
-          "layout": "",
-          "background": "assets/work/01amte/bg_avatars.png",
-          "fx": ""
-        }
-      },
-      {
         "type": "work-image-text",
         "data": {
-          "title": "Fully guided experience",
-          "description": "With two different avatar the user will be guided on every step of the study",
+          "title": "Experiencia guiada en todo momento",
+          "description": "La aplicación está compuesta de múltiples módulos guiados compuestos de videos, tareas, juegos, un avatar configurable que servirá de guía y un chat para comunicarse con los terapeutas",
           "images": [
+            "assets/work/01amte/web_avatar_config.png",
             "assets/work/01amte/web_user_home.png",
             "assets/work/01amte/web_user_record.png",
             "assets/work/01amte/web_user_calendar.png"
@@ -108,8 +95,8 @@
       {
         "type": "work-text",
         "data": {
-          "title": "Therapist View",
-          "description": "Hacer animación con scroll de todas las pantallas",
+          "title": "App de los tearapeutas",
+          "description": "Creación, configuración y seguimiento personalizado de cada adolescente",
           "position": "center",
           "background": ""
         }
@@ -117,37 +104,51 @@
       {
         "type": "work-image-text",
         "data": {
-          "title": "Total Control",
-          "description": "Therapist plan the study for each user independely. Follow progress and send feedback and help to teenagers and parents",
+          "title": "Visión global",
+          "description": "Comunicación con padres y adolescentes desde un chat de la app",
           "images": [
             "assets/work/01amte/web_therapist.png"
           ],
           "position": "right",
           "layout": "",
-          "background": "#ffffff",
+          "background": "",
           "fx": ""
         }
       },
       {
         "type": "work-text",
         "data": {
-          "title": "Parents View",
-          "description": "Hacer animación con scroll de todas las pantallas",
+          "title": "App de los padres",
+          "description": "Acceso privado para el seguimiento de sus hijos",
           "position": "center",
-          "background": ""
+          "background": "#ffffff"
         }
       },
       {
         "type": "work-image-text",
         "data": {
-          "title": "Parents informed on every step",
-          "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In in tincidunt mi, in scelerisque eros",
+          "title": "Interacción de los padres",
+          "description": "Datos y gráficos del progreso de sus hijos además de un chat para hablar con los terapéutas",
           "images": [
             "assets/work/01amte/web_parents_sm_header.png",
             "assets/work/01amte/web_parents2.png"
           ],
           "position": "left",
           "layout": "",
+          "background": "#ffffff",
+          "fx": ""
+        }
+      },
+      {
+        "type": "work-image-text",
+        "data": {
+          "title": "Proceso creativo",
+          "description": "Desarrollo creativo de adaptación del contenido y diseño de indentidad",
+          "images": [
+            "assets/work/01amte/logo_amte.svg"
+          ],
+          "position": "right",
+          "layout": "even",
           "background": "#ffffff",
           "fx": ""
         }
@@ -172,8 +173,8 @@
       "mainImg": "assets/work/02eyehawk/BG_ojoHalcon.png",
       "logo": "assets/work/02eyehawk/logo_rafanadal.svg",
       "title": "HAWK EYE",
-      "subtitle": "Multi desktop app and game instalation",
-      "description": "Installation game. Two desktop apps communicating via sockets"
+      "subtitle": "Instalación interactiva con sockets",
+      "description": "Instalación interactiva de tennis compuesta por dos desktop apps sincronizadas via sockets"
     },
     "screens": [
       {
@@ -183,10 +184,22 @@
       {
         "type": "work-overview",
         "data": {
-          "description": "description: Lorem ipsum dolor sit amet.",
-          "role": "role: Lorem ipsum dolor sit amet.",
-          "credits": "credits: Lorem ipsum dolor sit amet.",
-          "platforms": "platforms: Lorem ipsum dolor sit amet."
+          "description": [
+            "Instalación interactiva para el museo de Rafa Nadal en España. Consta de dos aplicaciones de escritório que se comunican entre sí utilizando sockets de la red de WIFI a la que estén conectadas.",
+            "La aplicación 'A' muestra videos de puntos de partido de tenis y desde las aplicaciones 'B' los usuarios deberán contestar si la pelota ha entrado o no dentro del campo. Hay varias rondas y puntúa mejor el que conteste correctamente en menos tiempo."
+          ],
+          "client": "Rafa Nadal Museum Xperience",
+          "role": [
+            "Fullstack developer",
+            "Contratado como freelance"
+          ],
+          "credits": [
+            "Cubensis: creatividad y producción"
+          ],
+          "platforms": [
+            "Windows desktop",
+            "Instalación interactiva"
+          ]
         }
       },
       {
@@ -204,7 +217,7 @@
         "type": "work-text",
         "data": {
           "title": "match point video",
-          "description": "Watch the match point on the app in the big screen and follow the ball like a eye hawk",
+          "description": "Cuando esten todos los usuarios preparados se mostrará el primer video",
           "position": "center",
           "background": ""
         }
@@ -224,8 +237,8 @@
       {
         "type": "work-image-text",
         "data": {
-          "title": "User have to answer fast",
-          "description": "Los usuarios compiten para ver quiñen acierta y ademas consiguen más puntos cuanto más rápido contesten EACH ROUND",
+          "title": "User interaction",
+          "description": "Una vez terminado el vídeo los usuarios tendrán un tiempo limitado para contestar",
           "images": [
             "assets/work/02eyehawk/in_out_user.png"
           ],
@@ -239,7 +252,7 @@
         "type": "work-text",
         "data": {
           "title": "Eye hawk 3d video",
-          "description": "Watch the match point on the app in the big screen and follow the ball like a eye hawk",
+          "description": "Despues de que hayan contestado, o se haya agotado el tiempo, se mostrará una recreación 3D del punto de partido",
           "position": "center",
           "background": ""
         }
@@ -288,8 +301,8 @@
       "mainImg": "assets/work/03westworld/main_img.png",
       "logo": "assets/work/03westworld/logo_hbo.svg",
       "title": "West world",
-      "subtitle": "Inmersive event registration web app game",
-      "description": "Project description Lorem ipsum dolor sit amet."
+      "subtitle": "Registro web gamificado",
+      "description": "Web app gamificada para el registro de usuarios asistentes a un evento de cine inmersivo"
     },
     "screens": [
       {
@@ -299,32 +312,32 @@
       {
         "type": "work-overview",
         "data": {
-          "description": "description: Lorem ipsum dolor sit amet.",
-          "role": "role: Lorem ipsum dolor sit amet.",
-          "credits": "credits: Lorem ipsum dolor sit amet.",
-          "platforms": "platforms: Lorem ipsum dolor sit amet."
-        }
-      },
-      {
-        "type": "work-image-text",
-        "data": {
-          "title": "User introduce code",
-          "description": "Description: Lorem ipsum dolor sit amet.",
-          "images": [
-            "assets/work/03westworld/screen1.png"
+          "description": [
+            "Los asistentes al evento deberán confirmar su asistencia y acudir caracterizados para participar en la experiencia de cine inmersivo. Para ello deberán introducir el código de su entrada y contestar a una serie de preguntas.",
+            "La web app creará un personaje hecho a medida con nombre, appellido, mote, profesión e história que definirá su rol en el evento. El algoritmo combina datos aleatórios de varios bloques de información, generando un personaje casi único."
           ],
-          "position": "left",
-          "layout": "",
-          "background": "",
-          "fx": ""
+          "client": "HBO Europe",
+          "role": [
+            "Desarrollo fullstack",
+            "Diseño funcional",
+            "UX",
+            "Contratado como freelance"
+          ],
+          "credits": [
+            "Spectacular: Diseño & UI"
+          ],
+          "platforms": [
+            "Desktop and mobile browsers"
+          ]
         }
       },
       {
         "type": "work-image-text",
         "data": {
-          "title": "Answer few questions",
-          "description": "Description: Lorem ipsum dolor sit amet.",
+          "title": "Stepped form",
+          "description": "En caso ya tener un personaje, se mostrará en pantalla. Si no es así se harán las preguntas para configurar uno nuevo",
           "images": [
+            "assets/work/03westworld/screen1.png",
             "assets/work/03westworld/screen2.png"
           ],
           "position": "right",
@@ -336,8 +349,8 @@
       {
         "type": "work-image-text",
         "data": {
-          "title": "Get personalized character",
-          "description": "Description: Lorem ipsum dolor sit amet.",
+          "title": "Personaje a medida",
+          "description": "El usuario podrá ver esta pantalla en cualquier momento introduciendo su código de entrada",
           "images": [
             "assets/work/03westworld/screen3.png"
           ],
@@ -372,8 +385,8 @@
       "mainImg": "assets/work/04reflexes/main_bg.png",
       "logo": "assets/work/04reflexes/logo_rafanadal.svg",
       "title": "Reflexes",
-      "subtitle": "Desktop app controlling Arduino",
-      "description": "Test your reflexes desktop app and arduino"
+      "subtitle": "Instalación interactiva con Arduino",
+      "description": "Instalación interactiva con Arduino para el entrenamiento deportivo"
     },
     "screens": [
       {
@@ -383,10 +396,67 @@
       {
         "type": "work-overview",
         "data": {
-          "description": "description: Lorem ipsum dolor sit amet.",
-          "role": "role: Lorem ipsum dolor sit amet.",
-          "credits": "credits: Lorem ipsum dolor sit amet.",
-          "platforms": "platforms: Lorem ipsum dolor sit amet."
+          "description": [
+            "Instalación interactiva de entrenamiento deportivo que consta de una app de escritório y dos juegos Arduino.",
+            "Los juegos de Arduino iluminan pulsadores que el usuario deberá ir presionando según aparecen para apagarlos y acumular puntos dentro un tiempo limitado. La app de escritório se comunica con Arduino enviando la configuración de juego, reaccionando ante eventos y gestionando las puntuaciones y records de los usuarios que compiten entre ellos."
+          ],
+          "client": "Rafa Nadal Museum Xperience",
+          "role": [
+            "Fullstack developer",
+            "Contratado como freelance"
+          ],
+          "credits": [
+            "Cubensis: creatividad y producción",
+            "Raúl González: Arduino developer"
+          ],
+          "platforms": [
+            "Windows desktop",
+            "Instalación interactiva"
+          ]
+        }
+      },
+      {
+        "type": "work-image",
+        "data": {
+          "images": [
+            "assets/work/04reflexes/instalation2.png"
+          ],
+          "position": "cover",
+          "layout": "",
+          "background": "",
+          "fx": ""
+        }
+      },
+      {
+        "type": "work-image-text",
+        "data": {
+          "title": "Desktop app",
+          "description": "Es configurable para niños, adultos, juego individual o modo competición. Gestiona las puntuaciones y records.",
+          "images": [
+            "assets/work/04reflexes/screen2.png",
+            "assets/work/04reflexes/screen3.png",
+            "assets/work/04reflexes/screen4.png",
+            "assets/work/04reflexes/screen5.png",
+            "assets/work/04reflexes/screen6.png"
+          ],
+          "position": "right",
+          "layout": "",
+          "background": "",
+          "fx": ""
+        }
+      },
+      {
+        "type": "work-image-text",
+        "data": {
+          "title": "La instalación",
+          "description": "Expuesta en el museo de Rafa Nadal para el uso público y sesiones privadas de entrenamiento.",
+          "images": [
+            "assets/work/04reflexes/instalation_trainer.png"
+          ],
+          "position": "left",
+          "layout": "",
+          "background": "",
+          "fx": ""
         }
       },
       {
@@ -397,114 +467,6 @@
           "position": "cover",
           "layout": "",
           "background": "assets/work/04reflexes/instalation1.png",
-          "fx": ""
-        }
-      },
-      {
-        "type": "work-text",
-        "data": {
-          "title": "Game Rules",
-          "description": "User must hit the buttons as they turn on as fast as they can",
-          "position": "center",
-          "background": ""
-        }
-      },
-      {
-        "type": "work-image",
-        "data": {
-          "images": [
-          ],
-          "position": "cover",
-          "layout": "",
-          "background": "assets/work/04reflexes/instalation2.png",
-          "fx": ""
-        }
-      },
-      {
-        "type": "work-text",
-        "data": {
-          "title": "About the app",
-          "description": "Two diferent apps communicating throught sockets",
-          "position": "center",
-          "background": ""
-        }
-      },
-      {
-        "type": "work-image",
-        "data": {
-          "images": [
-            "assets/work/04reflexes/screen1.png"
-          ],
-          "position": "left",
-          "layout": "",
-          "background": "",
-          "fx": ""
-        }
-      },
-      {
-        "type": "work-image",
-        "data": {
-          "images": [
-            "assets/work/04reflexes/screen2.png"
-          ],
-          "position": "right",
-          "layout": "",
-          "background": "",
-          "fx": ""
-        }
-      },
-      {
-        "type": "work-image-text",
-        "data": {
-          "title": "Made for childrenand adults",
-          "description": "Cuando los dos usuarios hayan contestado o el tiempo se acabe se muestra la respuesta en pantalla",
-          "images": [
-            "assets/work/04reflexes/screen3.png"
-          ],
-          "position": "left",
-          "layout": "",
-          "background": "",
-          "fx": ""
-        }
-      },
-      {
-        "type": "work-image-text",
-        "data": {
-          "title": "Used for real training",
-          "description": "Utilizado por profesionales para un entrenamiento serio",
-          "images": [
-            "assets/work/04reflexes/instalation_trainer.png"
-          ],
-          "position": "right",
-          "layout": "",
-          "background": "",
-          "fx": ""
-        }
-      },
-      {
-        "type": "work-image-text",
-        "data": {
-          "title": "Beat everyone else and save your record",
-          "description": "Cuando los dos usuarios hayan contestado o el tiempo se acabe se muestra la respuesta en pantalla",
-          "images": [
-            "assets/work/04reflexes/screen4.png",
-            "assets/work/04reflexes/screen5.png"
-          ],
-          "position": "left",
-          "layout": "",
-          "background": "",
-          "fx": ""
-        }
-      },
-      {
-        "type": "work-image",
-        "data": {
-          "images": [
-            "assets/work/04reflexes/screen6.png"
-          ],
-          "position": "center",
-          "layout": "",
-          "background": "",
           "fx": ""
         }
       }
@@ -518,7 +480,7 @@
       "logo": "assets/work/05camelcolors/logo_camel.svg",
       "title": "Camel Colors",
       "subtitle": "Augmented reality iOS app",
-      "description": "Augmented reality ios app"
+      "description": "Augmented reality iOS app para acción publicitaria"
     },
     "screens": [
       {
@@ -528,10 +490,20 @@
       {
         "type": "work-overview",
         "data": {
-          "description": "description: Lorem ipsum dolor sit amet.",
-          "role": "role: Lorem ipsum dolor sit amet.",
-          "credits": "credits: Lorem ipsum dolor sit amet.",
-          "platforms": "platforms: Lorem ipsum dolor sit amet."
+          "description": [
+            "Acción publicitaria para el Gay Parade en Madrid en la que se instalaron varios iPads en diferentes puntos del recorrido del evento. Con la app, los usuarios podían ponerse diferentes maquillajes relacionados con la celebración, sacar una foto y enviarla a un email a cambio de compartir datos que eran almacenados en una base de datos para futuras acciones."
+          ],
+          "role": [
+            "Fullstack development",
+            "Contratado como freelance"
+          ],
+          "credits": [
+            "McCann: creatividad",
+            "Cubensis: produccion"
+          ],
+          "platforms": [
+            "iOS"
+          ]
         }
       },
       {
@@ -549,12 +521,14 @@
       {
         "type": "work-image-text",
         "data": {
-          "title": "Choose your parade make up",
-          "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas ac congue eros, id pellentesque tortor. Aliquam accumsan sodales magna. ",
+          "title": "Funcionamiento",
+          "description": "Los usuarios pueden elegir entre varias opciones de maquillaje, jugar con ella, sacar una foto y enviarla a una dirección de email",
           "images": [
-            "assets/work/05camelcolors/screen_makeup.png"
+            "assets/work/05camelcolors/screen_makeup.png",
+            "assets/work/05camelcolors/screen_getpicture.png",
+            "assets/work/05camelcolors/screen_form.png"
           ],
-          "position": "left",
+          "position": "right",
           "layout": "",
           "background": "",
           "fx": ""
@@ -565,34 +539,6 @@
         "data": {
           "videourl": "test/test.mp4",
           "background": ""
-        }
-      },
-      {
-        "type": "work-image-text",
-        "data": {
-          "title": "Take a picturewith your make up",
-          "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas ac congue eros, id pellentesque tortor. Aliquam accumsan sodales magna. ",
-          "images": [
-            "assets/work/05camelcolors/screen_getpicture.png"
-          ],
-          "position": "right",
-          "layout": "",
-          "background": "",
-          "fx": ""
-        }
-      },
-      {
-        "type": "work-image-text",
-        "data": {
-          "title": "Get your picture in your email",
-          "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas ac congue eros, id pellentesque tortor. Aliquam accumsan sodales magna. ",
-          "images": [
-            "assets/work/05camelcolors/screen_form.png"
-          ],
-          "position": "left",
-          "layout": "",
-          "background": "",
-          "fx": ""
         }
       },
       {
@@ -616,8 +562,8 @@
       "mainImg": "assets/work/06tnt/main_bg.png",
       "logo": "assets/work/06tnt/tnt_logo.svg",
       "title": "Game TNT",
-      "subtitle": "Web app game",
-      "description": "Inmersive event registration web app game"
+      "subtitle": "Juego HTML5",
+      "description": "Juego para el registro de usuarios asistentes a un evento de cine inmersivo"
     },
     "screens": [
       {
@@ -627,51 +573,57 @@
       {
         "type": "work-overview",
         "data": {
-          "description": "description: Lorem ipsum dolor sit amet.",
-          "role": "role: Lorem ipsum dolor sit amet.",
-          "credits": "credits: Lorem ipsum dolor sit amet.",
-          "platforms": "platforms: Lorem ipsum dolor sit amet."
+          "description": [
+            "Los asistentes al evento deberán confirmar su asistencia y acudir caracterizados para participar en la experiencia de cine inmersivo. Para ello deberán registrarse a través de un juego HTML5.",
+            "Al usuario se le adjudicará aleatóriamente un personaje que tendrá que encontrar en una ilustración interactiva donde hay otros muchos personajes. Una vez encontrado, el usuario quedará registrado para asistir al evento."
+          ],
+          "client": "TNT Channel",
+          "role": [
+            "Desarrollo fullstack",
+            "Contratado como freelance"
+          ],
+          "credits": [
+            "Jae Tanaka: Ilustraciones",
+            "Spectacular: UI"
+          ],
+          "platforms": [
+            "Desktop and mobile browsers"
+          ]
         }
       },
       {
-        "type": "work-image-text",
+        "type": "work-image",
         "data": {
-          "title": "random character to look for",
-          "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas ac congue eros, id pellentesque tortor. Aliquam accumsan sodales magna. ",
           "images": [
             "assets/work/06tnt/drawing-flash.png"
           ],
-          "position": "right",
+          "position": "center",
           "layout": "",
           "background": "",
           "fx": ""
         }
       },
       {
-        "type": "work-image-text",
+        "type": "work-image",
         "data": {
-          "title": "Drag the image and find it",
-          "description": "Drag the image to find your character. Click and you will get if is the right one or not.",
           "images": [
             "assets/work/06tnt/screen1.png"
           ],
-          "position": "left",
+          "position": "center",
           "layout": "",
-          "background": "assets/work/06tnt/screens-bg.png",
+          "background": "",
           "fx": ""
         }
       },
       {
-        "type": "work-image-text",
+        "type": "work-image",
         "data": {
-          "title": "random character to look for",
-          "description": "Drag the image to find your character. Click and you will get if is the right one or not.",
           "images": [
             "assets/work/06tnt/screen2.png"
           ],
-          "position": "right",
+          "position": "center",
           "layout": "",
-          "background": "assets/work/06tnt/screens-bg.png",
+          "background": "",
           "fx": ""
         }
       },
@@ -693,19 +645,7 @@
           "images": [
             "assets/work/06tnt/drawing-char3.png"
           ],
-          "position": "left",
-          "layout": "",
-          "background": "",
-          "fx": ""
-        }
-      },
-      {
-        "type": "work-image",
-        "data": {
-          "images": [
-            "assets/work/06tnt/drawing-char4.png"
-          ],
-          "position": "right",
+          "position": "center",
           "layout": "",
           "background": "",
           "fx": ""
@@ -745,7 +685,7 @@
       "logo": "assets/work/07winston/winston_logo.svg",
       "title": "Winston Game",
       "subtitle": "Android game",
-      "description": "Android app for gathering user information in promotion"
+      "description": "Android game para acción publicitaria"
     },
     "screens": [
       {
@@ -755,10 +695,21 @@
       {
         "type": "work-overview",
         "data": {
-          "description": "description: Lorem ipsum dolor sit amet.",
-          "role": "role: Lorem ipsum dolor sit amet.",
-          "credits": "credits: Lorem ipsum dolor sit amet.",
-          "platforms": "platforms: Lorem ipsum dolor sit amet."
+          "description": [
+            "Acción publicitaria a nivel nacional en la que los usuarios pueden participar en un sorteo al compartir sus datos. Para rellenar el formulario primero deben resolver un juego que consiste en encontrar las 3 águilas de Winston escondidas en una imágen."
+          ],
+          "client": "Winston",
+          "role": [
+            "Fullstack development",
+            "Contratado como freelance"
+          ],
+          "credits": [
+            "McCann: creatividad",
+            "Cubensis: produccion"
+          ],
+          "platforms": [
+            "Android"
+          ]
         }
       },
       {
@@ -776,10 +727,11 @@
       {
         "type": "work-image-text",
         "data": {
-          "title": "the goal: find the eagles",
-          "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas ac congue eros, id pellentesque tortor. Aliquam accumsan sodales magna. ",
+          "title": "Las águilas",
+          "description": "Para encontrarlas hay que posicionar la lupa sobre ellas",
           "images": [
-            "assets/work/07winston/screen2.png"
+            "assets/work/07winston/screen2.png",
+            "assets/work/07winston/screen3.png"
           ],
           "position": "right",
           "layout": "",
@@ -790,43 +742,27 @@
       {
         "type": "work-image-text",
         "data": {
-          "title": "time is against you",
-          "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas ac congue eros, id pellentesque tortor. Aliquam accumsan sodales magna. ",
-          "images": [
-            "assets/work/07winston/screen3.png"
-          ],
-          "position": "left",
-          "layout": "",
-          "background": "",
-          "fx": ""
-        }
-      },
-      {
-        "type": "work-image-text",
-        "data": {
-          "title": "different scenarios",
-          "description": "Drag the image to find your character. Click and you will get if is the right one or not.",
+          "title": "Los escenarios",
+          "description": "Tres diferentes escenarios que son cargados aleatoriamente",
           "images": [
             "assets/work/07winston/scenarios1.png",
             "assets/work/07winston/scenarios2.png",
             "assets/work/07winston/scenarios3.png"
           ],
-          "position": "right",
+          "position": "left",
           "layout": "",
-          "background": "#ffffff",
+          "background": "",
           "fx": ""
         }
       },
       {
-        "type": "work-image-text",
+        "type": "work-image",
         "data": {
-          "title": "result screens",
-          "description": "Drag the image to find your character. Click and you will get if is the right one or not.",
           "images": [
             "assets/work/07winston/results_screen1.png",
             "assets/work/07winston/results_screen2.png"
           ],
-          "position": "left",
+          "position": "center",
           "layout": "",
           "background": "#ffffff",
           "fx": ""
@@ -835,12 +771,12 @@
       {
         "type": "work-image-text",
         "data": {
-          "title": "Participate and sign digitaly",
-          "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas ac congue eros, id pellentesque tortor. Aliquam accumsan sodales magna.",
+          "title": "Formulario con firma digital",
+          "description": "Los datos introducidos y la captura de una firma del usuario son almacenados en una base de datos en el dispositivo y posteriormente subidos a un servidor.",
           "images": [
             "assets/work/07winston/form_screen.png"
           ],
-          "position": "right",
+          "position": "left",
           "layout": "",
           "background": "",
           "fx": ""
@@ -849,14 +785,14 @@
       {
         "type": "work-image-text",
         "data": {
-          "title": "administrator screens",
-          "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas ac congue eros, id pellentesque tortor. Aliquam accumsan sodales magna.",
+          "title": "Panel de administrador",
+          "description": "Desde un panel de administración se pueden hacer tareas de configuración y backup.",
           "images": [
             "assets/work/07winston/admin1.png",
             "assets/work/07winston/admin2.png",
             "assets/work/07winston/admin3.png"
           ],
-          "position": "left",
+          "position": "right",
           "layout": "",
           "background": "#ffffff",
           "fx": ""
@@ -871,8 +807,8 @@
       "mainImg": "assets/work/08frutasverduras/main_bg.png",
       "logo": "assets/work/08frutasverduras/logo_frutas.svg",
       "title": "Frutas & Verduras",
-      "subtitle": "Web app",
-      "description": "Gamified virtual vist web app"
+      "subtitle": "Web app con visita virtual",
+      "description": "Web app con visita virtual de las instalaciones de un hostal"
     },
     "screens": [
       {
@@ -882,98 +818,35 @@
       {
         "type": "work-overview",
         "data": {
-          "description": "description: Lorem ipsum dolor sit amet.",
-          "role": "role: Lorem ipsum dolor sit amet.",
-          "credits": "credits: Lorem ipsum dolor sit amet.",
-          "platforms": "platforms: Lorem ipsum dolor sit amet."
+          "description": [
+            "Esta web app permite al usuario navegar por las diferentes zonas de un hostal en México. La visita virtual prentende dar una perspectiva real de las instalaciones manteniendo un toque artístico en el diseño.",
+            "Antiguo proyecto desarrollado en Flash que ganó un premio Flash Awwards en 2010."
+          ],
+          "client": "Frutas & verduras",
+          "role": [
+            "Fullstack development",
+            "Diseño funcional",
+            "Creatividad",
+            "Ilustraciones",
+            "Contratado como freelance"
+          ],
+          "credits": [
+          ],
+          "platforms": [
+            "Desktop browser"
+          ]
         }
       },
       {
         "type": "work-image-text",
         "data": {
-          "title": "Overview of the hostel",
-          "description": "Give a realistic perspective of the hostel and its amenities",
+          "title": "La visita virtual",
+          "description": "Navegacion por los diferentes edificios",
           "images": [
-            "assets/work/08frutasverduras/screen1.png"
-          ],
-          "position": "right",
-          "layout": "",
-          "background": "#ffffff",
-          "fx": ""
-        }
-      },
-      {
-        "type": "work-image-text",
-        "data": {
-          "title": "Navegación en cada edificio",
-          "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas ac congue eros, id pellentesque tortor. Aliquam accumsan sodales magna. ",
-          "images": [
-            "assets/work/08frutasverduras/screen2.png"
-          ],
-          "position": "left",
-          "layout": "",
-          "background": "",
-          "fx": ""
-        }
-      },
-      {
-        "type": "work-image",
-        "data": {
-          "images": [
-            "assets/work/08frutasverduras/illustration_main_building.png"
-          ],
-          "position": "center",
-          "layout": "",
-          "background": "assets/work/08frutasverduras/bg_illustrations.png",
-          "fx": ""
-        }
-      },
-      {
-        "type": "work-image",
-        "data": {
-          "images": [
-            "assets/work/08frutasverduras/illustration_toilets.png"
-          ],
-          "position": "center",
-          "layout": "",
-          "background": "assets/work/08frutasverduras/bg_illustrations.png",
-          "fx": ""
-        }
-      },
-      {
-        "type": "work-image",
-        "data": {
-          "images": [
-            "assets/work/08frutasverduras/illustration_terrace.png"
-          ],
-          "position": "center",
-          "layout": "",
-          "background": "assets/work/08frutasverduras/bg_illustrations.png",
-          "fx": ""
-        }
-      },
-      {
-        "type": "work-image-text",
-        "data": {
-          "title": "description of each corner",
-          "description": "Click on the eye icon to see pictures y get more information on specific area of the hostel",
-          "images": [
+            "assets/work/08frutasverduras/screen1.png",
+            "assets/work/08frutasverduras/screen2.png",
             "assets/work/08frutasverduras/screen3.png"
           ],
-          "position": "left",
-          "layout": "",
-          "background": "",
-          "fx": ""
-        }
-      },
-      {
-        "type": "work-image-text",
-        "data": {
-          "title": "Accommodation options and prices",
-          "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas ac congue eros, id pellentesque tortor. Aliquam accumsan sodales magna.",
-          "images": [
-            "assets/work/08frutasverduras/screen4.png"
-          ],
           "position": "right",
           "layout": "",
           "background": "",
@@ -983,12 +856,27 @@
       {
         "type": "work-image-text",
         "data": {
-          "title": "How to get to and from the hostel",
-          "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas ac congue eros, id pellentesque tortor. Aliquam accumsan sodales magna.",
+          "title": "Las ilustraciones",
+          "description": "Collage de fotos reales del hostal mezcladas con ilustraciones y texturas",
           "images": [
-            "assets/work/08frutasverduras/screen5.png"
+            "assets/work/08frutasverduras/illustration_terrace.png",
+            "assets/work/08frutasverduras/illustration_main_building.png",
+            "assets/work/08frutasverduras/illustration_toilets.png"
           ],
           "position": "left",
+          "layout": "",
+          "background": "assets/work/08frutasverduras/bg_illustrations.png",
+          "fx": ""
+        }
+      },
+      {
+        "type": "work-image",
+        "data": {
+          "images": [
+            "assets/work/08frutasverduras/screen4.png",
+            "assets/work/08frutasverduras/screen5.png"
+          ],
+          "position": "center",
           "layout": "",
           "background": "#ffffff",
           "fx": ""

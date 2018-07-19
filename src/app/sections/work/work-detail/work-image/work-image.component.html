@@ -6,7 +6,7 @@
          {'align-left': detailData.position === 'left',
          'align-right': detailData.position === 'right'}">
 
-        <img *ngFor="let image of images; let i = index" src="{{ image }}"
+        <img class="rounded" *ngFor="let image of images; let i = index" src="{{ image }}"
              [ngStyle]="setImagePosition(i)">
     </div>
 </section>

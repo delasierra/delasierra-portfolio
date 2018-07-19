@@ -1,16 +1,46 @@
 <section
         class="work-slide-content work-overview row"
         [ngStyle]="{'background-color': generalData.mainColor}">
-    <div class="col-md-8">
-        <h2>The Project</h2>
-        <p>{{detailData.description}}</p>
-    </div>
+    <div class="work-overview-container">
+        <div class="col-md-8">
+            <h2>The Project</h2>
+            <p *ngFor="let paragraph of detailData.description">
+                {{paragraph}}
+            </p>
 
-    <div class="col-md-4">
-        <h2>My Role</h2>
-        <p>{{detailData.role}}</p>
-        <h2>Credits</h2>
-        <p>{{detailData.credits}}</p>
+            <h2>My Role</h2>
+            <ul class="list-unstyled">
+                <li *ngFor="let role of detailData.role">
+                    {{role}}
+                </li>
+            </ul>
+
+        </div>
+
+        <div class="col-md-4">
+
+
+            <h4>Platforms</h4>
+            <p *ngFor="let platform of detailData.platforms">
+                {{platform}}
+            </p>
+
+            <h4 *ngIf="detailData.client">Client</h4>
+            <p>
+                {{detailData.client}}
+            </p>
+
+            <h4 *ngIf="detailData.credits.length">Credits</h4>
+            <p *ngFor="let credit of detailData.credits">
+                {{credit}}
+            </p>
+
+            <!--<ul class="list-unstyled">-->
+                <!--<li *ngFor="let credit of detailData.credits">-->
+                    <!--{{credit}}-->
+                <!--</li>-->
+            <!--</ul>-->
+        </div>
     </div>
 </section>
 

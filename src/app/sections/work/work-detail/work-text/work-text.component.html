@@ -1,7 +1,7 @@
 <section class="work-slide-content work-text row"
          [ngStyle]="{'background': detailData.background}">
 
-    <div class="work-content">
+    <div class="work-content" [ngStyle]="getContainerStyles()">
 
         <h2 [ngStyle]="getTitleStyles()">
             {{detailData.title}}

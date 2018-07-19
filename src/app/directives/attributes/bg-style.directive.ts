@@ -3,7 +3,7 @@ import {Directive, ElementRef, Input, Renderer2} from '@angular/core';
 @Directive({
     selector: '[appBgStyle]'
 })
-export class BgStyleDirective {
+export class BgStyleDirective{
 
     @Input('appBgStyle') bgInput: any;
 

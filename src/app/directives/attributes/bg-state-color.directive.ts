@@ -55,6 +55,7 @@ export class BgStateColorDirective {
             case 'work':
                 this.tl
                     .to(this.el.nativeElement, 1, {
+                        // backgroundImage: 'linear-gradient(170deg, #1f2025, #212227)',
                         backgroundImage: 'linear-gradient(170deg, #e41d29, #3d3091)',
                         // backgroundImage: 'linear-gradient(170deg, #ffffff, #000000)',
                         overwrite:       'all'

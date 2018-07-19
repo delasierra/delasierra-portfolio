@@ -1,29 +1,16 @@
 $main-red: #e41d29;
 $main-purple: #3d3091;
-.sections {
-  position: relative;
-  z-index: 100;
-
-  height: 100vh;
-  width: 100vw;
-  //display: flex;
-  //justify-content: center;
-  margin: 0 -15px;
-  //overflow: scroll;
-  overflow-y: scroll;
-  overflow-x: hidden;
-}
 
 .app-wrapper {
-  position: fixed;
-  height: 100vh;
-  //overflow-y: scroll;
-  overflow: hidden;
-  //background-color: blue;
+  position: absolute;
+  height: 100%;
+  //overflow-x: hidden;
+  //overflow-y: scroll; /* has to be scroll, not auto */
+  //-webkit-overflow-scrolling: touch;
 
   &:after {
     content: "";
-    position: absolute;
+    position: fixed;
     top: 0;
     left: 0;
     width: 100vw;
@@ -36,6 +23,31 @@ $main-purple: #3d3091;
     z-index: 1000;
 
     transform: translateZ(0);
+  }
+
+  .app-container-main{
+    .sections {
+      position: relative;
+      z-index: 100;
+
+      height: 100vh;
+      width: 100vw;
+      //display: flex;
+      //justify-content: center;
+      margin: 0 -15px;
+      //overflow: scroll;
+      overflow-x: hidden;
+      overflow-y: scroll; /* has to be scroll, not auto */
+      -webkit-overflow-scrolling: touch;
+    }
+  }
+
+  .bg-app {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
   }
 }
 

@@ -20,17 +20,23 @@ export class WorkTextComponent implements OnInit {
         this.bgColor = this.detailData.background;
     }
 
+    getContainerStyles(): object {
+        return {
+            'align-items': this.detailData.position
+        };
+    }
+
     getTitleStyles(): object {
         return {
             'color':               this.getTitleColor(this.bgColor),
             'border-bottom-color': this.getTitleColor(this.bgColor),
-            'text-align': this.detailData.position
+            'text-align':          this.detailData.position
         };
     }
 
     getParagraphStyles(): object {
         return {
-            'color': this.getTParagraphColor(this.bgColor),
+            'color':      this.getTParagraphColor(this.bgColor),
             'text-align': this.detailData.position
         };
     }

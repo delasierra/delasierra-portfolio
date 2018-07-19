@@ -30,6 +30,8 @@ export interface WorkOverviewData {
     role: string;
     credits: string;
     platforms: string;
+    client: string;
+    WorkOverviewData: string;
 }
 
 export interface WorkTextData {

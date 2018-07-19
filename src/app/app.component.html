@@ -1,9 +1,13 @@
-<div class="app-wrapper" [appBgStateColor]>
+<!--<div class="app-wrapper" [appBgStateColor]>-->
+<!--<div class="app-wrapper" [appScrollSmooth]>-->
+<div class="app-wrapper">
     <app-navbar-main></app-navbar-main>
-    <div class="container-fluid">
+    <div class="app-container-main container-fluid">
         <div class="sections">
             <router-outlet></router-outlet>
         </div>
     </div>
     <!--<app-webgl></app-webgl>-->
+    <!--<app-bg-canvas></app-bg-canvas>-->
+    <div class="bg-app" [appBgStateColor]></div>
 </div>

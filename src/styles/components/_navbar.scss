@@ -194,7 +194,7 @@
 //
 
 // White links against a dark background
-.navbar-dalasierra {
+.navbar-delasierra {
   font-size: 1.1em;
   font-weight: 600;
   margin-bottom: 20px;
@@ -294,7 +294,7 @@
 // Responsive
 //@import "../../node_modules/bootstrap/scss/mixins/_breakpoints.scss";
 @include media-breakpoint-up(xs) {
-  .navbar-dalasierra {
+  .navbar-delasierra {
     height: 87px;
     padding-bottom: 15px;
     .navbar-brand {
@@ -310,7 +310,7 @@
 }
 
 @include media-breakpoint-up(sm) {
-  .navbar-dalasierra {
+  .navbar-delasierra {
     height: 122px;
     padding-bottom: 17px;
     .navbar-brand {
@@ -328,7 +328,7 @@
 }
 
 @include media-breakpoint-up(md) {
-  .navbar-dalasierra {
+  .navbar-delasierra {
     height: 127px;
     .navbar-brand {
       .main-logo {
@@ -344,7 +344,7 @@
 }
 
 @include media-breakpoint-up(lg) {
-  .navbar-dalasierra {
+  .navbar-delasierra {
     //margin-bottom: 30px;
     .navbar-brand {
       .main-logo {
@@ -358,7 +358,7 @@
 }
 
 @include media-breakpoint-up(xl) {
-  .navbar-dalasierra {
+  .navbar-delasierra {
     height: 140px;
     padding-bottom: 35px;
     .navbar-brand {

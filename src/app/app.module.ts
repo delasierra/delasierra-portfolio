@@ -16,6 +16,10 @@ import {WebglComponent} from './components/webgl/webgl.component';
 import { BgStateColorDirective } from './directives/attributes/bg-state-color.directive';
 import {FontAwesomeModule} from '@fortawesome/angular-fontawesome';
 import { ContactFormExpandableComponent } from './components/contact-form-expandable/contact-form-expandable.component';
+import { BgCanvasComponent } from './components/bg-canvas/bg-canvas.component';
+import { BgStateColorCanvasDirective } from './directives/attributes/bg-state-color-canvas.directive';
+import { ScrollSmoothDirective } from './directives/animations/scroll-smooth.directive';
+import {ResponsiveModule} from 'ngx-responsive';
 
 @NgModule({
     imports:      [
@@ -25,6 +29,7 @@ import { ContactFormExpandableComponent } from './components/contact-form-expand
         FormsModule,
         NgbModule.forRoot(),
         FontAwesomeModule,
+        ResponsiveModule,
     ],
     declarations: [
         AppComponent,
@@ -36,6 +41,9 @@ import { ContactFormExpandableComponent } from './components/contact-form-expand
         SocialMediaLinksComponent,
         BgStateColorDirective,
         ContactFormExpandableComponent,
+        BgCanvasComponent,
+        BgStateColorCanvasDirective,
+        ScrollSmoothDirective,
     ],
     providers:    [],
     bootstrap:    [AppComponent]

@@ -11,14 +11,14 @@
                     class="form-control is-invalid"
                     name="message"
                     required
-                    minlength="2"
+                    minLength="2"
                     placeholder="{{data.message.placeholder}}"
                     rows="2">
             </textarea>
         <div [hidden]="!userMessage.errors?.required" class="invalid-feedback">{{data.message.errors.required}}
         </div>
-        <div [hidden]="!userMessage.errors?.minlength" class="invalid-feedback">
-          {{data.message.errors.minlength}}
+        <div [hidden]="!userMessage.errors?.minLength" class="invalid-feedback">
+          {{data.message.errors.minLength}}
         </div>
       </div>
 
@@ -33,11 +33,11 @@
                 class="form-control is-invalid"
                 name="name"
                 required
-                minlength="4"
+                minLength="4"
                 placeholder="{{data.name.placeholder}}"
         >
         <div [hidden]="!userName.errors?.required" class="invalid-feedback">{{data.name.errors.required}}</div>
-        <div [hidden]="!userName.errors?.minlength" class="invalid-feedback">{{data.name.errors.minlength}}
+        <div [hidden]="!userName.errors?.minLength" class="invalid-feedback">{{data.name.errors.minLength}}
         </div>
       </div>
 
