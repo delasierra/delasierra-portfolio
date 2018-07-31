@@ -6,9 +6,17 @@
   0 0 20px #fc157f;
 }
 
+.neon-white-fx {
+  box-shadow: 0 0 5px #ffffff;
+}
+
 //Text effect
 .neon-text-fx {
   text-shadow: 0 0 5px #ffffff,
   0 0 15px #fda128,
   0 0 20px #fc157f;
+}
+
+.neon-light-pink-text-fx {
+  text-shadow: 0 0 5px $pink;
 }

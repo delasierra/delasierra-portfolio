@@ -1,31 +1,56 @@
+@import "work-image.component";
+@import "work-overview.component";
+@import "work-home.component";
+@import "work-text.component";
+@import "work-image-text.component";
+
+@import "../../../cover-image";
+
 .work-detail {
+  //padding-bottom: 100px;
+  max-height: 100vh;
+  overflow-y: scroll;
+  overflow-x: hidden;
+
+  .work-navigation{
+    //min-height: 20vh;
+  }
 }
 
 .work-slide {
-  min-height: 100vh;
+  //padding: 50px 0;
+  //min-height: 100vh;
   //width: 100vw;
   //margin-right: 0 -15px;
 }
 
 .work-slide-content {
-  height: 100%;
-  min-height: 100vh;
+  //height: 100%;
+  //min-height: 80vh;
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 0 40px;
+  padding: 0 17px;
 }
 
 .btn-close {
-  z-index: 2;
+  z-index: 2000;
   position: fixed;
   top: 100px;
-  left: 90%;
   cursor: pointer;
+  //left: 90% - 50px;
+  left: -webkit-calc(100% - 90px);
+  left:    -moz-calc(100% - 90px);
+  left:         calc(100% - 90px);
 
   //  TODO add media queries
 }
 
+//.cover-img-container {
+//  > img {
+//    @extend .cover-img;
+//  }
+//}
 
 // Responsive
 @include media-breakpoint-up(xs) {
@@ -37,8 +62,13 @@
 }
 
 @include media-breakpoint-up(md) {
+  .work-slide {
+    min-height: 100vh;
+  }
 
-
+  .work-slide-content{
+    padding: 0 40px;
+  }
 }
 
 @include media-breakpoint-up(lg) {

@@ -1,8 +1,8 @@
 <section
-        class="work-slide-content work-overview row"
+        class="work-slide-content work-overview"
         [ngStyle]="{'background-color': generalData.mainColor}">
-    <div class="work-overview-container">
-        <div class="col-md-8">
+    <div class="row work-overview-container">
+        <div class="project-main-info col-12 col-md-8">
             <h2>The Project</h2>
             <p *ngFor="let paragraph of detailData.description">
                 {{paragraph}}
@@ -17,7 +17,7 @@
 
         </div>
 
-        <div class="col-md-4">
+        <div class="project-secondary-info col-12 col-md-4">
 
 
             <h4>Platforms</h4>

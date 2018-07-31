@@ -1,4 +1,4 @@
-import {Directive, ElementRef, Input} from '@angular/core';
+import {Directive, ElementRef, Input, OnInit} from '@angular/core';
 import {TimelineMax} from 'gsap';
 import {NavigationEnd, Router, RouterEvent} from '@angular/router';
 import {map, filter} from 'rxjs/operators';
@@ -8,7 +8,7 @@ import {SECTION} from '../../models/routing.model';
 @Directive({
     selector: '[appBgStateColor]'
 })
-export class BgStateColorDirective {
+export class BgStateColorDirective implements OnInit {
     @Input('appBgStateColor') appBgStateColor: { color1: string, color2: string };
 
     tl = new TimelineMax();
@@ -55,25 +55,43 @@ export class BgStateColorDirective {
             case 'work':
                 this.tl
                     .to(this.el.nativeElement, 1, {
-                        // backgroundImage: 'linear-gradient(170deg, #1f2025, #212227)',
-                        backgroundImage: 'linear-gradient(170deg, #e41d29, #3d3091)',
-                        // backgroundImage: 'linear-gradient(170deg, #ffffff, #000000)',
+                        // OG Reds
+                        // backgroundImage: 'linear-gradient(175deg, #ff0013, #442f8d)',
+                        // Dar Release v1.0
+                        backgroundImage: 'linear-gradient(175deg, #3a3436, #26262a)', // Gray/brown
+                        // backgroundImage: 'linear-gradient(170deg, #292a31, #212227)', // dark
+                        // backgroundImage: 'linear-gradient(175deg, #3a3436, #442f8d)', // purple
                         overwrite:       'all'
                     });
                 break;
 
             case 'about':
+            case 'home':
+            default:
                 this.tl
                     .to(this.el.nativeElement, 1, {
-                        // backgroundImage: 'linear-gradient(170deg, #1f2024, #212227)',
-                        // backgroundImage: 'linear-gradient(170deg, #292a31, #212227)',
-                        backgroundImage: 'linear-gradient(170deg, #1f2025, #212227)',
+                        // OG Reds
+                        // backgroundImage: 'linear-gradient(175deg, #ff0013, #442f8d)',
+                        // Dar Release v1.0
+                        backgroundImage: 'linear-gradient(175deg, #3a3436, #26262a)', // Gray/brown
+                        // backgroundImage: 'linear-gradient(170deg, #292a31, #212227)', // dark
+                        // backgroundImage: 'linear-gradient(175deg, #3a3436, #442f8d)', // purple
                         overwrite:       'all'
                     });
                 break;
 
+            // case 'about':
+            //     this.tl
+            //         .to(this.el.nativeElement, 1, {
+            //             // backgroundImage: 'linear-gradient(170deg, #1f2024, #212227)',
+            //             backgroundImage: 'linear-gradient(170deg, #292a31, #212227)',
+            //             // backgroundImage: 'linear-gradient(170deg, #1f2025, #212227)', // black
+            //             overwrite:       'all'
+            //         });
+            //     break;
+            //
             case 'detail':
-                const color = this.workService.getWorkCaseData(+param).general.mainColor;
+                const color = this.workService.getWorkCaseData(param).general.mainColor;
                 this.tl
                     .to(this.el.nativeElement, 1, {
                         backgroundImage: 'linear-gradient(170deg, ' + color + ', ' + color + ')',
@@ -81,14 +99,14 @@ export class BgStateColorDirective {
                     });
                 break;
 
-            case 'home':
-            default:
-                this.tl
-                    .to(this.el.nativeElement, 1, {
-                        backgroundImage: 'linear-gradient(170deg, #292a31, #212227)',
-                        overwrite:       'all'
-                    });
-                break;
+            // case 'home':
+            // default:
+            //     this.tl
+            //         .to(this.el.nativeElement, 1, {
+            //             backgroundImage: 'linear-gradient(170deg, #292a31, #212227)',
+            //             overwrite:       'all'
+            //         });
+            //     break;
         }
     }
 

@@ -1,11 +1,11 @@
 [
   {
-    "id": 19,
+    "id": "amte",
     "general": {
       "mainColor": "#4764ae",
-      "mainImg": "assets/work/01amte/bg_main.svg",
-      "logo": "assets/work/01amte/logo_uned.svg",
-      "title": "AMTE",
+      "mainImg": "assets/work/amte/bg_main.svg",
+      "logo": "assets/work/amte/logo_uned.svg",
+      "title": "UNED University",
       "subtitle": "Web app",
       "description": "Web app para el tratamiento de la ansiedad y depresión en adolescentes"
     },
@@ -39,12 +39,12 @@
         "type": "work-image-text",
         "data": {
           "title": "Sistema de 3 aplicaciones y una web",
-          "description": "El sistema permite la interacción entre paciente, terapeuta y padres, además de un portal con información para el público",
+          "description": "El sistema permite la interacción entre paciente, terapeuta y padres a través de una aplicación espécifica para cada uno de ellos. El acceso a las diferentes apps se hace desde una web pública donde tambíen se facilita información para el público en general",
           "images": [
-            "assets/work/01amte/web_public_view.png",
-            "assets/work/01amte/web_task_circles.png",
-            "assets/work/01amte/web_therapist_no_header.png",
-            "assets/work/01amte/web_parents_sm.png"
+            "web_public_view.png",
+            "web_therapist_list.png",
+            "web_user_home_rainbow.png",
+            "web_parents_header.png"
           ],
           "position": "left",
           "layout": "",
@@ -56,9 +56,9 @@
         "type": "work-image-text",
         "data": {
           "title": "UI y flujos sencillos",
-          "description": "Uno de los mayores retos fué transformar complejos y largos documentos en flujos atractivos",
+          "description": "Uno de los mayores retos fué transformar complejos y largos documentos en flujos atractivos y fáciles de utilizar",
           "images": [
-            "assets/work/01amte/web_insertion.png"
+            "web_insertion.png"
           ],
           "position": "right",
           "layout": "",
@@ -78,13 +78,13 @@
       {
         "type": "work-image-text",
         "data": {
-          "title": "Experiencia guiada en todo momento",
-          "description": "La aplicación está compuesta de múltiples módulos guiados compuestos de videos, tareas, juegos, un avatar configurable que servirá de guía y un chat para comunicarse con los terapeutas",
+          "title": "Experiencia guiada",
+          "description": "La aplicación está compuesta de múltiples módulos configurados a medida con información, videos, tareas, juegos y un chat para comunicarse con los terapeutas. Todo el flujo está guiado por un avatar configurable",
           "images": [
-            "assets/work/01amte/web_avatar_config.png",
-            "assets/work/01amte/web_user_home.png",
-            "assets/work/01amte/web_user_record.png",
-            "assets/work/01amte/web_user_calendar.png"
+            "web_avatar_config.png",
+            "web_user_chat.png",
+            "web_user_record.png",
+            "web_user_calendar.png"
           ],
           "position": "left",
           "layout": "",
@@ -105,9 +105,9 @@
         "type": "work-image-text",
         "data": {
           "title": "Visión global",
-          "description": "Comunicación con padres y adolescentes desde un chat de la app",
+          "description": "Los terapéutas pueden personalizar los módulos de cada adolescente, hacer seguimiento de su progreso y mantener la comunicación con adolescentes y padres utilizando los avatares y el chat",
           "images": [
-            "assets/work/01amte/web_therapist.png"
+            "web_therapist_graphs.png"
           ],
           "position": "right",
           "layout": "",
@@ -128,10 +128,9 @@
         "type": "work-image-text",
         "data": {
           "title": "Interacción de los padres",
-          "description": "Datos y gráficos del progreso de sus hijos además de un chat para hablar con los terapéutas",
+          "description": "Los padres podrán opcionalmente dar apoyo a sus hijos, para ello estará informados con datos y gráficos del progreso de sus hijos y un chat para comunicarse con los terapéutas",
           "images": [
-            "assets/work/01amte/web_parents_sm_header.png",
-            "assets/work/01amte/web_parents2.png"
+            "web_parents_full.png"
           ],
           "position": "left",
           "layout": "",
@@ -142,10 +141,10 @@
       {
         "type": "work-image-text",
         "data": {
-          "title": "Proceso creativo",
-          "description": "Desarrollo creativo de adaptación del contenido y diseño de indentidad",
+          "title": "Identidad del estudio",
+          "description": "Una imagen seria y moderna intenta complacer dos targets muy diferentes: los adolescentes y el mundo académico y los padres. Los adolescentes encontrarán UI sencillos y claros. Los padres y el mundo académico verán una imagen seria y moderna",
           "images": [
-            "assets/work/01amte/logo_amte.svg"
+            "logo_amte.svg"
           ],
           "position": "right",
           "layout": "even",
@@ -160,21 +159,21 @@
           ],
           "position": "cover",
           "layout": "",
-          "background": "assets/work/01amte/bg_collage.png",
+          "background": "assets/work/amte/web_bg_collage.png",
           "fx": ""
         }
       }
     ]
   },
   {
-    "id": 20,
+    "id": "hawkeye",
     "general": {
       "mainColor": "#182b54",
-      "mainImg": "assets/work/02eyehawk/BG_ojoHalcon.png",
-      "logo": "assets/work/02eyehawk/logo_rafanadal.svg",
+      "mainImg": "assets/work/hawkeye/BG_ojoHalcon.png",
+      "logo": "assets/work/hawkeye/logo_rafanadal.svg",
       "title": "HAWK EYE",
       "subtitle": "Instalación interactiva con sockets",
-      "description": "Instalación interactiva de tennis compuesta por dos desktop apps sincronizadas via sockets"
+      "description": "Instalación interactiva compuesta por dos desktop apps sincronizadas via sockets"
     },
     "screens": [
       {
@@ -186,7 +185,7 @@
         "data": {
           "description": [
             "Instalación interactiva para el museo de Rafa Nadal en España. Consta de dos aplicaciones de escritório que se comunican entre sí utilizando sockets de la red de WIFI a la que estén conectadas.",
-            "La aplicación 'A' muestra videos de puntos de partido de tenis y desde las aplicaciones 'B' los usuarios deberán contestar si la pelota ha entrado o no dentro del campo. Hay varias rondas y puntúa mejor el que conteste correctamente en menos tiempo."
+            "La aplicación 'A' muestra videos de puntos de partido de tenis y desde las aplicaciones 'B' los usuarios deben contestar si la pelota ha entrado o no dentro del campo. Hay varias rondas y puntúa mejor el que conteste correctamente en menos tiempo."
           ],
           "client": "Rafa Nadal Museum Xperience",
           "role": [
@@ -209,7 +208,7 @@
           ],
           "position": "cover",
           "layout": "",
-          "background": "assets/work/02eyehawk/instalation_2screens.png",
+          "background": "assets/work/hawkeye/instalation_2screens.png",
           "fx": ""
         }
       },
@@ -217,7 +216,7 @@
         "type": "work-text",
         "data": {
           "title": "match point video",
-          "description": "Cuando esten todos los usuarios preparados se mostrará el primer video",
+          "description": "Cuando esten todos los usuarios preparados se muestra el primer video",
           "position": "center",
           "background": ""
         }
@@ -226,7 +225,8 @@
         "type": "work-image",
         "data": {
           "images": [
-            "assets/work/02eyehawk/match_point.png"
+            "main_round.png",
+            "match_point.png"
           ],
           "position": "center",
           "layout": "",
@@ -238,9 +238,10 @@
         "type": "work-image-text",
         "data": {
           "title": "User interaction",
-          "description": "Una vez terminado el vídeo los usuarios tendrán un tiempo limitado para contestar",
+          "description": "Una vez terminado el vídeo los usuarios tienen un tiempo limitado para contestar",
           "images": [
-            "assets/work/02eyehawk/in_out_user.png"
+            "user_round.png",
+            "user_in-out.png"
           ],
           "position": "right",
           "layout": "",
@@ -252,7 +253,7 @@
         "type": "work-text",
         "data": {
           "title": "Eye hawk 3d video",
-          "description": "Despues de que hayan contestado, o se haya agotado el tiempo, se mostrará una recreación 3D del punto de partido",
+          "description": "Después de que hayan contestado o se haya agotado el tiempo, se muestra una recreación 3D del punto de partido",
           "position": "center",
           "background": ""
         }
@@ -261,7 +262,8 @@
         "type": "work-image",
         "data": {
           "images": [
-            "assets/work/02eyehawk/hawkeye_full1.png"
+            "hawkeye_1.png",
+            "hawkeye_2.png"
           ],
           "position": "center",
           "layout": "",
@@ -269,13 +271,18 @@
           "fx": ""
         }
       },
+
       {
-        "type": "work-image",
+        "type": "work-image-text",
         "data": {
+          "title": "Puntaje",
+          "description": "Se muestra si la respuesta fue correcta o no y al final de la quinta ronda se proclama el ganador",
           "images": [
-            "assets/work/02eyehawk/hawkeye_full2.png"
+            "user_correct.png",
+            "user_winner.png",
+            "user_record.png"
           ],
-          "position": "center",
+          "position": "left",
           "layout": "",
           "background": "",
           "fx": ""
@@ -288,18 +295,18 @@
           ],
           "position": "cover",
           "layout": "",
-          "background": "assets/work/02eyehawk/instalation_2screens_closeup.png",
+          "background": "assets/work/hawkeye/instalation_2screens_closeup.png",
           "fx": ""
         }
       }
     ]
   },
   {
-    "id": 21,
+    "id": "westworld",
     "general": {
       "mainColor": "#242424",
-      "mainImg": "assets/work/03westworld/main_img.png",
-      "logo": "assets/work/03westworld/logo_hbo.svg",
+      "mainImg": "assets/work/westworld/main_img.png",
+      "logo": "assets/work/westworld/logo_hbo.svg",
       "title": "West world",
       "subtitle": "Registro web gamificado",
       "description": "Web app gamificada para el registro de usuarios asistentes a un evento de cine inmersivo"
@@ -313,10 +320,10 @@
         "type": "work-overview",
         "data": {
           "description": [
-            "Los asistentes al evento deberán confirmar su asistencia y acudir caracterizados para participar en la experiencia de cine inmersivo. Para ello deberán introducir el código de su entrada y contestar a una serie de preguntas.",
-            "La web app creará un personaje hecho a medida con nombre, appellido, mote, profesión e história que definirá su rol en el evento. El algoritmo combina datos aleatórios de varios bloques de información, generando un personaje casi único."
+            "Los asistentes al evento de cine inmersivo deben acudir caracterizados. Respondiendo a una serie de preguntas, el sistema crea un personaje casi único con nombre, apellido, mote, profesión e historia que describe la vestimenta y personalidad de cada usuario en el evento.",
+            "Para acceder a la app, es necesario introducir el código de la entrada y al terminar el flujo de preguntas queda registrada la asistencia."
           ],
-          "client": "HBO Europe",
+          "client": "HBO España",
           "role": [
             "Desarrollo fullstack",
             "Diseño funcional",
@@ -335,10 +342,10 @@
         "type": "work-image-text",
         "data": {
           "title": "Stepped form",
-          "description": "En caso ya tener un personaje, se mostrará en pantalla. Si no es así se harán las preguntas para configurar uno nuevo",
+          "description": "Si el usuario ya ha registrado su asistencia, se muestra la información su personaje. En caso contrario se muestra el flujo de preguntas para configurar uno",
           "images": [
-            "assets/work/03westworld/screen1.png",
-            "assets/work/03westworld/screen2.png"
+            "screen_login.png",
+            "screen_questions.png"
           ],
           "position": "right",
           "layout": "",
@@ -350,9 +357,9 @@
         "type": "work-image-text",
         "data": {
           "title": "Personaje a medida",
-          "description": "El usuario podrá ver esta pantalla en cualquier momento introduciendo su código de entrada",
+          "description": "El usuario puede ver esta pantalla en cualquier momento introduciendo su código de entrada",
           "images": [
-            "assets/work/03westworld/screen3.png"
+            "screen_character.png"
           ],
           "position": "left",
           "layout": "",
@@ -379,11 +386,11 @@
     ]
   },
   {
-    "id": 22,
+    "id": "reflexes",
     "general": {
       "mainColor": "#263049",
-      "mainImg": "assets/work/04reflexes/main_bg.png",
-      "logo": "assets/work/04reflexes/logo_rafanadal.svg",
+      "mainImg": "assets/work/reflexes/main_bg.png",
+      "logo": "assets/work/reflexes/logo_rafanadal.svg",
       "title": "Reflexes",
       "subtitle": "Instalación interactiva con Arduino",
       "description": "Instalación interactiva con Arduino para el entrenamiento deportivo"
@@ -416,28 +423,17 @@
         }
       },
       {
-        "type": "work-image",
-        "data": {
-          "images": [
-            "assets/work/04reflexes/instalation2.png"
-          ],
-          "position": "cover",
-          "layout": "",
-          "background": "",
-          "fx": ""
-        }
-      },
-      {
         "type": "work-image-text",
         "data": {
           "title": "Desktop app",
           "description": "Es configurable para niños, adultos, juego individual o modo competición. Gestiona las puntuaciones y records.",
           "images": [
-            "assets/work/04reflexes/screen2.png",
-            "assets/work/04reflexes/screen3.png",
-            "assets/work/04reflexes/screen4.png",
-            "assets/work/04reflexes/screen5.png",
-            "assets/work/04reflexes/screen6.png"
+            "screen_home.png",
+            "screen_players.png",
+            "screen_adult_kid.png",
+            "screen_record.png",
+            "screen_keyboard.png",
+            "screen_thanks.png"
           ],
           "position": "right",
           "layout": "",
@@ -451,7 +447,8 @@
           "title": "La instalación",
           "description": "Expuesta en el museo de Rafa Nadal para el uso público y sesiones privadas de entrenamiento.",
           "images": [
-            "assets/work/04reflexes/instalation_trainer.png"
+            "instalation2.png",
+            "instalation_trainer.png"
           ],
           "position": "left",
           "layout": "",
@@ -466,18 +463,18 @@
           ],
           "position": "cover",
           "layout": "",
-          "background": "assets/work/04reflexes/instalation1.png",
+          "background": "assets/work/reflexes/instalation1.png",
           "fx": ""
         }
       }
     ]
   },
   {
-    "id": 23,
+    "id": "camelcolors",
     "general": {
       "mainColor": "#5361a5",
-      "mainImg": "assets/work/05camelcolors/main_bg.png",
-      "logo": "assets/work/05camelcolors/logo_camel.svg",
+      "mainImg": "assets/work/camelcolors/main_bg.png",
+      "logo": "assets/work/camelcolors/logo_camel.svg",
       "title": "Camel Colors",
       "subtitle": "Augmented reality iOS app",
       "description": "Augmented reality iOS app para acción publicitaria"
@@ -491,7 +488,7 @@
         "type": "work-overview",
         "data": {
           "description": [
-            "Acción publicitaria para el Gay Parade en Madrid en la que se instalaron varios iPads en diferentes puntos del recorrido del evento. Con la app, los usuarios podían ponerse diferentes maquillajes relacionados con la celebración, sacar una foto y enviarla a un email a cambio de compartir datos que eran almacenados en una base de datos para futuras acciones."
+            "Acción publicitaria para el Madrid Gay Parade en la que se instalaron varios iPads en diferentes puntos del recorrido del evento. Con la app, los usuarios pueden ponerse diferentes maquillajes relacionados con la celebración, sacar una foto y enviarla a un email a cambio de compartir datos que son almacenados en una base de datos para futuras acciones publicitarias."
           ],
           "role": [
             "Fullstack development",
@@ -510,7 +507,7 @@
         "type": "work-image",
         "data": {
           "images": [
-            "assets/work/05camelcolors/screen1_big.png"
+            "screen_home.png"
           ],
           "position": "center",
           "layout": "",
@@ -524,9 +521,9 @@
           "title": "Funcionamiento",
           "description": "Los usuarios pueden elegir entre varias opciones de maquillaje, jugar con ella, sacar una foto y enviarla a una dirección de email",
           "images": [
-            "assets/work/05camelcolors/screen_makeup.png",
-            "assets/work/05camelcolors/screen_getpicture.png",
-            "assets/work/05camelcolors/screen_form.png"
+            "screen_makeup.png",
+            "screen_picture.png",
+            "screen_form.png"
           ],
           "position": "right",
           "layout": "",
@@ -545,7 +542,7 @@
         "type": "work-image",
         "data": {
           "images": [
-            "assets/work/05camelcolors/screen_thanks_big.png"
+            "screen_thanks.png"
           ],
           "position": "center",
           "layout": "",
@@ -556,11 +553,11 @@
     ]
   },
   {
-    "id": 24,
+    "id": "tnt",
     "general": {
       "mainColor": "#4263ab",
-      "mainImg": "assets/work/06tnt/main_bg.png",
-      "logo": "assets/work/06tnt/tnt_logo.svg",
+      "mainImg": "assets/work/tnt/main_bg.png",
+      "logo": "assets/work/tnt/tnt_logo.svg",
       "title": "Game TNT",
       "subtitle": "Juego HTML5",
       "description": "Juego para el registro de usuarios asistentes a un evento de cine inmersivo"
@@ -574,8 +571,8 @@
         "type": "work-overview",
         "data": {
           "description": [
-            "Los asistentes al evento deberán confirmar su asistencia y acudir caracterizados para participar en la experiencia de cine inmersivo. Para ello deberán registrarse a través de un juego HTML5.",
-            "Al usuario se le adjudicará aleatóriamente un personaje que tendrá que encontrar en una ilustración interactiva donde hay otros muchos personajes. Una vez encontrado, el usuario quedará registrado para asistir al evento."
+            "Los asistentes al evento de cine inmersivo deben confirmar su asistencia y acudir caracterizados con un personaje de TV que se le adjudica aleatóriamente. Para ello deben utilizar un juego HTML5.",
+            "El juego consiste en encontrar el personaje en una ilustración interactiva donde hay otros muchos personajes. Una vez encontrado, el usuario y su personaje quedan registrados en la base de datos del evento."
           ],
           "client": "TNT Channel",
           "role": [
@@ -595,7 +592,7 @@
         "type": "work-image",
         "data": {
           "images": [
-            "assets/work/06tnt/drawing-flash.png"
+            "drawing-flash.png"
           ],
           "position": "center",
           "layout": "",
@@ -607,7 +604,7 @@
         "type": "work-image",
         "data": {
           "images": [
-            "assets/work/06tnt/screen1.png"
+            "screen_char_search.png"
           ],
           "position": "center",
           "layout": "",
@@ -619,7 +616,31 @@
         "type": "work-image",
         "data": {
           "images": [
-            "assets/work/06tnt/screen2.png"
+            "screen_char_founded.png"
+          ],
+          "position": "left",
+          "layout": "",
+          "background": "",
+          "fx": ""
+        }
+      },
+      {
+        "type": "work-image",
+        "data": {
+          "images": [
+            "drawing-char3.png"
+          ],
+          "position": "right",
+          "layout": "",
+          "background": "",
+          "fx": ""
+        }
+      },
+      {
+        "type": "work-image",
+        "data": {
+          "images": [
+            "drawing-char.png"
           ],
           "position": "center",
           "layout": "",
@@ -631,31 +652,7 @@
         "type": "work-image",
         "data": {
           "images": [
-            "assets/work/06tnt/drawing-char.png"
-          ],
-          "position": "center",
-          "layout": "",
-          "background": "",
-          "fx": ""
-        }
-      },
-      {
-        "type": "work-image",
-        "data": {
-          "images": [
-            "assets/work/06tnt/drawing-char3.png"
-          ],
-          "position": "center",
-          "layout": "",
-          "background": "",
-          "fx": ""
-        }
-      },
-      {
-        "type": "work-image",
-        "data": {
-          "images": [
-            "assets/work/06tnt/drawing-char5.png"
+            "drawing-char5.png"
           ],
           "position": "center",
           "layout": "",
@@ -671,18 +668,18 @@
           ],
           "position": "center",
           "layout": "cover",
-          "background": "assets/work/06tnt/last_screen_hd.png",
+          "background": "assets/work/tnt/last_screen_4000.png",
           "fx": ""
         }
       }
     ]
   },
   {
-    "id": 25,
+    "id": "winston",
     "general": {
       "mainColor": "#b71b21",
-      "mainImg": "assets/work/07winston/main_bg.png",
-      "logo": "assets/work/07winston/winston_logo.svg",
+      "mainImg": "assets/work/winston/main_bg.png",
+      "logo": "assets/work/winston/winston_logo.svg",
       "title": "Winston Game",
       "subtitle": "Android game",
       "description": "Android game para acción publicitaria"
@@ -696,7 +693,7 @@
         "type": "work-overview",
         "data": {
           "description": [
-            "Acción publicitaria a nivel nacional en la que los usuarios pueden participar en un sorteo al compartir sus datos. Para rellenar el formulario primero deben resolver un juego que consiste en encontrar las 3 águilas de Winston escondidas en una imágen."
+            "Acción publicitaria a nivel nacional. Los usuarios pueden participar en un sorteo a cambio de compartir sus datos. Para poder hacerlo, primero deben resolver un juego que consiste en encontrar las 3 águilas de Winston escondidas en una imágen."
           ],
           "client": "Winston",
           "role": [
@@ -716,7 +713,7 @@
         "type": "work-image",
         "data": {
           "images": [
-            "assets/work/07winston/screen1.png"
+            "sceen_home.png"
           ],
           "position": "center",
           "layout": "",
@@ -730,8 +727,8 @@
           "title": "Las águilas",
           "description": "Para encontrarlas hay que posicionar la lupa sobre ellas",
           "images": [
-            "assets/work/07winston/screen2.png",
-            "assets/work/07winston/screen3.png"
+            "screen_eagles.png",
+            "screen_game1.png"
           ],
           "position": "right",
           "layout": "",
@@ -745,9 +742,9 @@
           "title": "Los escenarios",
           "description": "Tres diferentes escenarios que son cargados aleatoriamente",
           "images": [
-            "assets/work/07winston/scenarios1.png",
-            "assets/work/07winston/scenarios2.png",
-            "assets/work/07winston/scenarios3.png"
+            "screen_scene2.png",
+            "screen_scene3.png",
+            "screen_scene1.png"
           ],
           "position": "left",
           "layout": "",
@@ -759,8 +756,8 @@
         "type": "work-image",
         "data": {
           "images": [
-            "assets/work/07winston/results_screen1.png",
-            "assets/work/07winston/results_screen2.png"
+            "screen_end_sorry.png",
+            "screen_end_OK.png"
           ],
           "position": "center",
           "layout": "",
@@ -774,7 +771,7 @@
           "title": "Formulario con firma digital",
           "description": "Los datos introducidos y la captura de una firma del usuario son almacenados en una base de datos en el dispositivo y posteriormente subidos a un servidor.",
           "images": [
-            "assets/work/07winston/form_screen.png"
+            "screen_form.png"
           ],
           "position": "left",
           "layout": "",
@@ -788,9 +785,9 @@
           "title": "Panel de administrador",
           "description": "Desde un panel de administración se pueden hacer tareas de configuración y backup.",
           "images": [
-            "assets/work/07winston/admin1.png",
-            "assets/work/07winston/admin2.png",
-            "assets/work/07winston/admin3.png"
+            "screen_admin1.png",
+            "screen_admin2.png",
+            "screen_admin3.png"
           ],
           "position": "right",
           "layout": "",
@@ -801,11 +798,11 @@
     ]
   },
   {
-    "id": 26,
+    "id": "frutas",
     "general": {
       "mainColor": "#3b93a8",
-      "mainImg": "assets/work/08frutasverduras/main_bg.png",
-      "logo": "assets/work/08frutasverduras/logo_frutas.svg",
+      "mainImg": "assets/work/frutas/main_bg.png",
+      "logo": "assets/work/frutas/logo_frutas.svg",
       "title": "Frutas & Verduras",
       "subtitle": "Web app con visita virtual",
       "description": "Web app con visita virtual de las instalaciones de un hostal"
@@ -819,7 +816,7 @@
         "type": "work-overview",
         "data": {
           "description": [
-            "Esta web app permite al usuario navegar por las diferentes zonas de un hostal en México. La visita virtual prentende dar una perspectiva real de las instalaciones manteniendo un toque artístico en el diseño.",
+            "Esta web app permite al usuario navegar por las diferentes zonas de un hostal en México. La visita virtual da una perspectiva real de las instalaciones manteniendo un toque artístico en el diseño.",
             "Antiguo proyecto desarrollado en Flash que ganó un premio Flash Awwards en 2010."
           ],
           "client": "Frutas & verduras",
@@ -841,11 +838,11 @@
         "type": "work-image-text",
         "data": {
           "title": "La visita virtual",
-          "description": "Navegacion por los diferentes edificios",
+          "description": "Navegación por los diferentes edificios",
           "images": [
-            "assets/work/08frutasverduras/screen1.png",
-            "assets/work/08frutasverduras/screen2.png",
-            "assets/work/08frutasverduras/screen3.png"
+            "screen_home.png",
+            "screen_selection.png",
+            "screen_main_building_info.png"
           ],
           "position": "right",
           "layout": "",
@@ -859,13 +856,13 @@
           "title": "Las ilustraciones",
           "description": "Collage de fotos reales del hostal mezcladas con ilustraciones y texturas",
           "images": [
-            "assets/work/08frutasverduras/illustration_terrace.png",
-            "assets/work/08frutasverduras/illustration_main_building.png",
-            "assets/work/08frutasverduras/illustration_toilets.png"
+            "illust_rooftop.png",
+            "illust_main_building.png",
+            "illust_bath.png"
           ],
           "position": "left",
           "layout": "",
-          "background": "assets/work/08frutasverduras/bg_illustrations.png",
+          "background": "assets/work/frutas/bg_illustrations.png",
           "fx": ""
         }
       },
@@ -873,8 +870,8 @@
         "type": "work-image",
         "data": {
           "images": [
-            "assets/work/08frutasverduras/screen4.png",
-            "assets/work/08frutasverduras/screen5.png"
+            "screen_prices.png",
+            "screen_getthere.png"
           ],
           "position": "center",
           "layout": "",

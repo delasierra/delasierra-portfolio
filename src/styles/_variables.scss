@@ -43,6 +43,7 @@ $white:    #fff;
 //$indigo:  #6610f2 !default;
 //$purple:  #6f42c1 !default;
 $pink:    #ecd7dc;
+$light-yellow: #fffbe4;
 //$red:     #dc3545 !default;
 //$orange:  #fd7e14 !default;
 //$yellow:  #ffc107 !default;
@@ -171,13 +172,13 @@ $body-color:                $primary-gray;
 //// Define the minimum dimensions at which your layout will change,
 //// adapting to different screen sizes, for use in media queries.
 //
-//$grid-breakpoints: (
-//        xs: 0,
-//        sm: 576px,
-//        md: 768px,
-//        lg: 992px,
-//        xl: 1200px
-//) !default;
+$grid-breakpoints: (
+        xs: 0,
+        sm: 540px,
+        md: 720px,
+        lg: 960px,
+        xl: 1600px
+);
 //
 //@include _assert-ascending($grid-breakpoints, "$grid-breakpoints");
 //@include _assert-starts-at-zero($grid-breakpoints);

@@ -10,16 +10,18 @@ import {AppRoutingModule} from './app-routing.module';
 import {HttpClientModule} from '@angular/common/http';
 import {NgbModule} from '@ng-bootstrap/ng-bootstrap';
 import {ContactFormComponent} from './components/contact-form/contact-form.component';
-import { SocialMediaLinksComponent } from './components/social-media/social-media.component';
+import {SocialMediaLinksComponent} from './components/social-media/social-media.component';
 
 import {WebglComponent} from './components/webgl/webgl.component';
-import { BgStateColorDirective } from './directives/attributes/bg-state-color.directive';
+import {BgStateColorDirective} from './directives/attributes/bg-state-color.directive';
 import {FontAwesomeModule} from '@fortawesome/angular-fontawesome';
-import { ContactFormExpandableComponent } from './components/contact-form-expandable/contact-form-expandable.component';
-import { BgCanvasComponent } from './components/bg-canvas/bg-canvas.component';
-import { BgStateColorCanvasDirective } from './directives/attributes/bg-state-color-canvas.directive';
-import { ScrollSmoothDirective } from './directives/animations/scroll-smooth.directive';
+import {ContactFormExpandableComponent} from './components/contact-form-expandable/contact-form-expandable.component';
+import {BgCanvasComponent} from './components/bg-canvas/bg-canvas.component';
+import {BgStateColorCanvasDirective} from './directives/attributes/bg-state-color-canvas.directive';
+import {ScrollSmoothDirective} from './directives/animations/scroll-smooth.directive';
 import {ResponsiveModule} from 'ngx-responsive';
+import {WorkModule} from './sections/work/work.module';
+import {ResponsiveImgComponent} from './components/responsive-img/responsive-img.component';
 
 @NgModule({
     imports:      [
@@ -29,7 +31,8 @@ import {ResponsiveModule} from 'ngx-responsive';
         FormsModule,
         NgbModule.forRoot(),
         FontAwesomeModule,
-        ResponsiveModule,
+        // ResponsiveModule.forRoot(),
+        // WorkModule,
     ],
     declarations: [
         AppComponent,

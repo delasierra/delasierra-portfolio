@@ -1,5 +1,5 @@
-<section class="work-slide-content work-home" [ngStyle]="{'background-image': 'url(' + generalData.mainImg + ')'}">
-<!--<section class="work-slide-content work-home">-->
+<section class="work-home">
+    <!--<section class="work-slide-content work-home">-->
     <div class="work-content">
         <div class="work-logo">
             <img src="{{generalData.logo}}">
@@ -7,4 +7,11 @@
         <h1>{{generalData.title}}</h1>
         <h5>{{generalData.description}}</h5>
     </div>
+
+    <app-responsive-img
+            class="cover-img"
+            [folder]="getImagesFolder()"
+            [image]="generalData.mainImg">
+    </app-responsive-img>
+    <!--<img class="cover-img" src="{{generalData.mainImg}}" alt="">-->
 </section>

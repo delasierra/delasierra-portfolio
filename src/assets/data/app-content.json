@@ -1,47 +1,54 @@
 {
-  "work":{
+  "home": {
+    "welcome": [
+      "¡Hola! Soy Carlos, programador Creativo con base en Sydney.",
+      "Experimento con tecnología Frontend para crear experiencias interactivas y herramientas útiles."
+    ]
+  },
+  "work": {
     "projectTitle": "The Project",
     "roleTitle": "My Role",
     "creditsTitle": "Credits"
   },
   "about": {
-    "title": "Hello",
+    "title": "BACKGROUND",
     "bio": [
-      "I am a Sr. developer. blockchain, AR, VR and 3D enthusiast. I enjoy experimenting with multimedia using the new stuffs and applying the old ones differently. I try to include a new framework or libraries in my projects. Code in any context interacting with anything.",
-      "I am a Sr. Designer. I design intuitive and functional User interfaces. I do illustrations mixing Illustrator, Photoshop and hand drawing. I like to create textures when fits the projects style. I like vector drawing for responsive UIs and svg animations.",
-      "I also do management. I am good at transforming Word documents in a well structured good looking app/web/thing that is easy to use. I visualize style, animations and code structure from a briefing. I can write a proposal and present it to final client. I am good at coordinating teams and communicating with different departments and final clients. I write technical documents."
+      "Llevo creando experiencias interactivas desde que terminé mis estudios en Visual Arts en el 2001. A lo largo del camino he acumulado habilidades y experiencia en diferentes disciplinas de la programación y el diseño, adquiriendo una visión global del proceso de creación de proyectos digitales.",
+      "Hago de cada proyecto un reto, adoptando nuevas técnicas de trabajo, librerías y/o frameworks para mantener un skillset actualizado. Obsesionado con el orden, la escalabilidad del código y el UX.",
+      "Mi carrera ha estado siempre más enfocada en la programación Frontend, pero con una mente a medio camino entre el código y la creatividad, soy capaz de crear UI intuitivos y funcionales, hacer ilustraciones y animaciones.",
+      "Disfruto haciendo mi trabajo, soy honesto y me comprometo cuando lo hago. Actualmente con base en Sydney, Australia, busco un equipo de desarrollo en el que pueda aportar mi grano de arena en construir nuevas experiencias interactivas."
     ]
   },
   "contact": {
-    "title": "Want to know more?",
+    "title": "¿QUIERES SABER MÁS?",
     "introText": [
-      "If you hava a project and think iI can give you a hand, you are a great agency and think I can fit in as a team member or just would like to get in touch, please drop me a line:"
+      "Si quieres contactarme envíame un mensaje desde aquí:"
     ],
     "message": {
-      "placeholder": "Send me a message",
+      "placeholder": "Escribe aqui tu mensaje",
       "errors": {
-        "minLength": "Must be at least 20 characers",
-        "required": "Please tell me a bit more"
+        "minLength": "El mensaje debe ser más largo",
+        "required": "Debes completar este campo"
       }
     },
     "name": {
-      "placeholder": "Write here your name",
+      "placeholder": "Dime como debo llamarte",
       "errors": {
-        "minLength": "Must be at least 2 characers",
-        "required": "Please tell me a bit more"
+        "minLength": "Debe tener al menos 2 caracteres",
+        "required": "Necesito tu nombre"
       }
     },
     "email": {
-      "placeholder": "And here your email",
+      "placeholder": "Tu email",
       "errors": {
-        "invalid": "Email is not valid",
-        "required": "email is requiered"
+        "invalid": "El formato no es válido",
+        "required": "El email es necesario para poder contestarte"
       }
     },
-    "buttonText": "Send"
+    "buttonText": "Enviar Mensaje"
   },
   "socialMedia": {
-    "introText": "You can also find me at:",
+    "introText": "También me puedes encontrar en:",
     "links": [
       {
         "logo": "assets/vectors/social_github_icon.svg",

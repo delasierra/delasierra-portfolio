@@ -10,6 +10,7 @@ export class WorkImageTextComponent implements OnInit {
 
     @Input() generalData: WorkGeneralData;
     @Input() detailData: WorkImageTextData;
+    @Input() workId: string;
 
     constructor() {
     }
@@ -49,8 +50,11 @@ export class WorkImageTextComponent implements OnInit {
 
     getImageStyles(): any {
         // const images = this.detailData.images;
+        // const position =
         const imgStyles: WorkImgData = {
-            position:   'center',
+            // position:   'center',
+            position:   this.detailData.position,
+            layout:   this.detailData.layout,
             background: this.detailData.background,
             images:     this.detailData.images,
             fx:         this.detailData.images.fx

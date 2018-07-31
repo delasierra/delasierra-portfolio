@@ -8,7 +8,9 @@ import {WorkDataModel} from './models/work-data.model';
 )
 export class WorkService {
 
-    workCasesList: Array<WorkDataModel> = require('../../../assets/data/work-detail.json');
+    // workCasesList: Array<WorkDataModel> = require('../../../assets/data/work-detail.json');
+    workCasesList: Array<WorkDataModel> = require('../../../assets/data/work-detail_2.json');
+    imgFolder = 'assets/work/';
 
     constructor() {
     }
@@ -17,13 +19,17 @@ export class WorkService {
         return this.workCasesList;
     }
 
-    public getWorkCaseData(id: number): WorkDataModel {
+    public getWorkCaseData(id: string): WorkDataModel {
         let workcaseData: WorkDataModel;
         for (let i = 0; i < this.workCasesList.length; i++) {
-            if (this.workCasesList[i].id == id) {
+            if (this.workCasesList[i].id === id) {
                 workcaseData = this.workCasesList[i];
             }
         }
         return workcaseData;
+    }
+
+    public getImagePath(workId: string): string {
+        return this.imgFolder + workId + '/';
     }
 }

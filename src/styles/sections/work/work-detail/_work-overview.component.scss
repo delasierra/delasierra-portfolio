@@ -1,0 +1,88 @@
+.work-overview {
+  color: #ffffff;
+
+  .work-overview-container{
+    display: flex;
+    padding: 85px 0;
+
+    .project-main-info{
+      padding-bottom: 75px;
+    }
+
+    .project-main-info{
+
+    }
+  }
+}
+
+
+// Responsive
+@include media-breakpoint-up(xs) {
+
+}
+
+@include media-breakpoint-up(sm) {
+  .work-overview {
+
+    .work-overview-container{
+      padding: 85px 12px 85px 12px;
+      //padding-left: 10px;
+      //padding-right: 10px;
+      .project-main-info{
+
+      }
+
+      .project-main-info{
+
+      }
+    }
+  }
+}
+
+@include media-breakpoint-up(md) {
+  .work-overview {
+
+    .work-overview-container{
+
+      .project-main-info{
+
+      }
+
+      .project-main-info{
+
+      }
+    }
+  }
+}
+
+@include media-breakpoint-up(lg) {
+  .work-overview {
+
+    .work-overview-container{
+
+      .project-main-info{
+
+      }
+
+      .project-main-info{
+
+      }
+    }
+  }
+}
+
+@include media-breakpoint-up(xl) {
+  .work-overview {
+
+    .work-overview-container{
+
+      .project-main-info{
+
+      }
+
+      .project-main-info{
+
+      }
+    }
+  }
+}

@@ -11,7 +11,7 @@ import {SECTION} from '../../../models/routing.model';
 })
 export class WorkDetailComponent implements OnInit {
 
-    id: number;
+    id: string;
     workCaseData: WorkDataModel;
 
     private HOME_ID = 'work-home';

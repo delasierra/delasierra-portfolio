@@ -1,0 +1,26 @@
+<div *ngIf="isVector;then vectorImage else responsiveImage"></div>
+<ng-template #responsiveImage>
+    <!--@1x images-->
+    <div *responsive="{pixelratio:['1x']}">
+        <img class="size-xl" *responsive="{ bootstrap: ['xl']}" src="{{ getImage('xl', '@1') }}{{ image }}">
+        <img class="size-lg" *responsive="{ bootstrap: ['md', 'lg']}" src="{{ getImage('lg', '@1') }}{{ image }}">
+        <img class="size-md" *responsive="{ bootstrap: ['sm']}" src="{{ getImage('md', '@1') }}{{ image }}">
+        <img class="size-xs" *responsive="{ bootstrap: ['xs']}" src="{{ getImage('xs', '@1') }}{{ image }}">
+    </div>
+
+    <!--retina+ images-->
+    <div *responsive="{pixelratio:['retina', '4k']}">
+        <img class="size-xl" *responsive="{ bootstrap: ['xl']}" src="{{ getImage('xl', '@2') }}{{ image }}">
+        <img class="size-lg" *responsive="{ bootstrap: ['md', 'lg']}" src="{{ getImage('lg', '@2') }}{{ image }}">
+        <img class="size-md" *responsive="{ bootstrap: ['sm']}" src="{{ getImage('md', '@2') }}{{ image }}">
+        <img class="size-xs" *responsive="{ bootstrap: ['xs']}" src="{{ getImage('xs', '@2') }}{{ image }}">
+        <!--<img *responsive="{ standard:['ipad']}" src="{{ getImage('md', '@2') }}{{ image }}">-->
+
+        <!--<img *responsive="{ bootstrap: ['sm']}" src="{{ getImage('md', '@2') }}{{ image }}">-->
+        <!--<img *responsive="{ bootstrap: ['md','sm','xs']}" src="{{ getImage('md', '@2') }}{{ image }}">-->
+    </div>
+</ng-template>
+
+<ng-template #vectorImage>
+    <img src="{{ getImage() }}{{ image }}">
+</ng-template>

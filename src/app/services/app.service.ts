@@ -1,5 +1,5 @@
 import {Injectable} from '@angular/core';
-import {AboutSectionData} from '../models/app-data.model';
+import {AboutSectionData, HomeSectionData} from '../models/app-data.model';
 import {ContactSectionData} from '../components/contact-form/contact-form.model';
 import {SocialMediaModel} from '../components/social-media/social-media.model';
 
@@ -30,6 +30,10 @@ export class AppService {
         //             // console.log('NavigationEnd:', event);
         //         }
         //     });
+    }
+
+    public getHomeData(): HomeSectionData {
+        return this.appContentData.home;
     }
 
     public getAboutData(): AboutSectionData {

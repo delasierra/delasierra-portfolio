@@ -1,0 +1,910 @@
+[
+  {
+    "id": "amte",
+    "general": {
+      "mainColor": "#4764ae",
+      "mainImg": "bg_main.svg",
+      "logo": "assets/work/amte/logo_uned.svg",
+      "title": "Psychology research",
+      "subtitle": "#Frontend #JS #EaselJs #Bootstrap #institution #eHealth #WebTreatment #Psychology",
+      "description": "Web app para el tratamiento de la ansiedad y depresión en adolescentes"
+    },
+    "screens": [
+      {
+        "type": "work-home",
+        "data": null
+      },
+      {
+        "type": "work-overview",
+        "data": {
+          "description": [
+            "AMTE (Aprende a manejar tus emociones) es una web app funcional con la que se pretende estudiar la efectividad del diagnóstico y tratamiento de desórdenes de ansiedad y depresión en adolescentes utilizando nuevas tecnologías. Desarrollada para el departamento de psicología de la UNED bajo la supervisión del Dr. Bonifacio Sandín, catedrático de Personalidad, Evaluación y Tratamiento Psicológico, es una herramienta innovadora en este campo."
+          ],
+          "client": "Universidad Nacional de Educación a Distancia (UNED)",
+          "role": [
+            "Co-autor",
+            "Frontend lead developer",
+            "Creative direction"
+          ],
+          "credits": [
+            "Bonifacio Sadín: Jefe del proyecto de investigación",
+            "Manuel Ottaviano: Co-autor and eHealth researcher"
+          ],
+          "platforms": [
+            "Desktop and mobile browsers"
+          ]
+        }
+      },
+      {
+        "type": "work-image-text",
+        "data": {
+          "title": "Sistema de 3 aplicaciones y una web",
+          "description": "El sistema permite la interacción entre paciente, terapeuta y padres a través de una aplicación espécifica para cada uno de ellos. El acceso a las diferentes apps se hace desde una web pública donde tambíen se facilita información para el público en general",
+          "images": [
+            "web_public_view.png",
+            "web_therapist_list.png",
+            "web_user_home_rainbow.png",
+            "web_parents_header.png"
+          ],
+          "position": "left",
+          "layout": "",
+          "background": "",
+          "fx": ""
+        }
+      },
+      {
+        "type": "work-text",
+        "data": {
+          "title": "UI y flujos sencillos",
+          "description": "Uno de los mayores retos fué transformar complejos y largos documentos en flujos atractivos y fáciles de utilizar",
+          "position": "center",
+          "background": ""
+        }
+      },
+      {
+        "type": "work-image",
+        "data": {
+          "images": [
+            "web_insertion.png"
+          ],
+          "position": "right",
+          "layout": "",
+          "background": "",
+          "fx": ""
+        }
+      },
+      {
+        "type": "work-text",
+        "data": {
+          "title": "La app del adolescente",
+          "description": "Diseñada para aprender y poner en práctica conceptos de psicología que ayudarán a controlar las situaciones de ansiedad y depresión",
+          "position": "center",
+          "background": "#ffffff"
+        }
+      },
+      {
+        "type": "work-image-text",
+        "data": {
+          "title": "Experiencia guiada",
+          "description": "La aplicación está compuesta de múltiples módulos configurados a medida con información, videos, tareas, juegos y un chat para comunicarse con los terapeutas. Todo el flujo está guiado por un avatar configurable",
+          "images": [
+            "web_avatar_config.png",
+            "web_user_chat.png",
+            "web_user_record.png",
+            "web_user_calendar.png"
+          ],
+          "position": "left",
+          "layout": "",
+          "background": "#ffffff",
+          "fx": ""
+        }
+      },
+      {
+        "type": "work-text",
+        "data": {
+          "title": "App de los tearapeutas",
+          "description": "Creación, configuración y seguimiento personalizado de cada adolescente",
+          "position": "center",
+          "background": ""
+        }
+      },
+      {
+        "type": "work-image-text",
+        "data": {
+          "title": "Visión global",
+          "description": "Los terapéutas pueden personalizar los módulos de cada adolescente, hacer seguimiento de su progreso y mantener la comunicación con adolescentes y padres utilizando los avatares y el chat",
+          "images": [
+            "web_therapist_graphs.png"
+          ],
+          "position": "right",
+          "layout": "",
+          "background": "",
+          "fx": ""
+        }
+      },
+      {
+        "type": "work-text",
+        "data": {
+          "title": "App de los padres",
+          "description": "Acceso privado para el seguimiento de sus hijos",
+          "position": "center",
+          "background": "#ffffff"
+        }
+      },
+      {
+        "type": "work-image-text",
+        "data": {
+          "title": "Interacción de los padres",
+          "description": "Los padres podrán opcionalmente dar apoyo a sus hijos, para ello estará informados con datos y gráficos del progreso de sus hijos y un chat para comunicarse con los terapéutas",
+          "images": [
+            "web_parents_full.png"
+          ],
+          "position": "left",
+          "layout": "",
+          "background": "#ffffff",
+          "fx": ""
+        }
+      },
+      {
+        "type": "work-image-text",
+        "data": {
+          "title": "Identidad del estudio",
+          "description": "Una imagen seria y moderna intenta complacer dos targets muy diferentes: los adolescentes y el mundo académico y los padres. Los adolescentes encontrarán UI sencillos y claros. Los padres y el mundo académico verán una imagen seria y moderna",
+          "images": [
+            "logo_amte.svg"
+          ],
+          "position": "center",
+          "layout": "fullscreen",
+          "background": "#ffffff",
+          "fx": ""
+        }
+      },
+      {
+        "type": "work-image",
+        "data": {
+          "images": [
+            "web_bg_collage.png"
+          ],
+          "position": "center",
+          "layout": "cover",
+          "background": "#ffffff",
+          "fx": ""
+        }
+      }
+    ]
+  },
+  {
+    "id": "hawkeye",
+    "general": {
+      "mainColor": "#182b54",
+      "mainImg": "BG_ojoHalcon.png",
+      "logo": "assets/work/hawkeye/logo_rafanadal.svg",
+      "title": "HAWK-EYE",
+      "subtitle": "#Fullstack #InteractiveBooth #DesktopApp #SocketsCommunication #Game",
+      "description": "Instalación interactiva compuesta por dos desktop apps sincronizadas via sockets"
+    },
+    "screens": [
+      {
+        "type": "work-home",
+        "data": null
+      },
+      {
+        "type": "work-overview",
+        "data": {
+          "description": [
+            "Instalación interactiva para el museo de Rafa Nadal en España. Consta de dos aplicaciones de escritório que se comunican entre sí utilizando sockets de la red de WIFI a la que estén conectadas.",
+            "La aplicación 'A' muestra videos de puntos de partido de tenis y desde las aplicaciones 'B' los usuarios deben contestar si la pelota ha entrado o no dentro del campo. Hay varias rondas y puntúa mejor el que conteste correctamente en menos tiempo."
+          ],
+          "client": "Rafa Nadal Museum Xperience",
+          "role": [
+            "Fullstack developer",
+            "Contratado como freelance"
+          ],
+          "credits": [
+            "Cubensis: creatividad y producción"
+          ],
+          "platforms": [
+            "Windows desktop",
+            "Instalación interactiva"
+          ]
+        }
+      },
+      {
+        "type": "work-image",
+        "data": {
+          "images": [
+            "instalation_2screens_closeup.png"
+          ],
+          "position": "center",
+          "layout": "cover",
+          "background": "",
+          "fx": ""
+        }
+      },
+      {
+        "type": "work-text",
+        "data": {
+          "title": "match point video",
+          "description": "Cuando esten todos los usuarios preparados se muestra el primer video",
+          "position": "center",
+          "background": ""
+        }
+      },
+      {
+        "type": "work-image",
+        "data": {
+          "images": [
+            "main_round.png",
+            "match_point.png"
+          ],
+          "position": "center",
+          "layout": "",
+          "background": "",
+          "fx": ""
+        }
+      },
+      {
+        "type": "work-image-text",
+        "data": {
+          "title": "User interaction",
+          "description": "Una vez terminado el vídeo los usuarios tienen un tiempo limitado para contestar",
+          "images": [
+            "user_round.png",
+            "user_in-out.png"
+          ],
+          "position": "right",
+          "layout": "",
+          "background": "",
+          "fx": ""
+        }
+      },
+      {
+        "type": "work-text",
+        "data": {
+          "title": "Eye hawk 3d video",
+          "description": "Después de que hayan contestado o se haya agotado el tiempo, se muestra una recreación 3D del punto de partido",
+          "position": "center",
+          "background": ""
+        }
+      },
+      {
+        "type": "work-image",
+        "data": {
+          "images": [
+            "hawkeye_1.png",
+            "hawkeye_2.png"
+          ],
+          "position": "center",
+          "layout": "",
+          "background": "",
+          "fx": ""
+        }
+      },
+
+      {
+        "type": "work-image-text",
+        "data": {
+          "title": "Puntaje",
+          "description": "Se muestra si la respuesta fue correcta o no y al final de la quinta ronda se proclama el ganador",
+          "images": [
+            "user_correct.png",
+            "user_winner.png",
+            "user_record.png"
+          ],
+          "position": "left",
+          "layout": "",
+          "background": "",
+          "fx": ""
+        }
+      },
+      {
+        "type": "work-image",
+        "data": {
+          "images": [
+            "instalation_2screens.png"
+          ],
+          "position": "center",
+          "layout": "cover",
+          "background": "",
+          "fx": ""
+        }
+      }
+    ]
+  },
+  {
+    "id": "westworld",
+    "general": {
+      "mainColor": "#242424",
+      "mainImg": "main_img.png",
+      "logo": "assets/work/westworld/logo_hbo.svg",
+      "title": "Westworld",
+      "subtitle": "#Fullstack #SPA #JS #Angular5 #php #mailchimpApi",
+      "description": "Web app gamificada para el registro de usuarios asistentes a un evento de cine inmersivo"
+    },
+    "screens": [
+      {
+        "type": "work-home",
+        "data": null
+      },
+      {
+        "type": "work-overview",
+        "data": {
+          "description": [
+            "Los asistentes al evento de cine inmersivo deben acudir caracterizados. Respondiendo a una serie de preguntas, el sistema crea un personaje casi único con nombre, apellido, mote, profesión e historia que describe la vestimenta y personalidad de cada usuario en el evento.",
+            "Para acceder a la app, es necesario introducir el código de la entrada y al terminar el flujo de preguntas queda registrada la asistencia."
+          ],
+          "client": "HBO España",
+          "role": [
+            "Desarrollo fullstack",
+            "Diseño funcional",
+            "UX",
+            "Contratado como freelance"
+          ],
+          "credits": [
+            "Spectacular: Diseño & UI"
+          ],
+          "platforms": [
+            "Desktop and mobile browsers"
+          ]
+        }
+      },
+      {
+        "type": "work-image-text",
+        "data": {
+          "title": "Stepped form",
+          "description": "Si el usuario ya ha registrado su asistencia, se muestra la información su personaje. En caso contrario se muestra el flujo de preguntas para configurar uno",
+          "images": [
+            "screen_login.png",
+            "screen_questions.png"
+          ],
+          "position": "right",
+          "layout": "",
+          "background": "",
+          "fx": ""
+        }
+      },
+      {
+        "type": "work-image-text",
+        "data": {
+          "title": "Personaje a medida",
+          "description": "El usuario puede ver esta pantalla en cualquier momento introduciendo su código de entrada",
+          "images": [
+            "screen_character.png"
+          ],
+          "position": "left",
+          "layout": "",
+          "background": "",
+          "fx": ""
+        }
+      },
+      {
+        "type": "work-slider",
+        "data": {
+          "images": [
+            "url/image.png",
+            "url/image.png",
+            "url/image.png",
+            "url/image.png",
+            "url/image.png",
+            "url/image.png",
+            "url/image.png",
+            "url/image.png"
+          ],
+          "background": "url/imagebg"
+        }
+      }
+    ]
+  },
+  {
+    "id": "reflexes",
+    "general": {
+      "mainColor": "#263049",
+      "mainImg": "main_bg.png",
+      "logo": "assets/work/reflexes/logo_rafanadal.svg",
+      "title": "Reflexes",
+      "subtitle": "#Fullstack #InteractiveInstalation #DesktopApp #Arduino #SportTraining",
+      "description": "Instalación interactiva con Arduino para el entrenamiento deportivo"
+    },
+    "screens": [
+      {
+        "type": "work-home",
+        "data": null
+      },
+      {
+        "type": "work-overview",
+        "data": {
+          "description": [
+            "Instalación interactiva de entrenamiento deportivo que consta de una app de escritório y dos juegos Arduino.",
+            "Los juegos de Arduino iluminan pulsadores que el usuario deberá ir presionando según aparecen para apagarlos y acumular puntos dentro un tiempo limitado. La app de escritório se comunica con Arduino enviando la configuración de juego, reaccionando ante eventos y gestionando las puntuaciones y records de los usuarios que compiten entre ellos."
+          ],
+          "client": "Rafa Nadal Museum Xperience",
+          "role": [
+            "Fullstack developer",
+            "Contratado como freelance"
+          ],
+          "credits": [
+            "Cubensis: creatividad y producción",
+            "Raúl González: Arduino developer"
+          ],
+          "platforms": [
+            "Windows desktop",
+            "Instalación interactiva"
+          ]
+        }
+      },
+      {
+        "type": "work-image-text",
+        "data": {
+          "title": "Desktop app",
+          "description": "Es configurable para niños, adultos, juego individual o modo competición. Gestiona las puntuaciones y records.",
+          "images": [
+            "screen_home.png",
+            "screen_players.png",
+            "screen_adult_kid.png",
+            "screen_record.png",
+            "screen_keyboard.png",
+            "screen_thanks.png"
+          ],
+          "position": "right",
+          "layout": "",
+          "background": "",
+          "fx": ""
+        }
+      },
+
+      {
+        "type": "work-text",
+        "data": {
+          "title": "La instalación",
+          "description": "Expuesta en el museo de Rafa Nadal para el uso público y sesiones privadas de entrenamiento.",
+          "position": "center",
+          "background": "assets/work/frutas/bg_illustrations.png"
+        }
+      },
+      {
+        "type": "work-image",
+        "data": {
+          "images": [
+            "instalation2.png",
+            "instalation_trainer.png"
+          ],
+          "position": "left",
+          "layout": "",
+          "background": "",
+          "fx": ""
+        }
+      },
+      {
+        "type": "work-image",
+        "data": {
+          "images": [
+            "instalation1.png"
+          ],
+          "position": "center",
+          "layout": "cover",
+          "background": "",
+          "fx": ""
+        }
+      }
+    ]
+  },
+  {
+    "id": "camelcolors",
+    "general": {
+      "mainColor": "#5361a5",
+      "mainImg": "main_bg.png",
+      "logo": "assets/work/camelcolors/logo_camel.svg",
+      "title": "Camel Colors",
+      "subtitle": "#Fullstack #AugmentedReality #iOS #Hybrid #Tablets #Event #php",
+      "description": "Augmented reality iOS app para acción publicitaria"
+    },
+    "screens": [
+      {
+        "type": "work-home",
+        "data": null
+      },
+      {
+        "type": "work-overview",
+        "data": {
+          "description": [
+            "Acción publicitaria para el Madrid Gay Parade en la que se instalaron varios iPads en diferentes puntos del recorrido del evento. Con la app, los usuarios pueden ponerse diferentes maquillajes relacionados con la celebración, sacar una foto y enviarla a un email a cambio de compartir datos que son almacenados en una base de datos para futuras acciones publicitarias."
+          ],
+          "role": [
+            "Fullstack development",
+            "Contratado como freelance"
+          ],
+          "credits": [
+            "McCann: creatividad",
+            "Cubensis: produccion"
+          ],
+          "platforms": [
+            "iOS"
+          ]
+        }
+      },
+      {
+        "type": "work-image",
+        "data": {
+          "images": [
+            "screen_home.png"
+          ],
+          "position": "center",
+          "layout": "",
+          "background": "",
+          "fx": ""
+        }
+      },
+      {
+        "type": "work-image-text",
+        "data": {
+          "title": "Funcionamiento",
+          "description": "Los usuarios pueden elegir entre varias opciones de maquillaje, jugar con ella, sacar una foto y enviarla a una dirección de email",
+          "images": [
+            "screen_makeup.png",
+            "screen_picture.png",
+            "screen_form.png"
+          ],
+          "position": "right",
+          "layout": "",
+          "background": "",
+          "fx": ""
+        }
+      },
+      {
+        "type": "work-video",
+        "data": {
+          "videourl": "test/test.mp4",
+          "background": ""
+        }
+      },
+      {
+        "type": "work-image",
+        "data": {
+          "images": [
+            "screen_thanks.png"
+          ],
+          "position": "center",
+          "layout": "",
+          "background": "",
+          "fx": ""
+        }
+      }
+    ]
+  },
+  {
+    "id": "tnt",
+    "general": {
+      "mainColor": "#4263ab",
+      "mainImg": "main_bg.png",
+      "logo": "assets/work/tnt/tnt_logo.svg",
+      "title": "Game TNT",
+      "subtitle": "#Fullstack #SPA #JS #AngularJS #EaselJs #php",
+      "description": "Juego para el registro de usuarios asistentes a un evento de cine inmersivo"
+    },
+    "screens": [
+      {
+        "type": "work-home",
+        "data": null
+      },
+      {
+        "type": "work-overview",
+        "data": {
+          "description": [
+            "Los asistentes al evento de cine inmersivo deben confirmar su asistencia y acudir caracterizados con un personaje de TV que se le adjudica aleatóriamente. Para ello deben utilizar un juego HTML5.",
+            "El juego consiste en encontrar el personaje en una ilustración interactiva donde hay otros muchos personajes. Una vez encontrado, el usuario y su personaje quedan registrados en la base de datos del evento."
+          ],
+          "client": "TNT Channel",
+          "role": [
+            "Desarrollo fullstack",
+            "Contratado como freelance"
+          ],
+          "credits": [
+            "Jae Tanaka: Ilustraciones",
+            "Spectacular: UI"
+          ],
+          "platforms": [
+            "Desktop and mobile browsers"
+          ]
+        }
+      },
+      {
+        "type": "work-image",
+        "data": {
+          "images": [
+            "drawing-flash.png"
+          ],
+          "position": "center",
+          "layout": "",
+          "background": "",
+          "fx": ""
+        }
+      },
+      {
+        "type": "work-image",
+        "data": {
+          "images": [
+            "screen_char_search.png"
+          ],
+          "position": "center",
+          "layout": "",
+          "background": "",
+          "fx": ""
+        }
+      },
+      {
+        "type": "work-image",
+        "data": {
+          "images": [
+            "screen_char_founded.png"
+          ],
+          "position": "left",
+          "layout": "",
+          "background": "",
+          "fx": ""
+        }
+      },
+      {
+        "type": "work-image",
+        "data": {
+          "images": [
+            "drawing-char3.png"
+          ],
+          "position": "right",
+          "layout": "",
+          "background": "",
+          "fx": ""
+        }
+      },
+      {
+        "type": "work-image",
+        "data": {
+          "images": [
+            "drawing-char.png"
+          ],
+          "position": "center",
+          "layout": "",
+          "background": "",
+          "fx": ""
+        }
+      },
+      {
+        "type": "work-image",
+        "data": {
+          "images": [
+            "drawing-char5.png"
+          ],
+          "position": "center",
+          "layout": "",
+          "background": "",
+          "fx": ""
+        }
+      },
+      {
+        "type": "work-image",
+        "data": {
+          "images": [
+            "last_screen.png"
+          ],
+          "position": "center",
+          "layout": "cover",
+          "background": "",
+          "fx": ""
+        }
+      }
+    ]
+  },
+  {
+    "id": "winston",
+    "general": {
+      "mainColor": "#b71b21",
+      "mainImg": "main_bg.png",
+      "logo": "assets/work/winston/winston_logo.svg",
+      "title": "Winston Game",
+      "subtitle": "#Fullstack #Android #Game #Tablets #Event #php",
+      "description": "Android game para acción publicitaria"
+    },
+    "screens": [
+      {
+        "type": "work-home",
+        "data": null
+      },
+      {
+        "type": "work-overview",
+        "data": {
+          "description": [
+            "Acción publicitaria a nivel nacional. Los usuarios pueden participar en un sorteo a cambio de compartir sus datos. Para poder hacerlo, primero deben resolver un juego que consiste en encontrar las 3 águilas de Winston escondidas en una imágen."
+          ],
+          "client": "Winston",
+          "role": [
+            "Fullstack development",
+            "Contratado como freelance"
+          ],
+          "credits": [
+            "McCann: creatividad",
+            "Cubensis: produccion"
+          ],
+          "platforms": [
+            "Android"
+          ]
+        }
+      },
+      {
+        "type": "work-image",
+        "data": {
+          "images": [
+            "sceen_home.png"
+          ],
+          "position": "center",
+          "layout": "",
+          "background": "",
+          "fx": ""
+        }
+      },
+      {
+        "type": "work-image-text",
+        "data": {
+          "title": "Las águilas",
+          "description": "Para encontrarlas hay que posicionar la lupa sobre ellas",
+          "images": [
+            "screen_eagles.png",
+            "screen_game1.png"
+          ],
+          "position": "right",
+          "layout": "",
+          "background": "#ffffff",
+          "fx": ""
+        }
+      },
+      {
+        "type": "work-image-text",
+        "data": {
+          "title": "Los escenarios",
+          "description": "Tres diferentes escenarios que son cargados aleatoriamente",
+          "images": [
+            "screen_scene2.png",
+            "screen_scene3.png",
+            "screen_scene1.png"
+          ],
+          "position": "left",
+          "layout": "",
+          "background": "",
+          "fx": ""
+        }
+      },
+      {
+        "type": "work-image",
+        "data": {
+          "images": [
+            "screen_end_sorry.png",
+            "screen_end_OK.png"
+          ],
+          "position": "center",
+          "layout": "",
+          "background": "#ffffff",
+          "fx": ""
+        }
+      },
+      {
+        "type": "work-image-text",
+        "data": {
+          "title": "Formulario con firma digital",
+          "description": "Los datos introducidos y la captura de una firma del usuario son almacenados en una base de datos en el dispositivo y posteriormente subidos a un servidor.",
+          "images": [
+            "screen_form.png"
+          ],
+          "position": "left",
+          "layout": "",
+          "background": "",
+          "fx": ""
+        }
+      },
+      {
+        "type": "work-image-text",
+        "data": {
+          "title": "Panel de administrador",
+          "description": "Desde un panel de administración se pueden hacer tareas de configuración y backup.",
+          "images": [
+            "screen_admin1.png",
+            "screen_admin2.png",
+            "screen_admin3.png"
+          ],
+          "position": "right",
+          "layout": "",
+          "background": "#ffffff",
+          "fx": ""
+        }
+      }
+    ]
+  },
+  {
+    "id": "frutas",
+    "general": {
+      "mainColor": "#3b93a8",
+      "mainImg": "main_bg.png",
+      "logo": "assets/work/frutas/logo_frutas.svg",
+      "title": "Frutas & Verduras",
+      "subtitle": "#Fullstack #FlashAwards #VirtualVisit #Illustration #OldSchooll",
+      "description": "Web app con visita virtual de las instalaciones de un hostal"
+    },
+    "screens": [
+      {
+        "type": "work-home",
+        "data": null
+      },
+      {
+        "type": "work-overview",
+        "data": {
+          "description": [
+            "Esta web app permite al usuario navegar por las diferentes zonas de un hostal en México. La visita virtual da una perspectiva real de las instalaciones manteniendo un toque artístico en el diseño.",
+            "Antiguo proyecto desarrollado en Flash que ganó un premio Flash Awwards en 2010."
+          ],
+          "client": "Frutas & verduras",
+          "role": [
+            "Fullstack development",
+            "Diseño funcional",
+            "Creatividad",
+            "Ilustraciones",
+            "Contratado como freelance"
+          ],
+          "credits": [
+          ],
+          "platforms": [
+            "Desktop browser"
+          ]
+        }
+      },
+      {
+        "type": "work-image-text",
+        "data": {
+          "title": "La visita virtual",
+          "description": "Navegación por los diferentes edificios",
+          "images": [
+            "screen_home.png",
+            "screen_selection.png",
+            "screen_main_building_info.png"
+          ],
+          "position": "right",
+          "layout": "",
+          "background": "",
+          "fx": ""
+        }
+      },
+      {
+        "type": "work-text",
+        "data": {
+          "title": "Las ilustraciones",
+          "description": "Collage de fotos reales del hostal mezcladas con ilustraciones y texturas",
+          "position": "center",
+          "background": "assets/work/frutas/bg_illustrations.png"
+        }
+      },
+      {
+        "type": "work-image",
+        "data": {
+          "images": [
+            "illust_rooftop.png",
+            "illust_main_building.png",
+            "illust_bath.png"
+          ],
+          "position": "center",
+          "layout": "",
+          "background": "",
+          "fx": ""
+        }
+      },
+      {
+        "type": "work-image",
+        "data": {
+          "images": [
+            "screen_prices.png",
+            "screen_getthere.png"
+          ],
+          "position": "center",
+          "layout": "",
+          "background": "#ffffff",
+          "fx": ""
+        }
+      }
+    ]
+  }
+]

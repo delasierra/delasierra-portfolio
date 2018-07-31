@@ -1,5 +1,6 @@
 import {Component, Input, OnInit} from '@angular/core';
 import {WorkGeneralData} from '../../models/work-data.model';
+import {WorkService} from '../../work.service';
 
 @Component({
     selector:    'app-work-home',
@@ -9,13 +10,22 @@ import {WorkGeneralData} from '../../models/work-data.model';
 export class WorkHomeComponent implements OnInit {
 
     @Input() generalData: WorkGeneralData;
-    private mainBg = 'assets/work/01amte/bg_main.svg';
+    @Input() workId: string;
 
-    constructor() {
+    constructor(private workService: WorkService) {
     }
 
     ngOnInit() {
         console.log('home step!', this.generalData);
     }
+
+    getImagesFolder(): string {
+        return this.workService.getImagePath(this.workId);
+    }
+
+    // getImage(size: string, dpi: string): string {
+    //     console.log(this.workService.imgFolder + this.workId + '/' + dpi + size + '/');
+    //     return this.workService.imgFolder + this.workId + '/' + dpi + size + '/';
+    // }
 
 }

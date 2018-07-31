@@ -1,9 +1,9 @@
-import {Directive, ElementRef, Input, Renderer2} from '@angular/core';
+import {Directive, ElementRef, Input, OnInit, Renderer2} from '@angular/core';
 
 @Directive({
     selector: '[appBgStyle]'
 })
-export class BgStyleDirective{
+export class BgStyleDirective implements OnInit {
 
     @Input('appBgStyle') bgInput: any;
 
@@ -20,7 +20,7 @@ export class BgStyleDirective{
             this.setBgCoverImage(bg);
 
         } else {
-            this.getBgColorStyle(bg);
+            this.setBgColorStyle(bg);
         }
     }
 
@@ -29,7 +29,7 @@ export class BgStyleDirective{
         this.renderer.setStyle(this.el.nativeElement, 'backgroundSize', 'cover');
     }
 
-    getBgColorStyle(bg: string): void {
+    setBgColorStyle(bg: string): void {
         this.renderer.setStyle(this.el.nativeElement, 'backgroundColor', bg);
     }
 

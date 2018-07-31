@@ -1,4 +1,4 @@
-import {Component} from '@angular/core';
+import {Component, OnInit} from '@angular/core';
 import {Router, NavigationEnd} from '@angular/router';
 import {Observable} from 'rxjs';
 
@@ -8,7 +8,7 @@ import {Observable} from 'rxjs';
     templateUrl: './app.component.html',
     styleUrls:   ['./app.component.scss']
 })
-export class AppComponent {
+export class AppComponent implements OnInit{
 
     window: Element;
     // isHandset: Observable<BreakpointState> = this.breakpointObserver.observe(Breakpoints.Handset);

@@ -10,7 +10,7 @@ const WORK_SLIDER = 'work-slider';
 const WORK_VIDEO = 'work-video';
 
 export interface WorkDataModel {
-    id: number;
+    id: string;
     general: WorkGeneralData;
     screens: Array<object>;
 }
@@ -44,6 +44,7 @@ export interface WorkTextData {
 export interface WorkImgData {
     images: Array<string>;
     position: string;
+    layout: string;
     background: string;
     fx: string;
 }

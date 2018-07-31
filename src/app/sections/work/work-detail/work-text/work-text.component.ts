@@ -1,5 +1,7 @@
 import {Component, Input, OnInit} from '@angular/core';
 import {WorkGeneralData, WorkTextData} from '../../models/work-data.model';
+import {ResponsiveSizeInfoDirective, ResponsiveSizeInfoRx} from 'ngx-responsive';
+import {Observable} from 'rxjs/index';
 
 @Component({
     selector:    'app-work-text',
@@ -19,6 +21,7 @@ export class WorkTextComponent implements OnInit {
     ngOnInit() {
         this.bgColor = this.detailData.background;
     }
+
 
     getContainerStyles(): object {
         return {

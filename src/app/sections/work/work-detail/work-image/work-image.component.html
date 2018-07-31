@@ -1,12 +1,23 @@
-<section class="work-slide-content work-image row"
-         [appBgStyle]="detailData.background">
+<section class="work-slide-content work-image"
+         [ngClass]="{'cover-img': detailData.layout === 'cover'}">
+    <!--[appBgStyle]="detailData.background">-->
 
-    <div class="col-xs-12 work-content"
-         [ngClass]="
+    <section class="work-slide-content work-image row">
+
+        <div class="col-xs-12 work-content"
+             [ngClass]="
          {'align-left': detailData.position === 'left',
-         'align-right': detailData.position === 'right'}">
+         'align-right': detailData.position === 'right',
+         'full-screen-img': detailData.layout === 'fullscreen'}">
 
-        <img class="rounded" *ngFor="let image of images; let i = index" src="{{ image }}"
-             [ngStyle]="setImagePosition(i)">
-    </div>
+            <div *ngFor="let image of images;">
+                <ng-container *ngIf="image != '';">
+                    <app-responsive-img
+                            [folder]="getImagesFolder()"
+                            [image]="image">
+                    </app-responsive-img>
+                </ng-container>
+            </div>
+        </div>
+    </section>
 </section>

@@ -3,7 +3,8 @@
          [ngClass]="{'left-layout': detailData.position === 'left'}">
     <!--<div [className]="{getTextLayout()}">-->
 
-    <div [ngClass]="getTextLayout()">
+    <div *responsive="{ bootstrap: ['md', 'lg', 'xl']}"
+         [ngClass]="getTextLayout()">
         <app-work-text
                 [generalData]="generalData"
                 [detailData]="detailData">
@@ -12,6 +13,7 @@
     <div [ngClass]="getImagesLayout()">
          <!--[ngClass]="{'col-md-6' : isEvenLayout()}">-->
         <app-work-image
+                [workId]="workId"
                 [generalData]="generalData"
                 [detailData]="getImageStyles()">
 

@@ -4,6 +4,7 @@ import {HomeComponent} from './sections/home/home.component';
 import {SECTION} from './models/routing.model';
 import {AboutComponent} from './sections/about/about.component';
 import {WorkModule} from './sections/work/work.module';
+import {WorkMenuComponent} from './sections/work/work-menu/work-menu.component';
 
 const ROUTES: Routes = [
     // {
@@ -18,6 +19,7 @@ const ROUTES: Routes = [
     {
         path:         SECTION.work,
         loadChildren: './sections/work/work.module#WorkModule',
+        // component: WorkMenuComponent,
     },
     // {
     //     path:         SECTION.work,
