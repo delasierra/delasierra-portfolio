@@ -5,6 +5,7 @@ import {SECTION} from './models/routing.model';
 import {AboutComponent} from './sections/about/about.component';
 import {WorkModule} from './sections/work/work.module';
 import {WorkMenuComponent} from './sections/work/work-menu/work-menu.component';
+import {WorkDetailComponent} from './sections/work/work-detail/work-detail.component';
 
 const ROUTES: Routes = [
     // {
@@ -16,14 +17,31 @@ const ROUTES: Routes = [
         path:      SECTION.home,
         component: HomeComponent,
     },
+
     {
         path:         SECTION.work,
         loadChildren: './sections/work/work.module#WorkModule',
-        // component: WorkMenuComponent,
     },
+
     // {
-    //     path:         SECTION.work,
-    //     component: WorkModule,
+    //     path:         SECTION.workDetails,
+    //     loadChildren: './sections/work/work.module#WorkDetailComponent',
+    //     // component: WorkMenuComponent,
+    // },
+
+    // no lazy loading
+    // {
+    //     path:      SECTION.work,
+    //     component: WorkComponent,
+        // component: WorkMenuComponent,
+    // },
+    // {
+    //     path: SECTION.workDetails + '/:id',
+    //     component: WorkDetailComponent,
+    // },
+    // {
+    //     path: SECTION.workDetails,
+    //     component: WorkDetailComponent,
     // },
     {
         path:      SECTION.about,

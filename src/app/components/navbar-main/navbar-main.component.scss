@@ -21,6 +21,11 @@
 
 a{
   pointer-events: all;
+
+  &::-moz-focus-inner {
+    border: 0;
+  }
+
   &.active{
     text-shadow: 0 0 10px #fff;
   }

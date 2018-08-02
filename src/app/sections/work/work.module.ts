@@ -54,11 +54,11 @@ const config = {
         WorkImageSliderComponent,
         WorkVideoComponent,
         WorkComponent,
-        BgStyleDirective,
         CloseBtnComponent,
         WorkMenuItemComponent,
         WorkMenuItem2Component,
         ResponsiveImgComponent,
+        BgStyleDirective,
     ],
     providers:    [],
 })

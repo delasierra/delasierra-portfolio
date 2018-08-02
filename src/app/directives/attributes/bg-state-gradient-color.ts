@@ -1,17 +1,19 @@
 import {Directive, ElementRef, Input, OnInit} from '@angular/core';
-import {TimelineMax} from 'gsap';
 import {NavigationEnd, Router, RouterEvent} from '@angular/router';
 import {map, filter} from 'rxjs/operators';
 import {WorkService} from '../../sections/work/work.service';
 import {SECTION} from '../../models/routing.model';
 
-@Directive({
-    selector: '[appBgStateColor]'
-})
-export class BgStateColorDirective implements OnInit {
-    @Input('appBgStateColor') appBgStateColor: { color1: string, color2: string };
+declare var TweenMax: any;
 
-    tl = new TimelineMax();
+@Directive({
+    selector: '[appBgStateGradientColor]'
+})
+export class BgStateGradientColorDirective implements OnInit {
+
+    @Input('appBgStateGradientColor') appBgStateColor: { color1: string, color2: string };
+
+    // tl = new TimelineMax();
 
     constructor(private router: Router,
                 private workService: WorkService,
@@ -45,7 +47,7 @@ export class BgStateColorDirective implements OnInit {
         // } else {
         // }
         this.setDefaultColors(section, param);
-        this.tl.play();
+        // this.tl.play();
     }
 
 
@@ -53,31 +55,33 @@ export class BgStateColorDirective implements OnInit {
         console.log('section', section, 'param', param);
         switch (section) {
             case 'work':
-                this.tl
-                    .to(this.el.nativeElement, 1, {
-                        // OG Reds
-                        // backgroundImage: 'linear-gradient(175deg, #ff0013, #442f8d)',
-                        // Dar Release v1.0
-                        backgroundImage: 'linear-gradient(175deg, #3a3436, #26262a)', // Gray/brown
-                        // backgroundImage: 'linear-gradient(170deg, #292a31, #212227)', // dark
-                        // backgroundImage: 'linear-gradient(175deg, #3a3436, #442f8d)', // purple
-                        overwrite:       'all'
-                    });
+                // this.tl
+                //     .to(this.el.nativeElement, 1, {
+                TweenMax.to(this.el.nativeElement, 1, {
+                    // OG Reds
+                    backgroundImage: 'linear-gradient(175deg, #ff0013, #442f8d)',
+                    // Dar Release v1.0
+                    // backgroundImage: 'linear-gradient(175deg, #3a3436, #26262a)', // Gray/brown
+                    // backgroundImage: 'linear-gradient(170deg, #292a31, #212227)', // dark
+                    // backgroundImage: 'linear-gradient(175deg, #3a3436, #442f8d)', // purple
+                    overwrite:       'all'
+                });
                 break;
 
             case 'about':
             case 'home':
             default:
-                this.tl
-                    .to(this.el.nativeElement, 1, {
-                        // OG Reds
-                        // backgroundImage: 'linear-gradient(175deg, #ff0013, #442f8d)',
-                        // Dar Release v1.0
-                        backgroundImage: 'linear-gradient(175deg, #3a3436, #26262a)', // Gray/brown
-                        // backgroundImage: 'linear-gradient(170deg, #292a31, #212227)', // dark
-                        // backgroundImage: 'linear-gradient(175deg, #3a3436, #442f8d)', // purple
-                        overwrite:       'all'
-                    });
+                // this.tl
+                //     .to(this.el.nativeElement, 1, {
+                TweenMax.to(this.el.nativeElement, 1, {
+                    // OG Reds
+                    // backgroundImage: 'linear-gradient(175deg, #ff0013, #442f8d)',
+                    // Dar Release v1.0
+                    backgroundImage: 'linear-gradient(175deg, #3a3436, #26262a)', // Gray/brown
+                    // backgroundImage: 'linear-gradient(170deg, #292a31, #212227)', // dark
+                    // backgroundImage: 'linear-gradient(175deg, #3a3436, #442f8d)', // purple
+                    overwrite:       'all'
+                });
                 break;
 
             // case 'about':
@@ -92,11 +96,12 @@ export class BgStateColorDirective implements OnInit {
             //
             case 'detail':
                 const color = this.workService.getWorkCaseData(param).general.mainColor;
-                this.tl
-                    .to(this.el.nativeElement, 1, {
-                        backgroundImage: 'linear-gradient(170deg, ' + color + ', ' + color + ')',
-                        overwrite:       'all'
-                    });
+                // this.tl
+                //     .to(this.el.nativeElement, 1, {
+                TweenMax.to(this.el.nativeElement, 1, {
+                    backgroundImage: 'linear-gradient(170deg, ' + color + ', ' + color + ')',
+                    overwrite:       'all'
+                });
                 break;
 
             // case 'home':
@@ -112,11 +117,12 @@ export class BgStateColorDirective implements OnInit {
 
     private setCustomColors(color1: string, color2: string) {
         // console.log('+++++++ this.stateColor = ', 'color1:', color1, 'color2:', color2);
-        this.tl
-            .to(this.el.nativeElement, 1, {
-                backgroundImage: 'linear-gradient(170deg, ' + color1 + ', ' + color2 + ')',
-                overwrite:       'all'
-            });
+        // this.tl
+        //     .to(this.el.nativeElement, 1, {
+        TweenMax.to(this.el.nativeElement, 1, {
+            backgroundImage: 'linear-gradient(170deg, ' + color1 + ', ' + color2 + ')',
+            overwrite:       'all'
+        });
     }
 
     // helpers

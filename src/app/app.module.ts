@@ -13,15 +13,12 @@ import {ContactFormComponent} from './components/contact-form/contact-form.compo
 import {SocialMediaLinksComponent} from './components/social-media/social-media.component';
 
 import {WebglComponent} from './components/webgl/webgl.component';
-import {BgStateColorDirective} from './directives/attributes/bg-state-color.directive';
+import {BgStateSolidColorDirective } from './directives/attributes/bg-state-solid-color.directive';
 import {FontAwesomeModule} from '@fortawesome/angular-fontawesome';
 import {ContactFormExpandableComponent} from './components/contact-form-expandable/contact-form-expandable.component';
 import {BgCanvasComponent} from './components/bg-canvas/bg-canvas.component';
 import {BgStateColorCanvasDirective} from './directives/attributes/bg-state-color-canvas.directive';
-import {ScrollSmoothDirective} from './directives/animations/scroll-smooth.directive';
-import {ResponsiveModule} from 'ngx-responsive';
-import {WorkModule} from './sections/work/work.module';
-import {ResponsiveImgComponent} from './components/responsive-img/responsive-img.component';
+import {BgStateGradientColorDirective} from './directives/attributes/bg-state-gradient-color';
 
 @NgModule({
     imports:      [
@@ -42,11 +39,12 @@ import {ResponsiveImgComponent} from './components/responsive-img/responsive-img
         HomeComponent,
         NavbarMainComponent,
         SocialMediaLinksComponent,
-        BgStateColorDirective,
         ContactFormExpandableComponent,
         BgCanvasComponent,
         BgStateColorCanvasDirective,
-        ScrollSmoothDirective,
+        BgStateSolidColorDirective ,
+        BgStateGradientColorDirective,
+        // ScrollSmoothDirective,
     ],
     providers:    [],
     bootstrap:    [AppComponent]

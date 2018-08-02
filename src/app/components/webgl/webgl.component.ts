@@ -1,6 +1,5 @@
 import {WebglService} from './webgl.service';
 import {Component, OnInit} from '@angular/core';
-import {TweenMax, TimelineMax, Ease, Power1, Bounce, Linear} from 'gsap';
 
 @Component({
     selector:    'app-webgl',
