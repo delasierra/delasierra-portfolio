@@ -13,15 +13,16 @@ import {ContactFormComponent} from './components/contact-form/contact-form.compo
 import {SocialMediaLinksComponent} from './components/social-media/social-media.component';
 
 import {WebglComponent} from './components/webgl/webgl.component';
-import {BgStateSolidColorDirective } from './directives/attributes/bg-state-solid-color.directive';
+import {BgStateSolidColorDirective} from './directives/attributes/bg-state-solid-color.directive';
 import {FontAwesomeModule} from '@fortawesome/angular-fontawesome';
 import {ContactFormExpandableComponent} from './components/contact-form-expandable/contact-form-expandable.component';
 import {BgCanvasComponent} from './components/bg-canvas/bg-canvas.component';
 import {BgStateColorCanvasDirective} from './directives/attributes/bg-state-color-canvas.directive';
 import {BgStateGradientColorDirective} from './directives/attributes/bg-state-gradient-color';
-import { ShowHideElementDirective } from './directives/attributes/show-hide-home-elements.directive';
-import { WorkModule } from './sections/work/work.module';
-import { SharedModule } from './shared/shared.module';
+import {ShowHideElementDirective} from './directives/attributes/show-hide-home-elements.directive';
+import {WorkModule} from './sections/work/work.module';
+import {SharedModule} from './shared/shared.module';
+import {ScrollSmoothDirective} from './directives/animations/scroll-smooth.directive';
 
 // import {ResponsiveModule} from 'ngx-responsive';
 // import {ResponsiveImgComponent} from './components/responsive-img/responsive-img.component';
@@ -60,9 +61,10 @@ import { SharedModule } from './shared/shared.module';
         ContactFormExpandableComponent,
         BgCanvasComponent,
         BgStateColorCanvasDirective,
-        BgStateSolidColorDirective ,
+        BgStateSolidColorDirective,
         BgStateGradientColorDirective,
         ShowHideElementDirective,
+        ScrollSmoothDirective,
         // ResponsiveImgComponent,
         // ScrollSmoothDirective,
     ],

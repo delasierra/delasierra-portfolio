@@ -11,23 +11,23 @@ import {WorkImageTextComponent} from './work-detail/work-image-text/work-image-t
 import {WorkImageSliderComponent} from './work-detail/work-image-slider/work-image-slider.component';
 import {WorkVideoComponent} from './work-detail/work-video/work-video.component';
 import {WorkHomeComponent} from './work-detail/work-home/work-home.component';
-import { WorkComponent } from './work.component';
+import {WorkComponent} from './work.component';
 import {BgStyleDirective} from '../../directives/attributes/bg-style.directive';
 import {FontAwesomeModule} from '@fortawesome/angular-fontawesome';
 import {faCircle, faTimes} from '@fortawesome/free-solid-svg-icons';
 import {library} from '@fortawesome/fontawesome-svg-core';
 import {CloseBtnComponent} from '../../components/close-btn/close-btn.component';
-import { WorkMenuItemComponent } from './work-menu/work-menu-item/work-menu-item.component';
-import { WorkMenuItem2Component } from './work-menu/work-menu-item2/work-menu-item2.component';
+import {WorkMenuItemComponent} from './work-menu/work-menu-item/work-menu-item.component';
+import {WorkMenuItem2Component} from './work-menu/work-menu-item2/work-menu-item2.component';
 // import {ResponsiveModule} from 'ngx-responsive';
 // import {ResponsiveImgComponent} from '../../components/responsive-img/responsive-img.component';
-import { SharedModule } from '../../shared/shared.module';
+import {SharedModule} from '../../shared/shared.module';
 
 library.add(faTimes);
 library.add(faCircle);
 
 const config = {
-    breakPoints: {
+    breakPoints:  {
         xs: {max: 539},
         sm: {min: 540, max: 719},
         md: {min: 720, max: 959},
