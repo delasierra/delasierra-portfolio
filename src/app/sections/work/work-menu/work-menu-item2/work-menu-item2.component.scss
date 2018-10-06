@@ -1,0 +1,21 @@
+.item-container {
+  display: block;
+  width: 90vw;
+  height: 25vh;
+  border: solid 5px #ffffff;
+  margin: 20px;
+
+  box-shadow:
+          0 0 5px #ffffff,
+          0 0 15px #fda128,
+          0 0 20px #fc157f;
+
+
+  //-webkit-border-radius: 63px 63px 63px 63px / 108px 108px 72px 72px;
+  //border-radius: 50% 50% 50% 50%  / 60% 60% 40% 40%;
+
+  border-top-left-radius: 50% 50%;
+  border-bottom-left-radius: 50% 50%;
+  border-top-right-radius: 50% 50%;
+  border-bottom-right-radius: 50% 50%;
+}

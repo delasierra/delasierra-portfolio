@@ -14,6 +14,7 @@ export class BgStateGradientColorDirective implements OnInit {
     @Input('appBgStateGradientColor') appBgStateColor: { color1: string, color2: string };
 
     // tl = new TimelineMax();
+    animationTime = 1.5;
 
     constructor(private router: Router,
                 private workService: WorkService,
@@ -52,12 +53,12 @@ export class BgStateGradientColorDirective implements OnInit {
 
 
     private setDefaultColors(section: string, param?: string) {
-        console.log('section', section, 'param', param);
+        // console.log('section', section, 'param', param);
         switch (section) {
             case 'work':
                 // this.tl
                 //     .to(this.el.nativeElement, 1, {
-                TweenMax.to(this.el.nativeElement, 1, {
+                TweenMax.to(this.el.nativeElement, this.animationTime, {
                     // OG Reds
                     backgroundImage: 'linear-gradient(175deg, #ff0013, #442f8d)',
                     // Dar Release v1.0
@@ -73,12 +74,12 @@ export class BgStateGradientColorDirective implements OnInit {
             default:
                 // this.tl
                 //     .to(this.el.nativeElement, 1, {
-                TweenMax.to(this.el.nativeElement, 1, {
+                TweenMax.to(this.el.nativeElement, this.animationTime, {
                     // OG Reds
                     // backgroundImage: 'linear-gradient(175deg, #ff0013, #442f8d)',
                     // Dar Release v1.0
-                    backgroundImage: 'linear-gradient(175deg, #3a3436, #26262a)', // Gray/brown
-                    // backgroundImage: 'linear-gradient(170deg, #292a31, #212227)', // dark
+                    // backgroundImage: 'linear-gradient(175deg, #3a3436, #26262a)', // Gray/brown
+                    backgroundImage: 'linear-gradient(170deg, #292a30, #212227)', // dark
                     // backgroundImage: 'linear-gradient(175deg, #3a3436, #442f8d)', // purple
                     overwrite:       'all'
                 });
@@ -98,7 +99,7 @@ export class BgStateGradientColorDirective implements OnInit {
                 const color = this.workService.getWorkCaseData(param).general.mainColor;
                 // this.tl
                 //     .to(this.el.nativeElement, 1, {
-                TweenMax.to(this.el.nativeElement, 1, {
+                TweenMax.to(this.el.nativeElement, this.animationTime, {
                     backgroundImage: 'linear-gradient(170deg, ' + color + ', ' + color + ')',
                     overwrite:       'all'
                 });
@@ -119,7 +120,7 @@ export class BgStateGradientColorDirective implements OnInit {
         // console.log('+++++++ this.stateColor = ', 'color1:', color1, 'color2:', color2);
         // this.tl
         //     .to(this.el.nativeElement, 1, {
-        TweenMax.to(this.el.nativeElement, 1, {
+        TweenMax.to(this.el.nativeElement, this.animationTime, {
             backgroundImage: 'linear-gradient(170deg, ' + color1 + ', ' + color2 + ')',
             overwrite:       'all'
         });

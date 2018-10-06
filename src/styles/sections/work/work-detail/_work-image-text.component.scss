@@ -5,3 +5,55 @@
 .left-layout{
   flex-direction: row-reverse;
 }
+
+
+
+// Responsive
+@include media-breakpoint-up(xs) {
+
+}
+
+@include media-breakpoint-up(sm) {
+
+}
+
+@include media-breakpoint-up(md) {
+
+  .work-slide-content {
+
+    &.left-layout{
+      .work-text{
+        padding: 0;
+        .work-content{
+          padding: 0;
+        }
+      }
+
+      .work-image {
+        padding: 0;
+        margin-right: 10px;
+      }
+    }
+
+    &.right-layout{
+      .work-text{
+        padding: 0;
+        .work-content{
+          padding: 0;
+        }
+      }
+
+      .work-image {
+        padding: 0;
+        margin-left: 10px;
+      }
+    }
+  }
+}
+
+@include media-breakpoint-up(lg) {
+
+}
+
+@include media-breakpoint-up(xl) {
+}

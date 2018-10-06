@@ -9,7 +9,8 @@ import {WorkDataModel} from './models/work-data.model';
 export class WorkService {
 
     // workCasesList: Array<WorkDataModel> = require('../../../assets/data/work-detail.json');
-    workCasesList: Array<WorkDataModel> = require('../../../assets/data/work-detail_2.json');
+    // workCasesList: Array<WorkDataModel> = require('../../../assets/data/work-detail_2.json');
+    workCasesList: Array<WorkDataModel> = require('../../../assets/data/work-detail_RELEASEv1.json');
     imgFolder = 'assets/work/';
 
     constructor() {

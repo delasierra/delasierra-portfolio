@@ -1,4 +1,4 @@
-import {Injectable} from '@angular/core';
+import {Injectable, OnInit} from '@angular/core';
 import {AboutSectionData, HomeSectionData} from '../models/app-data.model';
 import {ContactSectionData} from '../components/contact-form/contact-form.model';
 import {SocialMediaModel} from '../components/social-media/social-media.model';
@@ -9,9 +9,9 @@ import {SocialMediaModel} from '../components/social-media/social-media.model';
     }
 )
 
-export class AppService {
+export class AppService implements OnInit {
 
-    private appContentData: any = require('../../assets/data/app-content.json');
+    private appContentData: any = require('../../assets/data/app-content_RELEASEv1.json');
 
     // private appStatus$: Observable;
 

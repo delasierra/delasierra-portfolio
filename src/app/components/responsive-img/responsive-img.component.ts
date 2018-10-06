@@ -16,7 +16,6 @@ export class ResponsiveImgComponent implements OnInit {
     }
 
     ngOnInit() {
-        // this.isVector = this.image.indexOf('.svg') > 0;
         this.isVector = false;
     }
 

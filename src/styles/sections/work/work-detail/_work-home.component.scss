@@ -72,7 +72,13 @@
 }
 
 @include media-breakpoint-up(md) {
-
+  .work-home {
+    .cover-img {
+      img {
+        object-position: 50% 0 !important;
+      }
+    }
+  }
 }
 
 @include media-breakpoint-up(lg) {

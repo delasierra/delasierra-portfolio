@@ -62,10 +62,9 @@
 }
 
 @include media-breakpoint-up(md) {
-  .work-slide {
+  .work-slide-content{
     min-height: 100vh;
   }
-
   .work-slide-content{
     padding: 0 40px;
   }

@@ -31,6 +31,14 @@ export class WorkImageTextComponent implements OnInit {
         }
     }
 
+    getMainLayout(): string {
+        if (this.detailData.position === 'left') {
+            return 'left-layout';
+        } else {
+            return 'right-layout';
+        }
+    }
+
     getTextStyles(): WorkTextData {
         // let textStyles: WorkTextData;
         // textStyles.position = this.detailData.position;

@@ -19,8 +19,9 @@ import {library} from '@fortawesome/fontawesome-svg-core';
 import {CloseBtnComponent} from '../../components/close-btn/close-btn.component';
 import { WorkMenuItemComponent } from './work-menu/work-menu-item/work-menu-item.component';
 import { WorkMenuItem2Component } from './work-menu/work-menu-item2/work-menu-item2.component';
-import {ResponsiveModule} from 'ngx-responsive';
-import {ResponsiveImgComponent} from '../../components/responsive-img/responsive-img.component';
+// import {ResponsiveModule} from 'ngx-responsive';
+// import {ResponsiveImgComponent} from '../../components/responsive-img/responsive-img.component';
+import { SharedModule } from '../../shared/shared.module';
 
 library.add(faTimes);
 library.add(faCircle);
@@ -38,10 +39,11 @@ const config = {
 
 @NgModule({
     imports:      [
-        CommonModule,
+        // CommonModule,
         WorkRoutingModule,
         FontAwesomeModule,
-        ResponsiveModule.forRoot(config ),
+        SharedModule.forRoot(),
+        // ResponsiveModule.forRoot(config ),
     ],
     declarations: [
         WorkMenuComponent,
@@ -57,8 +59,9 @@ const config = {
         CloseBtnComponent,
         WorkMenuItemComponent,
         WorkMenuItem2Component,
-        ResponsiveImgComponent,
+        // ResponsiveImgComponent,
         BgStyleDirective,
+        // WorkModule
     ],
     providers:    [],
 })

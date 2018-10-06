@@ -2,9 +2,39 @@
 //  background-image: linear-gradient(#ff9d2f, #ff6126);
 //}
 .home-screen {
- h1 {
+  padding: 0 40px;
+  //padding-top: 130px;
+  padding-top: 160px;
+  background-image: url("../assets/vectors/home_texture.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 100vh;
+  background-position: 0 0;
+
+  .main-logo {
+    margin-bottom: 15px;
+  }
+
+  .brain-img {
+    img {
+      max-width: 80vw;
+      max-height: 50vh;
+      //object-fit: cover;
+    }
+
+  }
+  .intro_text {
+    //width: 30%;
+    opacity: .5;
+
+    p {
+      color: #ffffff;
+    }
+  }
+
+  h1 {
     margin-top: 150px;
     color: $light-yellow;
-   font-weight: 100;
+    font-weight: 100;
   }
 }

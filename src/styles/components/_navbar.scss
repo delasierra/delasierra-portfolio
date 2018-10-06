@@ -46,6 +46,9 @@
   //line-height: inherit;
   //white-space: nowrap;
 
+  // TODO this smoothes the animations with backgrounds
+  -webkit-backface-visibility: hidden;
+
   @include hover-focus {
     //text-decoration: none;
   }
@@ -205,6 +208,10 @@
     //
     .main-logo {
       width: 80%;
+
+      &.active{
+        display: none;
+      }
     }
     @include hover-focus {
       color: $navbar-dark-active-color;
@@ -325,6 +332,9 @@
       .main-logo {
         display: block;
         width: 80%;
+        &.active{
+          display: none;
+        }
       }
     }
     .bg-navbar {

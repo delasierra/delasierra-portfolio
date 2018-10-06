@@ -1,6 +1,6 @@
 <section class="work-slide-content work-image-text row"
          [appBgStyle]="detailData.background"
-         [ngClass]="{'left-layout': detailData.position === 'left'}">
+         [ngClass]="getMainLayout()">
     <!--<div [className]="{getTextLayout()}">-->
 
     <div *responsive="{ bootstrap: ['md', 'lg', 'xl']}"

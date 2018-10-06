@@ -24,7 +24,7 @@ export class WorkMenuComponent implements OnInit {
         //         console.log(this.workListData);
         //     });
         this.workListData = this.workService.getWorkCaseList();
-        console.log(this.workListData);
+        // console.log(this.workListData);
     }
 
     // goToView(id: number) {

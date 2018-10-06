@@ -32,29 +32,38 @@
 }
 
 @include media-breakpoint-up(md) {
-  .work-content {
+  .work-slide-content {
+    .work-text {
+      .work-content {
+        h2,
+        .h2 {
+          font-size: 1.8em;
+        }
 
-    h2,
-    .h2 {
+        p {
+
+        }
+
+      }
     }
-
-    p {
-    }
-
   }
 }
 
 @include media-breakpoint-up(lg) {
-  .work-content {
+  .work-slide-content {
+    .work-text {
+      .work-content {
+        h2,
+        .h2 {
+          font-size: 2.2em;
+        }
 
-    h2,
-    .h2 {
+        p {
+
+        }
+
+      }
     }
-
-    p {
-
-    }
-
   }
 }
 
