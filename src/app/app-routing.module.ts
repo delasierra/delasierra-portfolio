@@ -61,7 +61,8 @@ const ROUTES: Routes = [
         //     useHash:            Boolean(history.pushState) === false,
         //     preloadingStrategy: PreloadAllModules
         // })
-        RouterModule.forRoot(ROUTES)
+        RouterModule.forRoot(ROUTES, {scrollPositionRestoration: 'enabled'})
+        // RouterModule.forRoot(ROUTES)
     ]
 })
 export class AppRoutingModule {

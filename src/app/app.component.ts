@@ -1,27 +1,24 @@
-import {Component, OnInit} from '@angular/core';
-import {Router, NavigationEnd} from '@angular/router';
-
+import { Component, OnInit } from "@angular/core";
+import { Router, NavigationEnd } from "@angular/router";
 
 @Component({
-    selector:    'app-root',
-    templateUrl: './app.component.html',
-    styleUrls:   ['./app.component.scss']
+  selector: "app-root",
+  templateUrl: "./app.component.html",
+  styleUrls: ["./app.component.scss"]
 })
-export class AppComponent implements OnInit{
+export class AppComponent implements OnInit {
+  window: Element;
+  // isHandset: Observable<BreakpointState> = this.breakpointObserver.observe(Breakpoints.Handset);
 
-    window: Element;
-    // isHandset: Observable<BreakpointState> = this.breakpointObserver.observe(Breakpoints.Handset);
+  constructor(private router: Router) {}
 
-    constructor(private router: Router) {
-    }
-
-    ngOnInit(): void {
-        this.router.events.subscribe(event => {
-            // Scroll to top if accessing a page, not via browser history stack
-            if (event instanceof NavigationEnd) {
-                const contentContainer = document.querySelector('.sections') || this.window;
-                contentContainer.scrollTo(0, 0);
-            }
-        });
-    }
+  ngOnInit(): void {
+    // this.router.events.subscribe(event => {
+    // Scroll to top if accessing a page, not via browser history stack
+    // if (event instanceof NavigationEnd) {
+    // const contentContainer = document.querySelector('.sections') || this.window;
+    // contentContainer.scrollTo(0, 0);
+    // }
+    // });
+  }
 }
