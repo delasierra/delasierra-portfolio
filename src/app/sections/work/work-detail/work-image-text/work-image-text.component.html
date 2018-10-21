@@ -1,22 +1,14 @@
-<section class="work-slide-content work-image-text row"
-         [appBgStyle]="detailData.background"
-         [ngClass]="getMainLayout()">
-    <!--<div [className]="{getTextLayout()}">-->
+<section class="row work-slide-content work-image-text" [appBgStyle]="getBgColor()" [ngClass]="getMainLayout()">
+  <!--<div [className]="{getTextLayout()}">-->
 
-    <div *responsive="{ bootstrap: ['md', 'lg', 'xl']}"
-         [ngClass]="getTextLayout()">
-        <app-work-text
-                [generalData]="generalData"
-                [detailData]="detailData">
-        </app-work-text>
-    </div>
-    <div [ngClass]="getImagesLayout()">
-         <!--[ngClass]="{'col-md-6' : isEvenLayout()}">-->
-        <app-work-image
-                [workId]="workId"
-                [generalData]="generalData"
-                [detailData]="getImageStyles()">
+  <div *responsive="{ bootstrap: ['md', 'lg', 'xl']}" [ngClass]="getTextLayout()">
+    <app-work-text [generalData]="generalData" [detailData]="detailData">
+    </app-work-text>
+  </div>
+  <div [ngClass]="getImagesLayout()">
+    <!--[ngClass]="{'col-md-6' : isEvenLayout()}">-->
+    <app-work-image [workId]="workId" [generalData]="generalData" [detailData]="getImageStyles()">
 
-        </app-work-image>
-    </div>
+    </app-work-image>
+  </div>
 </section>

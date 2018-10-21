@@ -1,23 +1,19 @@
-<section class="work-slide-content work-image"
-         [ngClass]="{'cover-img': detailData.layout === 'cover'}">
-    <!--[appBgStyle]="detailData.background">-->
+<section class="work-slide-content work-image" [ngClass]="{'cover-img': detailData.layout === 'cover'}" [appBgStyle]="getBgColor()">
+  <!--[appBgStyle]="detailData.background">-->
 
-    <section class="work-slide-content work-image row">
+  <section class="work-slide-content work-image row">
 
-        <div class="col-xs-12 work-content"
-             [ngClass]="
+    <div class="col-xs-12 work-content" [ngClass]="
          {'align-left': detailData.position === 'left',
          'align-right': detailData.position === 'right',
          'full-screen-img': detailData.layout === 'fullscreen'}">
 
-            <div *ngFor="let image of images;">
-                <ng-container *ngIf="image != '';">
-                    <app-responsive-img
-                            [folder]="getImagesFolder()"
-                            [image]="image">
-                    </app-responsive-img>
-                </ng-container>
-            </div>
-        </div>
-    </section>
+      <div *ngFor="let image of images;">
+        <ng-container *ngIf="image != '';">
+          <app-responsive-img [folder]="getImagesFolder()" [image]="image">
+          </app-responsive-img>
+        </ng-container>
+      </div>
+    </div>
+  </section>
 </section>

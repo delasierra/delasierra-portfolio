@@ -1,34 +1,27 @@
 <nav class="navbar navbar-expand fixed-top navbar-delasierra">
-<!--<nav class="navbar navbar-expand navbar-dalasierra">-->
+  <!--<nav class="navbar navbar-expand navbar-dalasierra">-->
 
-    <a [appShoHideElement] routerLink="/" class="navbar-brand">
-        <img class="main-logo" src="assets/vectors/carlos_de_la_sierra_logo.svg">
-    </a>
+  <a [appShowHideElement] routerLink="/" class="navbar-brand">
+    <img class="main-logo" src="assets/vectors/carlos_de_la_sierra_logo.svg">
+  </a>
 
-    <ul class="navbar-nav">
-        <li class="nav-item">
-            <a routerLink="/work"
-               class="nav-link"
-               [routerLinkActive]="['active']"
-               [routerLinkActiveOptions]="{exact: true}">
-                Work
-            </a>
-        </li>
-        <li class="nav-item">
-            <a routerLink="/" class="nav-link"
-               [routerLinkActive]="['active']"
-               [routerLinkActiveOptions]="{exact: true}">
-                <i class="icon-brain icon-link"></i>
-            </a>
-        </li>
-        <li>
-            <a routerLink="/about" class="nav-link"
-               [routerLinkActive]="['active']"
-               [routerLinkActiveOptions]="{exact: true}">
-                About
-            </a>
-        </li>
-    </ul>
-    <div class="bg-navbar" [appBgStateSolidColor]></div>
-    <!--<div class="bg-navbar" [appBgStateSolidColor]></div>-->
+  <ul class="navbar-nav">
+    <li class="nav-item">
+      <a routerLink="/work" class="nav-link" [routerLinkActive]="['active']" [routerLinkActiveOptions]="{exact: true}">
+        Work
+      </a>
+    </li>
+    <li class="nav-item">
+      <a routerLink="/" class="nav-link" [routerLinkActive]="['active']" [routerLinkActiveOptions]="{exact: true}">
+        <i class="icon-brain icon-link"></i>
+      </a>
+    </li>
+    <li>
+      <a routerLink="/about" class="nav-link" [routerLinkActive]="['active']" [routerLinkActiveOptions]="{exact: true}">
+        About
+      </a>
+    </li>
+  </ul>
+  <div class="bg-navbar" [appBgStateSolidColor]></div>
+  <!--<div class="bg-navbar" [appBgStateSolidColor]></div>-->
 </nav>

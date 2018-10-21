@@ -1,34 +1,36 @@
-.work-text {
-  .work-content {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    //width: 50%; //add to mediaquery
-    text-align: center;
-    padding: 150px 40px 40px;
+.work-slide-content {
+  height: 100%;
+  &.work-text {
+    pointer-events: none;
+    .work-content {
+      opacity: 0;
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      //width: 50%; //add to mediaquery
+      text-align: center;
+      min-height: 400vh;
 
-    h2,
-    .h2 {
-      width: 100%;
-      border-bottom: solid white thin;
-      padding-bottom: 8px;
-      //text-align: left !important;
+      h2,
+      .h2 {
+        width: 100%;
+        border-bottom: solid white thin;
+        padding-bottom: 8px;
+        //text-align: left !important;
+      }
+
+      p {
+        //text-align: left !important;
+      }
     }
-
-    p {
-      //text-align: left !important;
-    }
-
   }
 }
 
 // Responsive
 @include media-breakpoint-up(xs) {
-
 }
 
 @include media-breakpoint-up(sm) {
-
 }
 
 @include media-breakpoint-up(md) {
@@ -41,9 +43,7 @@
         }
 
         p {
-
         }
-
       }
     }
   }
@@ -59,9 +59,7 @@
         }
 
         p {
-
         }
-
       }
     }
   }
@@ -69,14 +67,11 @@
 
 @include media-breakpoint-up(xl) {
   .work-content {
-
     h2,
     .h2 {
     }
 
     p {
-
     }
-
   }
 }

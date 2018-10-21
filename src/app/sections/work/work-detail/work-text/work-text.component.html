@@ -1,15 +1,15 @@
-<section class="work-slide-content work-text row"
-         [ngStyle]="{'background': detailData.background}">
+<!-- <section [appElementinViewportDirective]="elementEnterViewport" class="row work-slide-content work-text" [ngStyle]="{'background': detailData.background}"> -->
+<section [appElementinViewportDirective]="elementEnterViewport" class="row work-slide-content work-text" [appBgStyle]="getBgColor()">
 
-    <div class="work-content" [ngStyle]="getContainerStyles()">
+  <div class="
+  work-content" [ngStyle]="getContainerStyles()">
 
-        <h2 [ngStyle]="getTitleStyles()">
-        {{detailData.title}}
-        </h2>
+    <h2 [ngStyle]="getTitleStyles()">
+      {{detailData.title}}
+    </h2>
 
-        <p [ngStyle]="getParagraphStyles()"
-           [ngClass]="{'dark-text': detailData.background === '#ffffff' || detailData.background === '#fff' || detailData.background === 'white' || detailData.background === ''}">
-            {{detailData.description}}
-        </p>
-    </div>
+    <p [ngStyle]="getParagraphStyles()" [ngClass]="{'dark-text': detailData.background === '#ffffff' || detailData.background === '#fff' || detailData.background === 'white' || detailData.background === ''}">
+      {{detailData.description}}
+    </p>
+  </div>
 </section>
