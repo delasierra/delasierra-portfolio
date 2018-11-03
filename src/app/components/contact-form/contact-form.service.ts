@@ -1,16 +1,28 @@
-import {Injectable} from '@angular/core';
-import {ContactSectionData} from './contact-form.model';
-import {AppService} from '../../services/app.service';
+import { Injectable } from '@angular/core';
+import { ContactSectionDataModel, ContactUserInputsModel } from './contact-form.model';
+import { HttpClient, HttpHeaders } from '@angular/common/http';
+import { AppService } from '../../services/app.service';
+import { Observable } from 'rxjs/Observable';
+
+const httpOptions = {
+  headers: new HttpHeaders({ 'Content-type': 'application/json' })
+};
 
 @Injectable({
-    providedIn: 'root'
+  providedIn: 'root'
 })
 export class ContactFormService {
+  constructor(private http: HttpClient, private appService: AppService) {}
 
-    constructor(private appService: AppService) {
-    }
+  postsUrl = 'https://carlosdelasierra.com/backend/sendEmail.php';
 
-    getContactData(): ContactSectionData {
-        return this.appService.getContactData();
-    }
+  getContactData(): ContactSectionDataModel {
+    return this.appService.getContactData();
+  }
+
+  sendEmail(contactUserInputsData: ContactUserInputsModel): Observable<any> {
+    // userData.type = 'save';
+    console.log('[ContactFormService] sendEmail');
+    return this.http.put(this.postsUrl, contactUserInputsData, httpOptions);
+  }
 }

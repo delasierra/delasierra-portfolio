@@ -1,7 +1,6 @@
-import {Component, OnInit, ViewChild} from '@angular/core';
-import {ContactSectionData, ContactUserInputs} from './contact-form-expandable.model';
-import {ContactFormService} from './contact-form-expandable.service';
-
+import { Component, OnInit, ViewChild } from '@angular/core';
+import { ContactSectionDataModel, ContactUserInputsModel } from './contact-form-expandable.model';
+import { ContactFormService } from './contact-form-expandable.service';
 
 @Component({
   selector: 'app-contact-form-expandable',
@@ -9,38 +8,42 @@ import {ContactFormService} from './contact-form-expandable.service';
   styleUrls: ['./contact-form-expandable.component.scss']
 })
 export class ContactFormExpandableComponent implements OnInit {
-
-  data: ContactSectionData;
+  data: ContactSectionDataModel;
   showContactForm: boolean;
   user = {
     message: '',
-    name:    '',
-    email:   ''
+    name: '',
+    email: ''
   };
 
-  @ViewChild('contactForm') private form: any;
+  @ViewChild('contactForm')
+  private form: any;
 
-  constructor(private contactFormService: ContactFormService) {
-  }
+  constructor(private contactFormService: ContactFormService) {}
 
   ngOnInit() {
     this.data = this.contactFormService.getContactData();
   }
 
-  onSubmit({value, valid}: { value: ContactUserInputs, valid: boolean }): void {
-    // console.log(value.email, value.name, value.message, valid);
-    if (!valid) {
-      console.log('form is not valid');
-    } else {
-      // TODO call API to send email and save user in DB
-      // value.isActive = true;
-      // value.registered = new Date();
-      // value.hide = true;
-      //
-      //
-      // this._userService.addUser(value);
+  isFormValid(form: any) {
+    if (!form.valid) {
+      return false;
+    }
+    return true;
+  }
 
-      this.form.reset();
+  onSubmit(formData: any) {
+    const contactUserInputData: ContactUserInputsModel = formData.value;
+    // console.log('form data', formData);
+    // console.log('form constac user data', contactUserInputData);
+    if (formData.valid) {
+      this.contactFormService.sendEmail(contactUserInputData).subscribe(response => {
+        console.log('response fromm server:', response);
+        // if(response)
+        // this.form.reset();
+      });
+    } else {
+      console.log('form data is not valid');
     }
   }
 }

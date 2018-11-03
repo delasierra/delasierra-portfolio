@@ -21,7 +21,7 @@ import { BgStateColorCanvasDirective } from './directives/attributes/bg-state-co
 import { BgStateGradientColorDirective } from './directives/attributes/bg-state-gradient-color';
 import { ShowHideElementDirective } from './directives/attributes/show-hide-home-elements.directive';
 import { SharedModule } from './shared/shared.module';
-// import {ScrollSmoothDirective} from './directives/animations/scroll-smooth.directive';
+import { ScrollSmoothDirective } from './directives/animations/scroll-smooth.directive';
 
 @NgModule({
   imports: [
@@ -48,10 +48,9 @@ import { SharedModule } from './shared/shared.module';
     BgStateColorCanvasDirective,
     BgStateSolidColorDirective,
     BgStateGradientColorDirective,
-    ShowHideElementDirective
-    // ScrollSmoothDirective,
+    ShowHideElementDirective,
+    ScrollSmoothDirective
     // ResponsiveImgComponent,
-    // ScrollSmoothDirective,
   ],
   providers: [],
   bootstrap: [AppComponent]

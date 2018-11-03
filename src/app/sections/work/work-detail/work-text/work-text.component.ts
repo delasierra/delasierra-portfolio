@@ -31,7 +31,7 @@ export class WorkTextComponent implements OnInit {
 
   elementEnterViewport = (isInViewport, position, direction, el) => {
     const workTextElement = el.children[0];
-    // console.log('YEAH I AM IN FIEWPORT!', isInViewport, this.title.nativeElement);
+    // console.log('YEAH I AM IN VIEWPORT!', isInViewport, this.title.nativeElement);
     // console.log(isInViewport, this.isInViewport, isInViewport !== this.isInViewport);
     // console.log('\n \n', isInViewport, el.children[0].getElementsByTagName('h2'));
     if (isInViewport) {
