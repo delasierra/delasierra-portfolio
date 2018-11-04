@@ -14,7 +14,8 @@ const httpOptions = {
 export class ContactFormService {
   constructor(private http: HttpClient, private appService: AppService) {}
 
-  sendEmailUrl = 'https://carlosdelasierra.com/backend/sendEmail.php';
+  sendEmailUrl = 'https://www.carlosdelasierra.com/backend/sendEmail.php'; // Local dev
+  // sendEmailUrl = '/backend/sendEmail.php'; // Final path
 
   getContactData(): ContactSectionDataModel {
     return this.appService.getContactData();
