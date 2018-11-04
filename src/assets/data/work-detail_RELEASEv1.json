@@ -21,24 +21,18 @@
             "AMTE is a functional web app that attempts to study the effectiveness of diagnostic and treatment in anxiety and depression disorders in adolescents through the use of new technologies. The app, innovative in the sector, was developed for the Department of Psychology at UNED (National University of Online Education) under the supervision of Dr. Bonifacio Sandin, professor of Personality, Evaluation and Psychological Treatment."
           ],
           "client": "National University of Online Education (UNED)",
-          "role": [
-            "Co-autor",
-            "Frontend lead developer",
-            "Creative direction"
-          ],
+          "role": ["Co-autor", "Frontend lead developer", "Creative direction"],
           "credits": [
             "Bonifacio Sadin: Research director",
             "Manuel Ottaviano: Co-author and eHealth researcher"
           ],
-          "platforms": [
-            "Desktop and mobile browsers"
-          ]
+          "platforms": ["Desktop and mobile browsers"]
         }
       },
       {
         "type": "work-image-text",
         "data": {
-          "title": "3 APPS AND AN INFORMATIVE WEBSITE",
+          "title": "3 APPS AND AN INFORMATIVE SITE",
           "description": "The system allows for interaction among adolescents, therapists and parents through specific apps designed for each one. The different applications are accessed from a base website that also provides information for the general public",
           "images": [
             "web_public_view.png",
@@ -64,10 +58,8 @@
       {
         "type": "work-image",
         "data": {
-          "images": [
-            "web_insertion.png"
-          ],
-          "position": "right",
+          "images": ["web_insertion.png"],
+          "position": "center",
           "layout": "",
           "background": "",
           "fx": ""
@@ -113,9 +105,7 @@
         "data": {
           "title": "GLOBAL VIEW",
           "description": "Therapists can personalize the modules for each adolescent, track progress and communicate with adolescents and their parents using the avatars and the chat",
-          "images": [
-            "web_therapist_graphs.png"
-          ],
+          "images": ["web_therapist_graphs.png"],
           "position": "right",
           "layout": "",
           "background": "",
@@ -136,9 +126,7 @@
         "data": {
           "title": "PARENT INTERACTION",
           "description": "Parents have the option to offer support for their child using information and graphical data about the progress being made, along with a chat to communicate directly with therapists",
-          "images": [
-            "web_parents_full.png"
-          ],
+          "images": ["web_parents_full.png"],
           "position": "left",
           "layout": "",
           "background": "#ffffff",
@@ -150,9 +138,7 @@
         "data": {
           "title": "BRAND IDENTITY",
           "description": "The image of the app had to encompass two very distinct target user groups: adolescents, and adult therapists and parents. Adolescents find a simple, clear interface and user flow, while the adults see a modern, serious image that instills trust",
-          "images": [
-            "logo_amte.svg"
-          ],
+          "images": ["logo_amte.svg"],
           "position": "right",
           "layout": "fullscreen",
           "background": "#ffffff",
@@ -162,9 +148,7 @@
       {
         "type": "work-image",
         "data": {
-          "images": [
-            "web_bg_collage.png"
-          ],
+          "images": ["web_bg_collage.png"],
           "position": "center",
           "layout": "cover",
           "background": "#ffffff",
@@ -196,26 +180,15 @@
             "Application “A” shows videos of game-point moments, and users have to use application “B” to respond whether the ball landed in or out of bounds. There are several rounds of play, the points are earned by answering correctly in the shortest amount of time."
           ],
           "client": "Rafa Nadal Museum Xperience",
-          "role": [
-            "Fullstack developer",
-            "Contracted as freelancer"
-          ],
-          "credits": [
-            "Cubensis: creativity and production"
-          ],
-          "platforms": [
-            "Windows desktop",
-            "Interactive booth",
-            "Hawk-Eye technology"
-          ]
+          "role": ["Fullstack developer", "Contracted as freelancer"],
+          "credits": ["Cubensis: creativity and production"],
+          "platforms": ["Windows desktop", "Interactive booth", "Hawk-Eye technology"]
         }
       },
       {
         "type": "work-image",
         "data": {
-          "images": [
-            "instalation_2screens_closeup.png"
-          ],
+          "images": ["instalation_2screens_closeup.png"],
           "position": "center",
           "layout": "cover",
           "background": "",
@@ -234,10 +207,7 @@
       {
         "type": "work-image",
         "data": {
-          "images": [
-            "main_round.png",
-            "match_point.png"
-          ],
+          "images": ["main_round.png", "match_point.png"],
           "position": "center",
           "layout": "",
           "background": "",
@@ -249,10 +219,7 @@
         "data": {
           "title": "User interaction",
           "description": "When the video ends, users have a limited amount of time to answer whether the ball landed in or out of bounds",
-          "images": [
-            "user_round.png",
-            "user_in-out.png"
-          ],
+          "images": ["user_round.png", "user_in-out.png"],
           "position": "right",
           "layout": "",
           "background": "",
@@ -271,10 +238,7 @@
       {
         "type": "work-image",
         "data": {
-          "images": [
-            "hawkeye_1.png",
-            "hawkeye_2.png"
-          ],
+          "images": ["hawkeye_1.png", "hawkeye_2.png"],
           "position": "center",
           "layout": "",
           "background": "",
@@ -287,11 +251,7 @@
         "data": {
           "title": "Scoring",
           "description": "The application shows the correct answer and the points earned by each user. After five rounds, the winner is announced",
-          "images": [
-            "user_correct.png",
-            "user_winner.png",
-            "user_record.png"
-          ],
+          "images": ["user_correct.png", "user_winner.png", "user_record.png"],
           "position": "left",
           "layout": "",
           "background": "",
@@ -301,9 +261,7 @@
       {
         "type": "work-image",
         "data": {
-          "images": [
-            "instalation_2screens.png"
-          ],
+          "images": ["instalation_2screens.png"],
           "position": "center",
           "layout": "cover",
           "background": "",
@@ -335,18 +293,9 @@
             "Users access the app by entering a unique code on their event ticket. When they finish the questions, their attendance is officially registered."
           ],
           "client": "HBO Spain",
-          "role": [
-            "Fullstack development",
-            "Functional design",
-            "UX",
-            "Contracted as freelancer"
-          ],
-          "credits": [
-            "Spectacular: Design & UI"
-          ],
-          "platforms": [
-            "Desktop and mobile browsers"
-          ]
+          "role": ["Fullstack development", "Functional design", "UX", "Contracted as freelancer"],
+          "credits": ["Spectacular: Design & UI"],
+          "platforms": ["Desktop and mobile browsers"]
         }
       },
       {
@@ -354,10 +303,7 @@
         "data": {
           "title": "Stepped form",
           "description": "If a user accesses the web after completing registration, they see the information about their character. If they have not yet completed registration, they are taken to the flow of questions to create a new character",
-          "images": [
-            "screen_login.png",
-            "screen_questions.png"
-          ],
+          "images": ["screen_login.png", "screen_questions.png"],
           "position": "right",
           "layout": "",
           "background": "",
@@ -369,9 +315,7 @@
         "data": {
           "title": "CUSTOMIZED CHARACTER",
           "description": "Users can go back and see the details of their personalized character any time by entering the code on their event ticket",
-          "images": [
-            "screen_character.png"
-          ],
+          "images": ["screen_character.png"],
           "position": "left",
           "layout": "",
           "background": "",
@@ -403,19 +347,9 @@
             "The Arduino games light up buttons that the user has to press as quickly as possible to turn them off before time runs out. The desktop app communicates with Arduino to send game configuration, react to events and manage competing users’ scoring and records."
           ],
           "client": "Rafa Nadal Museum Xperience",
-          "role": [
-            "Fullstack developer",
-            "Contracted as freelancer"
-          ],
-          "credits": [
-            "Cubensis: creativity and production",
-            "Raúl González: Arduino developer"
-          ],
-          "platforms": [
-            "Windows desktop",
-            "Interactive game",
-            "Arduino"
-          ]
+          "role": ["Fullstack developer", "Contracted as freelancer"],
+          "credits": ["Cubensis: creativity and production", "Raúl González: Arduino developer"],
+          "platforms": ["Windows desktop", "Interactive game", "Arduino"]
         }
       },
       {
@@ -450,10 +384,7 @@
       {
         "type": "work-image",
         "data": {
-          "images": [
-            "instalation2.png",
-            "instalation_trainer.png"
-          ],
+          "images": ["instalation2.png", "instalation_trainer.png"],
           "position": "left",
           "layout": "",
           "background": "",
@@ -463,9 +394,7 @@
       {
         "type": "work-image",
         "data": {
-          "images": [
-            "instalation1.png"
-          ],
+          "images": ["instalation1.png"],
           "position": "center",
           "layout": "cover",
           "background": "",
@@ -495,25 +424,15 @@
           "description": [
             "Publicity action within Madrid’s Gay Pride Parade, with several iPads set up at different points along the path. The app allows users to put on make up and costumes related to the celebration, take a picture of themselves, and send it to an email in exchange for providing basic information that is stored in a database for future publicity actions."
           ],
-          "role": [
-            "Fullstack development",
-            "Contracted as freelance"
-          ],
-          "credits": [
-            "McCann: creativity",
-            "Cubensis: production"
-          ],
-          "platforms": [
-            "iOS"
-          ]
+          "role": ["Fullstack development", "Contracted as freelance"],
+          "credits": ["McCann: creativity", "Cubensis: production"],
+          "platforms": ["iOS"]
         }
       },
       {
         "type": "work-image",
         "data": {
-          "images": [
-            "screen_home.png"
-          ],
+          "images": ["screen_home.png"],
           "position": "center",
           "layout": "",
           "background": "",
@@ -525,11 +444,7 @@
         "data": {
           "title": "FUNCTION",
           "description": "Users can choose from and play with a variety of make-up options, take a picture of the results, and send it to an email address of their choice",
-          "images": [
-            "screen_makeup.png",
-            "screen_picture.png",
-            "screen_form.png"
-          ],
+          "images": ["screen_makeup.png", "screen_picture.png", "screen_form.png"],
           "position": "right",
           "layout": "",
           "background": "",
@@ -539,9 +454,7 @@
       {
         "type": "work-image",
         "data": {
-          "images": [
-            "screen_thanks.png"
-          ],
+          "images": ["screen_thanks.png"],
           "position": "center",
           "layout": "",
           "background": "",
@@ -573,25 +486,15 @@
             "In the game, users have to find the character in an interactive illustration full of other characters. Once they find their character, the user’s information and character are saved in the event database."
           ],
           "client": "TNT Channel",
-          "role": [
-            "Fullstack development",
-            "Contracted as freelancer"
-          ],
-          "credits": [
-            "Jae Tanaka: Illustrations",
-            "Spectacular: UI"
-          ],
-          "platforms": [
-            "Desktop and mobile browsers"
-          ]
+          "role": ["Fullstack development", "Contracted as freelancer"],
+          "credits": ["Jae Tanaka: Illustrations", "Spectacular: UI"],
+          "platforms": ["Desktop and mobile browsers"]
         }
       },
       {
         "type": "work-image",
         "data": {
-          "images": [
-            "drawing-flash.png"
-          ],
+          "images": ["drawing-flash.png"],
           "position": "center",
           "layout": "",
           "background": "",
@@ -601,9 +504,7 @@
       {
         "type": "work-image",
         "data": {
-          "images": [
-            "screen_char_search.png"
-          ],
+          "images": ["screen_char_search.png"],
           "position": "center",
           "layout": "",
           "background": "",
@@ -613,9 +514,7 @@
       {
         "type": "work-image",
         "data": {
-          "images": [
-            "screen_char_founded.png"
-          ],
+          "images": ["screen_char_founded.png"],
           "position": "left",
           "layout": "",
           "background": "",
@@ -625,9 +524,7 @@
       {
         "type": "work-image",
         "data": {
-          "images": [
-            "drawing-char3.png"
-          ],
+          "images": ["drawing-char3.png"],
           "position": "right",
           "layout": "",
           "background": "",
@@ -637,9 +534,7 @@
       {
         "type": "work-image",
         "data": {
-          "images": [
-            "drawing-char.png"
-          ],
+          "images": ["drawing-char.png"],
           "position": "center",
           "layout": "",
           "background": "",
@@ -649,9 +544,7 @@
       {
         "type": "work-image",
         "data": {
-          "images": [
-            "drawing-char5.png"
-          ],
+          "images": ["drawing-char5.png"],
           "position": "center",
           "layout": "",
           "background": "",
@@ -661,9 +554,7 @@
       {
         "type": "work-image",
         "data": {
-          "images": [
-            "last_screen.png"
-          ],
+          "images": ["last_screen.png"],
           "position": "center",
           "layout": "cover",
           "background": "",
@@ -694,25 +585,15 @@
             "Nationwide publicity action in which users can participate in a raffle by providing their basic information for future publicity use. To sign up for the raffle, they have to solve a puzzle by finding the three Winston eagles hidden in an image."
           ],
           "client": "Winston",
-          "role": [
-            "Fullstack development",
-            "Contracted as freelancer"
-          ],
-          "credits": [
-            "McCann: creativity",
-            "Cubensis: production"
-          ],
-          "platforms": [
-            "Android"
-          ]
+          "role": ["Fullstack development", "Contracted as freelancer"],
+          "credits": ["McCann: creativity", "Cubensis: production"],
+          "platforms": ["Android"]
         }
       },
       {
         "type": "work-image",
         "data": {
-          "images": [
-            "sceen_home.png"
-          ],
+          "images": ["sceen_home.png"],
           "position": "center",
           "layout": "",
           "background": "",
@@ -724,10 +605,7 @@
         "data": {
           "title": "THE EAGLES",
           "description": "The eagles are found by placing the magnifying glass over them",
-          "images": [
-            "screen_eagles.png",
-            "screen_game1.png"
-          ],
+          "images": ["screen_eagles.png", "screen_game1.png"],
           "position": "right",
           "layout": "",
           "background": "#ffffff",
@@ -739,11 +617,7 @@
         "data": {
           "title": "THE SCENES",
           "description": "There are three different scenes, loaded randomly by the app",
-          "images": [
-            "screen_scene2.png",
-            "screen_scene3.png",
-            "screen_scene1.png"
-          ],
+          "images": ["screen_scene2.png", "screen_scene3.png", "screen_scene1.png"],
           "position": "left",
           "layout": "",
           "background": "",
@@ -753,10 +627,7 @@
       {
         "type": "work-image",
         "data": {
-          "images": [
-            "screen_end_sorry.png",
-            "screen_end_OK.png"
-          ],
+          "images": ["screen_end_sorry.png", "screen_end_OK.png"],
           "position": "center",
           "layout": "",
           "background": "#ffffff",
@@ -768,9 +639,7 @@
         "data": {
           "title": "FORM WITH DIGITAL SIGNATURE",
           "description": "The users’ information and digital signature are stored in a database in the device, and later uploaded to a server",
-          "images": [
-            "screen_form.png"
-          ],
+          "images": ["screen_form.png"],
           "position": "left",
           "layout": "",
           "background": "",
@@ -782,11 +651,7 @@
         "data": {
           "title": "ADMIN PANEL",
           "description": "Administrators can handle configuration and back up data from the admin panel",
-          "images": [
-            "screen_admin1.png",
-            "screen_admin2.png",
-            "screen_admin3.png"
-          ],
+          "images": ["screen_admin1.png", "screen_admin2.png", "screen_admin3.png"],
           "position": "right",
           "layout": "",
           "background": "#ffffff",
@@ -825,11 +690,8 @@
             "Illustrations",
             "Contracted as freelancer"
           ],
-          "credits": [
-          ],
-          "platforms": [
-            "Desktop browser"
-          ]
+          "credits": [],
+          "platforms": ["Desktop browser"]
         }
       },
       {
@@ -837,11 +699,7 @@
         "data": {
           "title": "THE VIRTUAL TOUR",
           "description": "The user can explore the different buildings throughout the hostel grounds",
-          "images": [
-            "screen_home.png",
-            "screen_selection.png",
-            "screen_main_building_info.png"
-          ],
+          "images": ["screen_home.png", "screen_selection.png", "screen_main_building_info.png"],
           "position": "right",
           "layout": "",
           "background": "",
@@ -860,11 +718,7 @@
       {
         "type": "work-image",
         "data": {
-          "images": [
-            "illust_rooftop.png",
-            "illust_main_building.png",
-            "illust_bath.png"
-          ],
+          "images": ["illust_rooftop.png", "illust_main_building.png", "illust_bath.png"],
           "position": "center",
           "layout": "",
           "background": "",
@@ -874,10 +728,7 @@
       {
         "type": "work-image",
         "data": {
-          "images": [
-            "screen_prices.png",
-            "screen_getthere.png"
-          ],
+          "images": ["screen_prices.png", "screen_getthere.png"],
           "position": "center",
           "layout": "",
           "background": "#ffffff",

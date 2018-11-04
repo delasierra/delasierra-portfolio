@@ -57,7 +57,7 @@ export class WorkTextComponent implements OnInit {
   showTextAnimation(el: any, value: boolean, position: number, direction: string) {
     if (value !== this.isInViewport) {
       this.isInViewport = value;
-      console.log('¿¿¿¿¿¿¿¿ showTextAnimation');
+      // console.log('¿¿¿¿¿¿¿¿ showTextAnimation');
       TweenMax.set(el, {
         position: 'fixed',
         // top: '10%',
@@ -76,7 +76,7 @@ export class WorkTextComponent implements OnInit {
     if (value !== this.isInViewport) {
       this.isInViewport = value;
 
-      console.log('******* hideTextAnimation');
+      // console.log('******* hideTextAnimation');
       TweenMax.to(el, 0.3, {
         // position: 'static',
         autoAlpha: 0
@@ -99,7 +99,8 @@ export class WorkTextComponent implements OnInit {
 
   getContainerStyles(): object {
     return {
-      'align-items': this.detailData.position
+      'align-items': this.detailData.position,
+      padding: this.detailData.position === 'center' ? '0 50px' : ''
     };
   }
 

@@ -1,19 +1,10 @@
 <?php
 /**
- * Created by PhpStorm.
- * User: csierra
+ * Created by Carlos de la Sierra.
  * Date: 17/10/16
  * Time: 11:07
  */
-// echo json_encode(array('status' => 'error', 'msg' => 'error, wrong email'));
 
-// $required_fields = array("name", "email", "message");
-// foreach ($require_fields as $field) {
-//     if (!strlen($_POST[$field])) {
-//         echo json_encode(array('status' => 'error', 'msg' => "$field cannot be empty"));
-//         // echo "$field cannot be empty";
-//     }
-// }
 date_default_timezone_set('Etc/UTC');
 require 'lib/PHPMailer/PHPMailerAutoload.php';
 
@@ -24,11 +15,6 @@ $sender_name = $user_request->name;
 $sender_email = $user_request->email;
 $email_subject = "contact from web form";
 $email_body = $user_request->message;
-
-// $sender_name = $_POST["name"];
-// $sender_email = $_POST["email"];
-// $email_subject = "contact from web form";
-// $email_body = $_POST["message"];
 
 function sendEmailPhpMailer($sender_name, $sender_email, $email_subject, $email_body)
 {
@@ -85,13 +71,15 @@ function sendEmailPhpMailer($sender_name, $sender_email, $email_subject, $email_
     $mail->SMTPAuth = true;
 
     //Username to use for SMTP authentication - use full email address for gmail
+    // $mail->Username = "studio@carlosdelasierra.com";
     $mail->Username = "cs@carlosdelasierra.com";
 
     //Password to use for SMTP authentication
+    // $mail->Password = "297jvXSiVC48";
     $mail->Password = "166871Sonor";
 
     //Set who the message is to be sent from
-    $mail->setFrom('cs@carlosdelasierra.com', 'Carlos de la Sierra');
+    $mail->setFrom('studio@carlosdelasierra.com', 'Web carlosdelasierra');
 
     //Set an alternative reply-to address
     $mail->addReplyTo($sender_email, $sender_name);
@@ -101,7 +89,7 @@ function sendEmailPhpMailer($sender_name, $sender_email, $email_subject, $email_
     $mail->addAddress('cs@carlosdelasierra.com', 'Carlos de la Sierra');
 
     //Set the subject line
-    $mail->Subject = $email_subject;
+    $mail->Subject = $sender_name.' - '.$email_subject;
 
     //Read an HTML message body from an external file, convert referenced images to embedded,
     //convert HTML into a basic plain-text alternative body

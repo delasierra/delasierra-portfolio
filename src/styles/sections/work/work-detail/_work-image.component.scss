@@ -14,10 +14,16 @@
 
     &.align-left {
       justify-content: flex-start;
+      img {
+        padding-left: 40px;
+      }
     }
 
     &.align-right {
       justify-content: flex-end;
+      img {
+        padding-right: 40px;
+      }
     }
 
     &.full-screen-img {
@@ -30,7 +36,7 @@
 
     img {
       max-width: 100%;
-      margin-bottom: 40px;
+      margin-bottom: 120px;
 
       &.size-xs {
       }

@@ -1,4 +1,4 @@
-import { AfterViewInit, Component, ElementRef, Input, OnInit, ViewChild } from '@angular/core';
+import { Component, Input, OnInit } from '@angular/core';
 import { WorkGeneralData, WorkImgData } from '../../models/work-data.model';
 import { WorkService } from '../../work.service';
 
@@ -27,7 +27,6 @@ export class WorkImageComponent implements OnInit {
 
   getImagesFolder(): string {
     return this.workService.getImagePath(this.workId);
-    // return this.workService.imgFolder + this.workId + '/';
   }
 
   getBgColor(): any {
