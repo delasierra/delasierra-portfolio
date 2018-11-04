@@ -1,10 +1,10 @@
 .form {
   .card {
-    background-image: linear-gradient(180deg, rgba(255, 34, 66, .4), rgba(147, 39, 92, .7));
+    background-image: linear-gradient(180deg, rgba(255, 34, 66, 0.4), rgba(147, 39, 92, 0.7));
     //background-image: linear-gradient(180deg, rgb(190, 34, 66), rgb(147, 39, 92));
     //opacity: .7;
     line-height: 2;
-    border-radius: .8rem;
+    border-radius: 0.8rem;
     color: #ffffff;
     border: none;
     background-color: transparent;
@@ -33,7 +33,6 @@
         -moz-box-shadow: 0 0 0 4px rgba(163, 41, 71, 1);
         box-shadow: 0 0 0 4px rgba(163, 41, 71, 1);
       }
-
     }
 
     .form-group {
@@ -67,13 +66,15 @@
       border: solid 1px #a92c4a;
     }
   }
-
 }
 
 /***** Send btn ******/
 .btn-send-form {
+  @extend .btn;
+  @extend .btn-block;
+  @extend .btn-primary;
   line-height: 2;
-  border-radius: .8rem;
+  border-radius: 0.8rem;
   text-transform: uppercase;
 
   &:disabled,
@@ -81,10 +82,6 @@
     color: #fff;
     background-color: #292a31;
     border-color: #292a31;
-  }
-
-  &:hover {
-    opacity: 1;
   }
 }
 
@@ -95,24 +92,38 @@
   border: solid 2px #ffffff;
   @extend .neon-fx;
   @extend .neon-text-fx;
+
+  // Animation
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-property: transform;
+  transition-property: transform;
+
+  &:hover {
+    color: #ffffff;
+    border: solid 2px #ffffff;
+    transform: scale(1.01);
+  }
 }
 
 /***** Placeholder styles *******/
-::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+::placeholder {
+  /* Chrome, Firefox, Opera, Safari 10.1+ */
   //@extend .placeholder;
-  opacity: .8; /* Firefox */
+  opacity: 0.8; /* Firefox */
   //font-weight: 200;
   color: #d4b5be;
   font-style: italic;
-
 }
 
-:-ms-input-placeholder { /* Internet Explorer 10-11 */
+:-ms-input-placeholder {
+  /* Internet Explorer 10-11 */
   //@extend .placeholder;
   color: #c1c1c2;
 }
 
-:-ms-input-placeholder { /* Microsoft Edge */
+:-ms-input-placeholder {
+  /* Microsoft Edge */
   //@extend .placeholder;
   color: #c1c1c2;
 }

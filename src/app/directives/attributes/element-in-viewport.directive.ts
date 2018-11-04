@@ -1,9 +1,9 @@
-import { Directive, ElementRef, Input, OnInit, HostListener } from '@angular/core';
+import { Directive, ElementRef, Input, OnInit, OnDestroy } from '@angular/core';
 
 @Directive({
   selector: '[appElementinViewportDirective]'
 })
-export class ElementInViewportDirective implements OnInit {
+export class ElementInViewportDirective implements OnInit, OnDestroy {
   @Input('appElementinViewportDirective')
   callBack;
   // @HostListener('scroll', ['$event'])
@@ -26,13 +26,13 @@ export class ElementInViewportDirective implements OnInit {
 
   isElementInViewport() {
     const elBounding = this.getElementPosition();
-    console.log(
-      '\n \nDATA',
-      elBounding.top,
-      elBounding.y,
-      elBounding.height,
-      this.viewportHeight / 1.5
-    );
+    // console.log(
+    //   '\n \nDATA',
+    //   elBounding.top,
+    //   elBounding.y,
+    //   elBounding.height,
+    //   this.viewportHeight / 1.5
+    // );
     return (
       elBounding.top <= this.viewportHeight / 5 && elBounding.bottom >= this.viewportHeight / 5
       // elBounding.top <= 1400 && elBounding.bottom >= this.viewportHeight / 3
@@ -64,7 +64,7 @@ export class ElementInViewportDirective implements OnInit {
   }
 
   getElementPosition(): any {
-    console.log(this.el.nativeElement);
+    // console.log(this.el.nativeElement);
     return this.el.nativeElement.getBoundingClientRect();
   }
 }

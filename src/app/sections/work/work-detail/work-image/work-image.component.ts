@@ -7,8 +7,6 @@ import { WorkService } from '../../work.service';
   templateUrl: './work-image.component.html',
   styleUrls: ['./work-image.component.scss']
 })
-// export class WorkImageComponent implements AfterViewInit {
-// export class WorkImageComponent implements OnInit, AfterViewInit {
 export class WorkImageComponent implements OnInit {
   @Input()
   generalData: WorkGeneralData;

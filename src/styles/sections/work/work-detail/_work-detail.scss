@@ -1,10 +1,10 @@
-@import "work-image.component";
-@import "work-overview.component";
-@import "work-home.component";
-@import "work-text.component";
-@import "work-image-text.component";
+@import 'work-image.component';
+@import 'work-overview.component';
+@import 'work-home.component';
+@import 'work-text.component';
+@import 'work-image-text.component';
 
-@import "../../../cover-image";
+@import '../../../cover-image';
 
 .work-detail {
   //padding-bottom: 100px;
@@ -12,7 +12,7 @@
   overflow-y: scroll;
   overflow-x: hidden;
 
-  .work-navigation{
+  .work-navigation {
     //min-height: 20vh;
   }
 }
@@ -21,7 +21,7 @@
   //padding: 50px 0;
   //min-height: 100vh;
   //width: 100vw;
-  //margin-right: 0 -15px;
+  margin: 0 -20px;
 }
 
 .work-slide-content {
@@ -40,8 +40,8 @@
   cursor: pointer;
   //left: 90% - 50px;
   left: -webkit-calc(100% - 90px);
-  left:    -moz-calc(100% - 90px);
-  left:         calc(100% - 90px);
+  left: -moz-calc(100% - 90px);
+  left: calc(100% - 90px);
 
   //  TODO add media queries
 }
@@ -54,26 +54,25 @@
 
 // Responsive
 @include media-breakpoint-up(xs) {
-
 }
 
 @include media-breakpoint-up(sm) {
-
+  .work-slide {
+    margin: 0 -15px;
+  }
 }
 
 @include media-breakpoint-up(md) {
-  .work-slide-content{
+  .work-slide-content {
     min-height: 100vh;
   }
-  .work-slide-content{
+  .work-slide-content {
     padding: 0 40px;
   }
 }
 
 @include media-breakpoint-up(lg) {
-
 }
 
 @include media-breakpoint-up(xl) {
-
 }

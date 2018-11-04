@@ -1,5 +1,4 @@
 .work-home {
-
   @extend .work-slide-content;
   //margin: 0 -15px;
   padding: 0;
@@ -20,8 +19,10 @@
     width: 100%; //add to mediaquery
     padding-bottom: 75px;
 
-    h1, h5,
-    .h1, .h5 {
+    h1,
+    h5,
+    .h1,
+    .h5 {
       //text-align: center;
     }
 
@@ -29,7 +30,6 @@
       margin-bottom: 15px;
 
       img {
-        //width: 75px;
         height: 100px;
       }
     }
@@ -42,7 +42,6 @@
 
 // Responsive
 @include media-breakpoint-up(xs) {
-
 }
 
 @include media-breakpoint-up(sm) {
@@ -52,20 +51,11 @@
       justify-content: center;
       padding: 15% 45px 10px 45px;
 
-      //width: 50%; //add to mediaquery
-
-      h1, h5,
-      .h1, .h5 {
+      h1,
+      h5,
+      .h1,
+      .h5 {
         text-align: center;
-      }
-
-      .work-logo {
-        //margin-bottom: 15px;
-
-        img {
-          //width: 75px;
-          //height: 100px;
-        }
       }
     }
   }
@@ -82,9 +72,7 @@
 }
 
 @include media-breakpoint-up(lg) {
-
 }
 
 @include media-breakpoint-up(xl) {
-
 }

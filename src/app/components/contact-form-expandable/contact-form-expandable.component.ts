@@ -36,6 +36,7 @@ export class ContactFormExpandableComponent implements OnInit {
     const contactUserInputData: ContactUserInputsModel = formData.value;
     if (formData.valid) {
       this.contactFormService.sendEmail(contactUserInputData).subscribe(response => {
+        console.log('[ContactFormExpandableComponent] contactUserInputData:', response);
         if (response.status === 'OK') {
           this.form.reset();
         } else {

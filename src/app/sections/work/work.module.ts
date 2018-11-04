@@ -18,32 +18,13 @@ import { library } from '@fortawesome/fontawesome-svg-core';
 import { CloseBtnComponent } from '../../components/close-btn/close-btn.component';
 import { WorkMenuItemComponent } from './work-menu/work-menu-item/work-menu-item.component';
 import { WorkMenuItem2Component } from './work-menu/work-menu-item2/work-menu-item2.component';
-// import {ResponsiveModule} from 'ngx-responsive';
-// import {ResponsiveImgComponent} from '../../components/responsive-img/responsive-img.component';
 import { SharedModule } from '../../shared/shared.module';
 
 library.add(faTimes);
 library.add(faCircle);
 
-const config = {
-  breakPoints: {
-    xs: { max: 539 },
-    sm: { min: 540, max: 719 },
-    md: { min: 720, max: 959 },
-    lg: { min: 960, max: 1599 },
-    xl: { min: 1600 }
-  },
-  debounceTime: 100
-};
-
 @NgModule({
-  imports: [
-    // CommonModule,
-    WorkRoutingModule,
-    FontAwesomeModule,
-    SharedModule.forRoot()
-    // ResponsiveModule.forRoot(config ),
-  ],
+  imports: [WorkRoutingModule, FontAwesomeModule, SharedModule.forRoot()],
   declarations: [
     WorkMenuComponent,
     WorkHomeComponent,
@@ -58,9 +39,6 @@ const config = {
     CloseBtnComponent,
     WorkMenuItemComponent,
     WorkMenuItem2Component
-    // ResponsiveImgComponent,
-    // BgStyleDirective,
-    // WorkModule
   ],
   providers: []
 })

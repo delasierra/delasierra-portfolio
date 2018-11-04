@@ -1,4 +1,3 @@
-import { log } from 'util';
 import { Component, Input, OnInit } from '@angular/core';
 import { WorkGeneralData, WorkTextData } from '../../models/work-data.model';
 import { ResponsiveSizeInfoDirective, ResponsiveSizeInfoRx } from 'ngx-responsive';
@@ -18,8 +17,8 @@ export class WorkTextComponent implements OnInit {
   detailData: WorkTextData;
 
   private bgColor: string;
-  private viewportHeight = window.screen.height;
-  // private viewportWidth = window.screen.width;
+  private viewportHeight: number;
+  private viewportWidth: number;
   private isInViewport = false;
 
   constructor() {}
@@ -27,69 +26,62 @@ export class WorkTextComponent implements OnInit {
   ngOnInit() {
     this.bgColor = this.detailData.background;
     this.viewportHeight = window.screen.height;
+    this.viewportWidth = window.screen.width;
   }
 
   elementEnterViewport = (isInViewport, position, direction, el) => {
+    // elementInViewPort directive callback
     const workTextElement = el.children[0];
     // console.log('YEAH I AM IN VIEWPORT!', isInViewport, this.title.nativeElement);
     // console.log(isInViewport, this.isInViewport, isInViewport !== this.isInViewport);
     // console.log('\n \n', isInViewport, el.children[0].getElementsByTagName('h2'));
-    if (isInViewport) {
-      this.showTextAnimation(workTextElement, isInViewport, position, direction);
-    } else {
-      this.hideTextAnimation(workTextElement, isInViewport, position, direction);
+    // if (this.isInViewport !== isInViewport && !this.isSmallDevice()) {
+    if (this.isInViewport !== isInViewport && !this.isSmallDevice()) {
+      this.isInViewport = isInViewport;
+
+      if (isInViewport) {
+        // this.showTextAnimation(workTextElement, isInViewport, position, direction);
+        this.showTextAnimation(workTextElement, position, direction);
+      } else {
+        // this.hideTextAnimation(workTextElement, isInViewport, position, direction);
+        this.hideTextAnimation(workTextElement, position, direction);
+      }
     }
-
-    // if (isInViewport !== this.isInViewport) {
-    //   this.isInViewport = isInViewport;
-    //   // console.log('isInViewport', isInViewport);
-    //   // console.log('this.isInViewport', this.isInViewport);
-
-    //   if (this.isInViewport) {
-    //     this.showTextAnimation(el);
-    //   } else {
-    //     this.hideTextAnimation(el);
-    //   }
-    //   console.log('------------------------------------');
-    // }
   };
 
-  showTextAnimation(el: any, value: boolean, position: number, direction: string) {
-    if (value !== this.isInViewport) {
-      this.isInViewport = value;
-      // console.log('¿¿¿¿¿¿¿¿ showTextAnimation');
-      TweenMax.set(el, {
-        position: 'fixed',
-        // top: '10%',
-        autoAlpha: 0,
-        // TODO make position dynamic
-        top: this.viewportHeight / 3,
-        overwrite: 'all'
-      });
-      TweenMax.to(el, 0.5, {
-        autoAlpha: 1
-      });
-    }
+  // showTextAnimation(el: any, value: boolean, position: number, direction: string) {
+  showTextAnimation(el: any, position: number, direction: string) {
+    // if (value !== this.isInViewport) {
+    // this.isInViewport = value;
+    console.log('¿¿¿¿¿¿¿¿ showTextAnimation');
+
+    TweenMax.set(el, {
+      position: 'fixed',
+      autoAlpha: 0,
+      // TODO: make position dynamic
+      // TODO: make animation related to scoll direction
+      top: this.viewportHeight / 3,
+      overwrite: 'all'
+    });
+
+    TweenMax.to(el, 0.5, {
+      autoAlpha: 1
+    });
+    // }
   }
 
-  hideTextAnimation(el: any, value: boolean, position: number, direction: string) {
-    if (value !== this.isInViewport) {
-      this.isInViewport = value;
-
-      // console.log('******* hideTextAnimation');
-      TweenMax.to(el, 0.3, {
-        // position: 'static',
-        autoAlpha: 0
-        // top: -100
-      });
-      // TweenMax.set(el, {
-      //   position: 'static',
-      //   autoAlpha: 0,
-      //   overwrite: 'all'
-      // });
-    }
+  // hideTextAnimation(el: any, value: boolean, position: number, direction: string) {
+  hideTextAnimation(el: any, position: number, direction: string) {
+    // if (value !== this.isInViewport) {
+    // this.isInViewport = value;
+    console.log('******* hideTextAnimation');
+    TweenMax.to(el, 0.3, {
+      autoAlpha: 0
+    });
+    // }
   }
 
+  // Styles
   getBgColor(): any {
     const bgColor = this.detailData.background
       ? this.detailData.background
@@ -129,5 +121,10 @@ export class WorkTextComponent implements OnInit {
     if (color !== '#ffffff') {
       return '#ffffff';
     }
+  }
+
+  // Helpers
+  isSmallDevice(): boolean {
+    return this.viewportWidth <= 539;
   }
 }

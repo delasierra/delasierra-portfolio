@@ -32,8 +32,6 @@ import { ScrollSmoothDirective } from './directives/animations/scroll-smooth.dir
     NgbModule.forRoot(),
     FontAwesomeModule,
     SharedModule
-    // WorkModule,
-    // ResponsiveModule.forRoot(config),
   ],
   declarations: [
     AppComponent,
@@ -50,7 +48,6 @@ import { ScrollSmoothDirective } from './directives/animations/scroll-smooth.dir
     BgStateGradientColorDirective,
     ShowHideElementDirective,
     ScrollSmoothDirective
-    // ResponsiveImgComponent,
   ],
   providers: [],
   bootstrap: [AppComponent]

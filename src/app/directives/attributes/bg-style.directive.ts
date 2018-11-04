@@ -27,7 +27,7 @@ export class BgStyleDirective implements OnInit {
   }
 
   setBgColorStyle(bg: string): void {
-    console.log('setBgColorStyle', bg);
+    // console.log('setBgColorStyle', bg);
     this.renderer.setStyle(this.el.nativeElement, 'backgroundColor', bg);
   }
 }

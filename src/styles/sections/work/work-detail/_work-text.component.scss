@@ -1,15 +1,14 @@
 .work-slide-content {
-  height: 100%;
+  // height: 100%;
   &.work-text {
     pointer-events: none;
     .work-content {
-      opacity: 0;
       display: flex;
       flex-direction: column;
       align-items: flex-start;
-      //width: 50%; //add to mediaquery
       text-align: center;
-      min-height: 400vh;
+      justify-content: center;
+      height: 100vh;
 
       h2,
       .h2 {
@@ -19,7 +18,7 @@
         //text-align: left !important;
       }
 
-      p{
+      p {
         //text-align: left !important;
       }
     }
@@ -31,6 +30,19 @@
 }
 
 @include media-breakpoint-up(sm) {
+  .work-slide-content {
+    height: 100%;
+    &.work-text {
+      pointer-events: none;
+      .work-content {
+        opacity: 0;
+        align-items: flex-start;
+        justify-content: flex-start;
+        //width: 50%; //add to mediaquery
+        min-height: 400vh;
+      }
+    }
+  }
 }
 
 @include media-breakpoint-up(md) {
