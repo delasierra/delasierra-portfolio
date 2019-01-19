@@ -13,16 +13,16 @@
   "about": {
     "title": "BACKGROUND",
     "bio": [
-      "Hi, I’m developer and UX designer based in Sydney. I’ve been building professional mobile, web and desktop apps since 2001, using cutting edge frontend technology creatively.",
-      "Currently, I’m primarily working with Javascript using React, Angular, RxJS, SASS, Gulp, EaselJS, Webpack among others. I also have backend skills and can deliver a project from UX to production.",
-      "I create organized, scalable code based on OOP. I use REST APIs, and I program with design patterns in mind."
+      "I’ve been creating applications across various platforms since I finished my Programming and Multimedia studies in 2001. I speak and write fluidly in JavaScript, TypeScript, ActionScript, PHP, English and Spanish.",
+      "Currently, I’m primarily working with Javascript using React, Angular, SASS, Gulp, EaselJS and Webpack among others.",
+      "Throughout my career I’ve developed abilities and experience in a variety of disciplines within both programming and design, resulting in a global understanding of the creation of digital products. I communicate well with product managers, designers, programmers and clients to make sure all stakeholders are on the same page in every aspect of the project.",
+      "My work has mostly been focused on Frontend development, but with my interest halfway between code and creativity: I’m proficient with design, illustration, animation and sound editing tools, creating a big advantage when working and communicating with designers.",
+      "I create organized and scalable clean code. I use REST APIs. I program with design patterns in mind. I enjoy my work. And I commit to each project I participate in."
     ]
   },
   "contact": {
     "title": "CONTACT",
-    "introText": [
-      "If you think I might fit in as a member of your team, if you have a project and would like me to collaborate and give you a hand, or you just want to get in touch, don’t hesitate to drop me a line at:"
-    ],
+    "introText": ["Let´s turn ideas into great digital products. Reach me at:"],
     "message": {
       "placeholder": "Write here your message",
       "errors": {
@@ -47,7 +47,7 @@
     "buttonText": "Send Message"
   },
   "socialMedia": {
-    "introText": "You can also find me at:",
+    "introText": "",
     "links": [
       {
         "logo": "assets/vectors/social_github_icon.svg",
