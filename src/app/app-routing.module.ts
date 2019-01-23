@@ -5,11 +5,6 @@ import { SECTION } from './models/routing.model';
 import { AboutComponent } from './sections/about/about.component';
 
 const ROUTES: Routes = [
-  // {
-  //     path:       '',
-  //     redirectTo: SECTION.home,
-  //     pathMatch:  'full',
-  // },
   {
     path: SECTION.home,
     component: HomeComponent
@@ -19,46 +14,16 @@ const ROUTES: Routes = [
     path: SECTION.work,
     loadChildren: './sections/work/work.module#WorkModule'
   },
-
-  // {
-  //     path:         SECTION.workDetails,
-  //     loadChildren: './sections/work/work.module#WorkDetailComponent',
-  //     // component: WorkMenuComponent,
-  // },
-
-  // no lazy loading
-  // {
-  //     path:      SECTION.work,
-  //     component: WorkComponent,
-  // component: WorkMenuComponent,
-  // },
-  // {
-  //     path: SECTION.workDetails + '/:id',
-  //     component: WorkDetailComponent,
-  // },
-  // {
-  //     path: SECTION.workDetails,
-  //     component: WorkDetailComponent,
-  // },
   {
     path: SECTION.about,
     component: AboutComponent
   },
-  // {
-  //     path:      SECTION.contact-form,
-  //     component: ContactFormComponent,
-  // },
   { path: '**', component: HomeComponent }
 ];
 
 @NgModule({
   exports: [RouterModule],
   imports: [
-    // RouterModule.forRoot(ROUTES, {
-    //     useHash:            Boolean(history.pushState) === false,
-    //     preloadingStrategy: PreloadAllModules
-    // })
-    // RouterModule.forRoot(ROUTES, {scrollPositionRestoration: 'enabled'})
     RouterModule.forRoot(ROUTES)
   ]
 })
